@@ -1,17 +1,8 @@
 <template lang="pug">
-.page(
-  :class=`{
-    'no-sans': !langs.sans,
-    'no-trans': !langs.trans,
-    'no-words': !langs.words,
-    'no-text': !langs.text,
-    'no-eng': !langs.eng,
-  }`
-) 
+.page 
   .header
-    top-bar
+    page-header
     nav-bar
-
 
   transition(name="fade" mode="out-in" @after-enter="mount()")
     .content(:key="route.path")
@@ -32,11 +23,6 @@
 <script setup>
 import { useData, useRoute } from 'vitepress'
 const { site, frontmatter } = useData();
-import { langs } from './composables/langs.js'
-import { useFav } from './composables/favs.js'
-
-const { favs, mount } = useFav()
-
 const route = useRoute();
 </script>
 
