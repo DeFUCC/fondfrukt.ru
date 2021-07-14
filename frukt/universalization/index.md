@@ -1,11 +1,7 @@
 ---
 title: Универсализация
-media_order: logo_U.svg
-icon: logo_U.svg
+cover: logo/logo_u.svg
 date: '13:16 25-06-2020'
-taxonomy:
-    category:
-        - ФРУКТ
 ---
 
 ### Универсализация — расширение спектра возможностей при разностороннем развитии способностей

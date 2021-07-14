@@ -1,11 +1,7 @@
 ---
 title: Кооперация
-media_order: logo_K.svg
-icon: logo_K.svg
+cover: logo/logo__K.svg
 date: '13:20 25-06-2020'
-taxonomy:
-    category:
-        - ФРУКТ
 ---
 
 ### Кооперация — сложение индивидуальных усилий для достижения коллективных целей.

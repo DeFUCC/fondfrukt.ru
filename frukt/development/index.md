@@ -1,10 +1,6 @@
 ---
 title: Развитие
-media_order: logo_R.svg
-icon: logo_R.svg
-taxonomy:
-    category:
-        - ФРУКТ
+cover: logo/logo_R.svg
 ---
 
 ### Развитие — движение системы к новому равновесию.

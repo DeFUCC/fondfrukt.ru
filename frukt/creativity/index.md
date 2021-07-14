@@ -1,11 +1,7 @@
 ---
 title: Творчество
-media_order: logo_T.svg
-icon: logo_T.svg
+cover: logo/logo_T.svg
 date: '13:21 25-06-2020'
-taxonomy:
-    category:
-        - ФРУКТ
 ---
 
 ### Творчество — осознанное совершенствование действительности

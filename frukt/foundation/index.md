@@ -1,10 +1,6 @@
 ---
 title: Фонд
-media_order: logo_F.svg
-icon: logo_F.svg
-taxonomy:
-    category:
-        - ФРУКТ
+cover: logo/logo_F.svg
 ---
 
 ### Фонд — некоммерческая организация, все ресурсы которой направляются на реализацию её миссии

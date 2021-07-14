@@ -1,11 +1,7 @@
 ---
 title: Миссия
-media_order: sq-round.svg
-icon: sq-round.svg
+cover: logo/sq-round.svg
 date: '13:27 25-06-2020'
-taxonomy:
-    category:
-        - ФРУКТ
 ---
 
 ## Всестороннее развитие творческого потенциала человека и общества.
