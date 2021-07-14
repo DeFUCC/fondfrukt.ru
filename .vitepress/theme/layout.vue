@@ -4,7 +4,7 @@
     page-header
     nav-bar
 
-  transition(name="fade" mode="out-in" @after-enter="mount()")
+  transition(name="fade" mode="out-in" )
     .content(:key="route.path")
       header.mb-8
         h1.text-4xl.font-bold.mb-8.text-center {{ frontmatter.title }}

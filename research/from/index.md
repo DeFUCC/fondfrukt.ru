@@ -7,7 +7,7 @@ taxonomy:
         - Исследование
     tag:
         - Основание
-main_img: potreblenie12.jpg
+cover: research/potreblenie12.jpg
 bg: potreblenie12.jpg
 toc: true
 ---
