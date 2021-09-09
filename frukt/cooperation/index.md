@@ -1,6 +1,6 @@
 ---
 title: Кооперация
-cover: /media/logo/logo_K.svg
+cover: logo/logo_K.svg
 date: '13:20 25-06-2020'
 tags: frukt
 ---
