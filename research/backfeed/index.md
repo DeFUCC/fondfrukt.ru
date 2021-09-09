@@ -1,13 +1,6 @@
 ---
 title: 'Экономическая модель протокола децентрализованного сотрудничества Backfeed'
-media_order: 'applications.png,cycle.jpg,BackfeedEconomicModel.pdf'
-taxonomy:
-    category:
-        - Исследование
-    tag:
-        - Экономика
-icon: applications.png
-toc: true
+tags: research
 additional: '[Скачать оригинал](BackfeedEconomicModel.pdf)'
 ---
 

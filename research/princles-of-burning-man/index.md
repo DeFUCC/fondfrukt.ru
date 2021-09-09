@@ -1,13 +1,7 @@
 ---
 title: '10 принципов сообщества Burning Man'
-media_order: 'territory.png,c78749fa121d05a2-4h3a58572edit.jpg,ff2643f4689b825a-img_3831.jpg'
-taxonomy:
-    category:
-        - Исследование
-    tag:
-        - Социология
-icon: territory.png
-toc: false
+tags: research
+cover: research/burning-man.png
 subtitle: '10 принципов, объединяющих сообщество «бёрнеров», ежегодно собирающихся в пустыне, чтобы прожить неделю вместе в ином мире, свободном от торговли, рекламы и денег'
 additional: '[Burning Man Philosophical Center](https://burningman.org/culture/philosophical-center/10-principles/?target=_blank)'
 ---
@@ -17,7 +11,7 @@ additional: '[Burning Man Philosophical Center](https://burningman.org/culture/p
 ===
 
 
-![Автор фото: Гален Оукс](c78749fa121d05a2-4h3a58572edit.jpg)
+![Автор фото: Гален Оукс](./c78749fa121d05a2-4h3a58572edit.jpg)
 
 
 1.     **Всеобщее вовлечение.** Каждый может быть частью Burning Man’а. Мы уважаем и рады принять любого человека. Не существует никаких обязательных требований для участия в нашем сообществе.
@@ -32,4 +26,4 @@ additional: '[Burning Man Philosophical Center](https://burningman.org/culture/p
 10.     **Непосредственность.** Непосредственный опыт – один из самых важных постулатов нашей культуры. Мы стремимся преодолевать барьеры, отделяющие нас от понимания нашего внутреннего “я”, реальности окружающих, участия в обществе и контакта с миром природы, превосходящим человеческие силы. Никакая идея не заменит этого опыта.
 
 
-![Автор фото: Гален Оукс](ff2643f4689b825a-img_3831.jpg)
+![Автор фото: Гален Оукс](./ff2643f4689b825a-img_3831.jpg)

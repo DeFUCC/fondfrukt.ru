@@ -1,12 +1,7 @@
 ---
 title: '5. Равноправное производство'
-media_order: cocreation.png
-taxonomy:
-    category:
-        - Исследование
-    tag:
-        - Социология
-toc: true
+tags: collab-economy
+date: 2021-09-12
 ---
 
 ## Равноправное производство общих благ

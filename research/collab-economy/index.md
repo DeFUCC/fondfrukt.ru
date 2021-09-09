@@ -1,20 +1,9 @@
 ---
 title: 'Синтетический обзор экономики сотрудничества'
-media_order: collaborative-economy-s2012.jpg
-bg: collaborative-economy-s2012.jpg
-taxonomy:
-    category:
-        - Исследование
-    tag:
-        - Экономика
-content:
-    items: '@self.children'
-    order:
-        by: default
-        dir: asc
-author: Давай
+
 subtitle: 'Объемный документ, опубликованный P2P Foundation в 2012 году, подводит итоги многолетних исследований стремительно развивающегося, но не всегда заметного современным социологам и экономистам, сектора культуры и экономики.'
-toc: true
+tags: research
+list: collab-economy
 additional: '[Скачать оригинал](collaborative-economy-2012.pdf)'
 ---
 
