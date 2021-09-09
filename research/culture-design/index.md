@@ -1,7 +1,7 @@
 ---
 title: Дизайн Культуры
-visible: false
-routable: false
+subtitle: Новая публикация в разработке
+tags: research
 ---
 
 # Вместе мы можем быстро менять культуру

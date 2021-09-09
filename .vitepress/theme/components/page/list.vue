@@ -1,14 +1,14 @@
 <template lang="pug">
 .flex.flex-wrap.max-w-60ch.mx-auto
   a.card(
-    v-for="page in site.customData.pages[frontmatter.list]"
+    v-for="page in theme.pages[frontmatter.list]"
     :key= "page.link"
     :href="page.link"
   ) 
-    img.rounded(
+    img.rounded.max-h-sm(
       style="margin:  1rem 0"
       v-if="page.data.cover"
-      :src="page.data.cover"
+      :src="'/media/' + page.data.cover"
     )
     .p-2.my-auto
       .text-xl.font-bold {{ page.title }}
@@ -19,7 +19,7 @@
 
 <script setup>
 import { useData } from 'vitepress'
-const { site, frontmatter } = useData();
+const { theme, frontmatter } = useData();
 </script>
 
 <style scoped>

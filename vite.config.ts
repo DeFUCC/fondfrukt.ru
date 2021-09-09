@@ -1,12 +1,24 @@
 import { defineConfig } from 'vite'
-import Components from 'vite-plugin-components'
-import Icons, { ViteIconsResolver } from 'vite-plugin-icons'
+import Components from 'unplugin-vue-components/vite'
+import Icons from 'unplugin-icons/vite'
+import IconsResolver from 'unplugin-icons/resolver'
 import WindiCSS from 'vite-plugin-windicss'
+import AutoImport from 'unplugin-auto-import/vite'
 
 
 export default defineConfig({
 
   plugins: [
+    AutoImport({
+      // targets to transform
+      include: [
+        /\.[tj]sx?$/, // .ts, .tsx, .js, .jsx
+        /\.vue\??/, // .vue
+      ],
+      imports: [
+        'vue',
+      ],
+    }),
     Components({
       dirs: [
         '.vitepress/theme/components',
@@ -15,9 +27,10 @@ export default defineConfig({
       extensions: ['vue', 'ts'],
       directoryAsNamespace: true,
       globalNamespaces: ['global'],
-      customLoaderMatcher: id => id.endsWith('.md'),
-      customComponentResolvers: [
-        ViteIconsResolver({
+      include: [/\.vue$/, /\.vue\?vue/, /\.md$/],
+      exclude: [/node_modules/, /\.git/],
+      resolvers: [
+        IconsResolver({
           componentPrefix: '',
         }),
       ],

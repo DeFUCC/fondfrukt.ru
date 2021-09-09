@@ -1,13 +1,6 @@
 ---
 title: 'Правовое поле дарения в РФ'
-media_order: Scale-of-Justice.png
-taxonomy:
-    category:
-        - Исследование
-    tag:
-        - Право
-icon: Scale-of-Justice.png
-toc: true
+tags: research
 ---
 
 ## Определение в ГК РФ

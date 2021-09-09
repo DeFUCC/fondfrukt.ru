@@ -23,6 +23,7 @@ const config = {
     },
   },
   themeConfig: {
+    pages,
     locales: {
       '/en/': {
         label: 'English',
@@ -51,9 +52,6 @@ const config = {
         internalDomains: ['localhost', 'frkt.ru'],
       })
     },
-  },
-  customData: {
-    pages: pages,
   },
 }
 

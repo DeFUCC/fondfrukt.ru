@@ -13,10 +13,10 @@
 
 <script setup>
 import { useData } from 'vitepress'
-const { site, frontmatter, page } = useData()
+const { theme, frontmatter, page } = useData()
 
 const tags = frontmatter.value.tags
-const pages = site.value.customData.pages
+const pages = theme.value.pages
 
 
 const parents = computed(() => getParents(frontmatter.value.tags, pages.all))
