@@ -6,6 +6,8 @@ icon: sq-round.svg
 media_order: sq-round.svg
 start_date: '12-07-2012 00:14'
 status: development
+tags: designs
+list: frukt-design
 people:
     -
         alias: /people/davay
@@ -32,6 +34,8 @@ ideas:
         title: Творчество
         text: 'Осознанное совершенствование действительности.'
 ---
+
+![](./sq-round.svg)
 
 Сам Фонд ФРУКТ — такая же социокультурная программа, которую поддерживает и реализует сообщество заинтересованных людей. 
 

@@ -23,4 +23,4 @@ opportunities:
 
 Непериодическое замощение плоскости — прямо в браузере.
 
-https://quasi.axioma.center/
+![](./quasi-7.svg)

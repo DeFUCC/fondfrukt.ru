@@ -2,6 +2,7 @@
 title: OOLEY
 subtitle: 'Открытый социокультурный проект развития творческих возможностей человека и общества'
 tags: designs
+list: ooley
 status: process
 ideas:
     -
