@@ -4,6 +4,7 @@ import Icons from 'unplugin-icons/vite'
 import IconsResolver from 'unplugin-icons/resolver'
 import WindiCSS from 'vite-plugin-windicss'
 import AutoImport from 'unplugin-auto-import/vite'
+import { ViteAliases } from 'vite-aliases'
 
 
 export default defineConfig({
@@ -19,10 +20,16 @@ export default defineConfig({
         'vue',
       ],
     }),
+    ViteAliases({
+      dir: '.vitepress',
+      deep: false,
+      adjustDuplicates: true,
+    }),
     Components({
       dirs: [
         '.vitepress/theme/components',
         '.vitepress/comps',
+        '.vitepress/gun/'
       ],
       extensions: ['vue', 'ts'],
       directoryAsNamespace: true,
