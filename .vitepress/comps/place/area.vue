@@ -1,11 +1,18 @@
 <template lang="pug">
 .p-4
-  p AREA
-  db-avatar(pub="YZOBPSkw75Ute2tFhdjDQgzR-GsGhlfSlZxgEZKuquI.2F-j9ItJY44U8vcRAsj-5lxnECG5TDyuPD8gEiuInp")
+  img.avatar.rounded-full(
+    v-if="pic",
+    :src="pic",
+    :title="pub",
+    :width="size",
+    :height="size",
+  )
 </template>
 
 <script setup>
-
+import { gunAvatar } from 'gun-avatar'
+const size = 200
+const pic = gunAvatar('YZOBPSkw75Ute2tFhdjDQgzR-GsGhlfSlZxgEZKuquI.2F-j9ItJY44U8vcRAsj-5lxnECG5TDyuPD8gEiuInp8', size);
 </script>
 
 <style scoped>
