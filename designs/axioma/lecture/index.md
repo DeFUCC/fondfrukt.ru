@@ -7,6 +7,7 @@ people:
     -
         alias: /people/davay
         role: author
+tags: axioma
 ---
 
 Рассказ с презентацией на экране и наглядными пособиями в руках.

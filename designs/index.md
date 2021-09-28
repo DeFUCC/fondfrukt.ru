@@ -1,11 +1,7 @@
 ---
 title: Программы
 subtitle: 'Фонд ФРУКТ предоставляет площадку для совместной разработки и реализации открытых социо-культурных программ, соответствующим его ценностям и миссии.'
-content:
-    items: '@self.children'
-    order:
-        by: default
-        dir: asc
-toc: false
+tags: main
+list: designs
 ---
 

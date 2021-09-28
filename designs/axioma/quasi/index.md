@@ -7,7 +7,7 @@ people:
     -
         alias: /people/davay
         role: doer
-media_order: quasi-7.svg
+tags: axioma
 opportunities:
     -
         icon: 'fa fa-share-square-o'

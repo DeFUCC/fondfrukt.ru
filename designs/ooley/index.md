@@ -1,13 +1,7 @@
 ---
 title: OOLEY
 subtitle: 'Открытый социокультурный проект развития творческих возможностей человека и общества'
-icon: circle.svg
-website: ooley.ru
-content:
-    items: '@self.children'
-    order:
-        by: default
-        dir: asc
+tags: designs
 status: process
 ideas:
     -
@@ -27,6 +21,8 @@ people:
         role: designer
 start_date: '23-11-2012 16:02'
 ---
+
+![](./circle.svg)
 
 #### OOLEY развивает творческие возможности человека и общества
 
