@@ -3,10 +3,7 @@ title: 'Коробочная версия'
 subtitle: 'Дорожный формат игры в экологичной упаковке'
 start_date: '09-03-2019 14:07'
 status: product
-people:
-    -
-        alias: /people/davay
-        role: doer
+
 tags: etovoteto
 list: etovoteto-box
 ---

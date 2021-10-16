@@ -5,10 +5,7 @@ icon: feeds.svg
 website: feeds.frkt.ru
 start_date: '20-12-2013 13:23'
 status: development
-people:
-    -
-        alias: /people/davay
-        role: author
+
 tags: designs
 list: feeds
 ---

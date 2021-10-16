@@ -3,10 +3,7 @@ title: 'Vue 2 + Directus'
 subtitle: 'Классическое JS AJAX приложение с использованием PHP headless CMS'
 tags: etovoteto-app
 status: finished
-people:
-    -
-        alias: /people/davay
-        role: author
+
 start_date: '17-03-2019 14:47'
 end_date: '25-03-2020 16:47'
 opportunities:

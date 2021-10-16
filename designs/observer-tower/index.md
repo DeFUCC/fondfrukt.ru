@@ -4,10 +4,7 @@ subtitle: 'Смотровая площадка как памятник откр�
 icon: Observers-tower.svg
 start_date: '12-01-2013 23:23'
 status: development
-people:
-    -
-        alias: /people/davay
-        role: author
+
 tags: designs
 list: tower
 ---

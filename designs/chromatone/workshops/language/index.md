@@ -3,10 +3,7 @@ title: 'Chromatone — визуально-музыкальный язык для
 start_date: '07-10-2020 19:00'
 status: development
 icon: poster.png
-people:
-    -
-        alias: /people/davay
-        role: doer
+
 end_date: '07-10-2020 22:00'
 subtitle: 'Лекция и перформанс в рамках образовательной среды коворкинга Colab'
 tags: chromatone-workshops

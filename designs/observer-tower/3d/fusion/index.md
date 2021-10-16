@@ -3,10 +3,7 @@ title: 'Модель во Fusion 360'
 subtitle: 'Новая инициатив создать глубоко проработанную модель башни в специализированной программе инженерного проектирования'
 start_date: '10-01-2020 15:45'
 status: development
-people:
-    -
-        alias: /people/davay
-        role: author
+
 icon: 360.png
 media_order: 360.png
 history:

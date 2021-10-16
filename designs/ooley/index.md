@@ -13,10 +13,7 @@ ideas:
         icon: 'fa fa-cogs'
         title: 'Открытые мастерские'
         text: 'Сеть разнообразных общедоступных творческих пространств как среда для саморазвития и самореализации человека.'
-people:
-    -
-        alias: /people/davay
-        role: author
+
     -
         alias: /people/anna-starova
         role: designer

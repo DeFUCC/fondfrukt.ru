@@ -8,10 +8,7 @@ start_date: '12-07-2012 00:14'
 status: development
 tags: designs
 list: frukt-design
-people:
-    -
-        alias: /people/davay
-        role: author
+
 ideas:
     -
         icon: null

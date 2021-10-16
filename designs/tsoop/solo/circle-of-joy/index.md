@@ -31,7 +31,7 @@ tags: tsoop-solo
 
 **Музыка:**
 
-- Денис Старов на [OP-Z](/designs/tsoop/music-lab/setup/op-z)
+- Денис Старов на [OP-Z](/designs/tsoop/music-lab/setup/op-z/)
 
 **Вокал:**
 

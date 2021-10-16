@@ -3,10 +3,7 @@ title: 'Сайт axioma.center'
 subtitle: 'Веб-страница с анимированными векторными изображениями, наглядно показывающими основные принципы построения правильных двухмерных фигур и трехмерных многогранников'
 status: product
 tags: axioma
-people:
-    -
-        alias: /people/davay
-        role: author
+
 opportunities:
     -
         icon: 'fa fa-eye'

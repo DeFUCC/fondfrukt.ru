@@ -4,10 +4,7 @@ subtitle: 'Игра в словотворчество — веселое при�
 tags: designs
 list: etovoteto
 website: etovoteto.ru
-people:
-    -
-        alias: /people/davay
-        role: author
+
 start_date: '25-12-2018 00:07'
 status: process
 ideas:

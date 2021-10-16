@@ -5,10 +5,7 @@ icon: slap.svg
 website: shlyop.com
 start_date: '19-11-2015 23:26'
 status: development
-people:
-    -
-        alias: /people/davay
-        role: author
+
 tags: designs
 ---
 

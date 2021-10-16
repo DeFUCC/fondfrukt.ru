@@ -3,10 +3,7 @@ title: '3D-модель башни'
 subtitle: 'Высоко детализированная параметризированная модель Башни'
 start_date: '23-06-2013 15:34'
 status: development
-people:
-    -
-        alias: /people/davay
-        role: doer
+
 opportunities:
     -
         icon: 'fa fa-folder-open'

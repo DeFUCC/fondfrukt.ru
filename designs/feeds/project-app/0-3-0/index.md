@@ -3,10 +3,7 @@ title: 0.3.0
 subtitle: 'Первая синхронизированная версия программы'
 start_date: '01-01-2021 14:21'
 end_date: '07-01-2021 14:21'
-people:
-    -
-        alias: /people/davay
-        role: author
+
 tags: feeds-project
 ---
 

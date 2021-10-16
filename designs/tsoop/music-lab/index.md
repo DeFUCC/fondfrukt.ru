@@ -15,10 +15,7 @@ opportunities:
         text: 'музыкальную коллаборацию '
         link: 'https://www.instagram.com/tsoopru'
 status: process
-people:
-    -
-        alias: /people/davay
-        role: doer
+
 tags: tsoop
 list: tsoop-lab
 ---

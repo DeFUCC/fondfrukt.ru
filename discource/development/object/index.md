@@ -1,10 +1,8 @@
 ---
 title: Объект
-media_order: object.svg
-icon: object.svg
-taxonomy:
-    category:
-        - Дискурс
+tags: discourse-development
 ---
+
+![](./object.svg)
 
 ### Материальная единица действительности или всё необходимое для её создания

@@ -2,10 +2,7 @@
 title: 'Онлайн-словарь новых слов'
 subtitle: 'Веб-приложение для сбора и обзора придуманных в ходе игры слов'
 status: development
-people:
-    -
-        alias: /people/davay
-        role: author
+
 media_order: canvas.png
 icon: canvas.png
 start_date: '02-04-2019 15:51'

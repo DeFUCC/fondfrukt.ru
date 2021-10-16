@@ -4,10 +4,7 @@ subtitle: 'Классическое JS AJAX приложение с исполь
 icon: app.png
 tags: etovoteto-app
 status: finished
-people:
-    -
-        alias: /people/davay
-        role: author
+
 start_date: '03-03-2020 14:47'
 end_date: '04-04-2020 16:27'
 opportunities:

@@ -6,10 +6,7 @@ website: ooway.ru
 status: process
 idea: 'Популяризация медитации как универсального средства гармонизации сознания для людей любых взглядов и верований'
 start_date: '02-05-2013 22:46'
-people:
-    -
-        alias: /people/davay
-        role: author
+
 tags: designs
 list: ooway
 ---

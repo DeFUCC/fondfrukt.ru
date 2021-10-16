@@ -3,10 +3,7 @@ title: Микромакет
 subtitle: 'Настольный архитектурный макет башни'
 start_date: '21-12-2013 15:28'
 status: process
-people:
-    -
-        alias: /people/davay
-        role: author
+
 tags: tower
 ---
 

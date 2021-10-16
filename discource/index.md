@@ -1,11 +1,8 @@
 ---
 title: Дискурс
 subtitle: 'Дискурс — язык и система целенаправленного мышления и взаимодействия людей.'
-tags: designs
+tags: main
 date: '20:44 23-06-2020'
-taxonomy:
-    category:
-        - Дискурс
 list: discourse
 ---
 

@@ -6,11 +6,7 @@ finance:
     min: 8000
     max: 14000
 icon: op1keyboard.jpeg
-people:
-    -
-        alias: /people/davay
-        role: person
-status: collect
+status: finished
 start_date: '16-08-2019 16:08'
 variants:
     -

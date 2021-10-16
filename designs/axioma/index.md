@@ -4,10 +4,7 @@ subtitle: 'Наглядное представление геометричес�
 
 start_date: '14-11-2015 23:25'
 status: product
-people:
-    -
-        alias: /people/davay
-        role: author
+
 tags: designs
 list: axioma
 ---

@@ -129,4 +129,4 @@ date: 2021-09-14
 >
 > Jay Walljasper, “On the commons”:
 
-![](circle.png)
+![](./circle.png)

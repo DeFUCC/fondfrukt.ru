@@ -4,10 +4,7 @@ subtitle: 'Результаты изучения общества и услов�
 tags: frukt-design
 start_date: '15-11-2012 15:53'
 status: process
-people:
-    -
-        alias: /people/davay
-        role: doer
+
 media_order: 22.png
 icon: 22.png
 ---

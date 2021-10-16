@@ -5,10 +5,7 @@ tags: designs
 website: chromatone.center
 start_date: '02-12-2017 15:59'
 status: process
-people:
-    -
-        alias: /people/davay
-        role: author
+
 list: chromatone
 ---
 

@@ -5,6 +5,3 @@ tags: giftonomy
 date: 2021-09-28
 ---
 
-<client-only>
-  <place-area />
-</client-only>

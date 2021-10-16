@@ -5,10 +5,7 @@ subtitle: 'Vite + Gun + pug + stylus — быстрое и стабильное 
 start_date: '01-02-2021 10:27'
 status: development
 tags: etovoteto-app
-people:
-    -
-        alias: /people/davay
-        role: author
+
 opportunities:
     -
         verb: 'Добавить '
@@ -20,7 +17,7 @@ opportunities:
         link: 'https://app.etovoteto.ru/#def'
 ---
 
-![](./Screenshot%202021-02-26%20at%2010.33.05.png)
+![](./eto.png)
 
  Онлайн-словарь придуманных слов и определений — минимальная система структурированной коммуникации. Каждый участник может добавлять свои высказывания и связывать друг с другом уже существующие. В итоге получается граф — система взаимосвязанных точек.
  

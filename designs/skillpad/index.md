@@ -4,10 +4,7 @@ subtitle: 'Лаборатория грамотного блокнота'
 icon: skillpad.svg
 website: skillpad.ru
 start_date: '26-03-2015 08:17'
-people:
-    -
-        alias: /people/davay
-        role: author
+
 status: product
 tags: designs
 ---

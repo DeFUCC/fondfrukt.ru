@@ -4,10 +4,7 @@ subtitle: 'Макет из сосновых реек и алюминиевой �
 start_date: '06-05-2013 15:19'
 end_date: '25-08-2018 15:20'
 status: finished
-people:
-    -
-        alias: /people/davay
-        role: author
+
 tags: tower
 ---
 

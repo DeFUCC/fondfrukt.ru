@@ -1,13 +1,9 @@
 ---
 title: 'Фруктовое дерево на AngularJS'
 subtitle: 'Реактивные данные в JS компонентах как базис интерактивности веб-приложения'
-icon: 'Screenshot 2020-11-27 at 14.26.34.png'
 status: finished
-people:
-    -
-        alias: /people/davay
-        role: author
-media_order: 'Screenshot 2020-11-27 at 14.26.34.png'
+tags: feeds
+list: fruit-tree
 start_date: '14-12-2013 14:47'
 end_date: '18-03-2014 14:47'
 opportunities:

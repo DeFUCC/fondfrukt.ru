@@ -3,10 +3,7 @@ title: 'Чистый лист'
 subtitle: 'Открытая художественная студия'
 author: Давай
 tags: designs
-people:
-    -
-        alias: /people/davay
-        role: author
+
 ideas:
     -
         icon: 'fa fa-home'

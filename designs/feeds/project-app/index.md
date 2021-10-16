@@ -4,10 +4,7 @@ subtitle: 'Реактивные данные в JS компонентах как
 icon: project-app.png
 status: process
 website: project.frkt.ru
-people:
-    -
-        alias: /people/davay
-        role: author
+
 start_date: '11-11-2020 14:47'
 opportunities:
     -

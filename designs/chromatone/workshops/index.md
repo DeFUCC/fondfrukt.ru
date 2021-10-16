@@ -4,10 +4,7 @@ subtitle: 'Что будет, если сопоставить 12 нотам 12 �
 icon: meet.png
 tags: chromatone
 list: chromatone-workshops
-people:
-    -
-        alias: /people/davay
-        role: doer
+
     -
 ---
 

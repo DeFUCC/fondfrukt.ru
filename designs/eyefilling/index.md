@@ -5,10 +5,7 @@ icon: color.svg
 website: eyefilling.ru
 start_date: '01-11-2016 23:27'
 status: process
-people:
-    -
-        alias: /people/davay
-        role: author
+
 tags: designs
 list: eyefilling
 ---

@@ -3,10 +3,7 @@ title: 'Стикеры для учета всего'
 subtitle: 'Наклейки для каталогизации любых предметов'
 status: development
 tags: ilca
-people:
-    -
-        alias: /people/davay
-        role: author
+
 opportunities:
     -
         icon: 'fa fa-shopping-cart'

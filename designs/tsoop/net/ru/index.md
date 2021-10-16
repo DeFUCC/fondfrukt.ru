@@ -11,13 +11,10 @@ opportunities:
 media_order: 'Screenshot 2020-07-22 at 15.43.15.png'
 icon: 'Screenshot 2020-07-22 at 15.43.15.png'
 status: process
-people:
-    -
-        alias: /people/davay
-        role: author
+
 tags: tsoop-net
 ---
 
-![](./Screenshot%202020-07-22%20at%2015.43.15.png)
+![](./ru.png)
 
 Сайт — центральная точка сборки проекта. Ссылки и материалы на других ресурсах аккумулируются именно здесь.

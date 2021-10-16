@@ -2,10 +2,7 @@
 title: 'Таттва янтры'
 subtitle: 'Картины, передающие структуру Вселенной'
 status: process
-people:
-    -
-        alias: /people/davay
-        role: author
+
 tags: trika-yoga
 ---
 

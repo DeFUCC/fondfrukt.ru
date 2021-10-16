@@ -5,10 +5,7 @@ tags: chromatone
 list: chromatone-center
 start_date: '02-12-2017 14:23'
 status: process
-people:
-    -
-        alias: /people/davay
-        role: doer
+
 ---
 
 ![](./chromatic-a@2x.png)
