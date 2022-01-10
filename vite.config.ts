@@ -61,9 +61,15 @@ export default defineConfig({
     include: [
       'vue',
       '@vueuse/core',
+      '@gun-vue/components'
     ],
   },
   build: {
+    commonjsOptions: {
+      ignoreDynamicRequires: true,
+      exclude: ['./lib/text-encoding'],
+      transformMixedEsModules:true
+    },
     rollupOptions: {
       manualChunks: {
         vitepress: ['vitepress-tags']

@@ -2,17 +2,17 @@
   "name": "frkt.ru",
   "version": "0.0.2",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "dev": "vitepress dev ",
     "build": "vitepress build ",
-    "serve": "vitepress serve ",
+    "serve": "vitepress serve --port 5055",
     "deploy": "sh deploy.sh"
   },
   "author": "Davay42",
   "license": "ISC",
   "dependencies": {
     "@vueuse/core": "7.5.3",
+    "@gun-vue/components": "^0.3.8",
     "vue": "^3.2.26"
   },
   "devDependencies": {

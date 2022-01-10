@@ -7,10 +7,22 @@ header
       nav-links.my-4
       .flex.p-2
         nav-dark
+      component(v-if="icon" :is="icon")
   .flex-1
 </template>
 
 <script setup>
 import { useData } from 'vitepress'
 const { site, theme } = useData();
+const icon = shallowRef(null)
+
+onMounted(() => {
+  import('@gun-vue/components').then(module => {
+    icon.value = module.UserIcon
+  })
+})
+
 </script>
+
+<style scoped>
+</style>
