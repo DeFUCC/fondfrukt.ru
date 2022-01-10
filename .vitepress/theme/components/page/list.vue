@@ -31,7 +31,7 @@ function getDate(timestamp) {
 
 </script>
 
-<style scoped>
+<style lang="postcss" scoped>
 .cards {
   @apply flex flex-wrap p-4;
 }

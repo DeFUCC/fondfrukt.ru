@@ -1,9 +1,8 @@
 <template lang="pug">
 header
   .sticky.top-0
-    a.no-underline.mt-4.mb-4(href="/")
-      img.w-12rem.mb-8(:src="theme.logo")
-      .text-3xl.font-bold {{ site.title }}
+    a.no-underline(href="/")
+      img.w-12rem(:src="theme.logo")
     .flex.flex-col
       nav-links.my-4
       .flex.p-2

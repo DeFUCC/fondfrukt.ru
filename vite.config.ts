@@ -8,7 +8,9 @@ import { ViteAliases } from 'vite-aliases'
 
 
 export default defineConfig({
-
+  server: {
+    port:3342,
+  },
   plugins: [
     AutoImport({
       // targets to transform
@@ -61,6 +63,13 @@ export default defineConfig({
       '@vueuse/core',
     ],
   },
+  build: {
+    rollupOptions: {
+      manualChunks: {
+        vitepress: ['vitepress-tags']
+      }
+    }
+  }
 })
 
 

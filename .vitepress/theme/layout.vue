@@ -25,10 +25,10 @@ const { site, frontmatter } = useData();
 const route = useRoute();
 </script>
 
-<style scoped>
+<style lang="postcss" scoped>
 .layout {
   @apply min-h-100vh flex flex-col;
-  background: url(/img/gora.jpg);
+  background: url(/media/img/tim-mossholder-hands.jpg);
   background-size: cover;
   background-attachment: fixed;
 }
