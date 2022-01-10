@@ -14,6 +14,3 @@ header
 import { useData } from 'vitepress'
 const { site, theme } = useData();
 </script>
-
-<style scoped>
-</style>
