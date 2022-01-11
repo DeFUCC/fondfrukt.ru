@@ -31,7 +31,6 @@ export default defineConfig({
       dirs: [
         '.vitepress/theme/components',
         '.vitepress/comps',
-        '.vitepress/gun/'
       ],
       extensions: ['vue', 'ts'],
       directoryAsNamespace: true,
@@ -60,16 +59,10 @@ export default defineConfig({
   optimizeDeps: {
     include: [
       'vue',
-      '@vueuse/core',
-      '@gun-vue/components'
+      '@vueuse/core'
     ],
   },
   build: {
-    commonjsOptions: {
-      ignoreDynamicRequires: true,
-      exclude: ['./lib/text-encoding'],
-      transformMixedEsModules:true
-    },
     rollupOptions: {
       manualChunks: {
         vitepress: ['vitepress-tags']
