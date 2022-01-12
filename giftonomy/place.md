@@ -5,3 +5,6 @@ tags: giftonomy
 date: 2021-09-28
 ---
 
+<load-component component="UserIcon" />
+
+<load-component component="SpacePlane" />

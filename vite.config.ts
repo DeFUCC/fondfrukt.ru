@@ -8,6 +8,7 @@ import { ViteAliases } from 'vite-aliases'
 
 
 export default defineConfig({
+  base: './',
   server: {
     port:3342,
   },

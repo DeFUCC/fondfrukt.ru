@@ -12,7 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "@vueuse/core": "7.5.3",
-    "@gun-vue/components": "^0.3.10",
+    "@gun-vue/components": "0.5.3",
     "vue": "^3.2.26"
   },
   "devDependencies": {

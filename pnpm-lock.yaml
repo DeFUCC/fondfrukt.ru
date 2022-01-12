@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@gun-vue/components': ^0.3.10
+  '@gun-vue/components': 0.5.3
   '@iconify/json': ^2.0.22
   '@vueuse/core': 7.5.3
   esbuild-register: ^3.3.1
@@ -20,7 +20,7 @@ specifiers:
   vue: ^3.2.26
 
 dependencies:
-  '@gun-vue/components': 0.3.10
+  '@gun-vue/components': 0.5.3
   '@vueuse/core': 7.5.3_vue@3.2.26
   vue: 3.2.26
 
@@ -226,10 +226,10 @@ packages:
       - '@algolia/client-search'
     dev: true
 
-  /@gun-vue/components/0.3.10:
-    resolution: {integrity: sha512-g0QRr5j2FHlZKo5w7FiOLTU/6uuXT720FfV2oN9qZfyLVgVoKJ/7oHUkCo93tmZdwgqbINXGUuBoF2mUeX2taQ==}
+  /@gun-vue/components/0.5.3:
+    resolution: {integrity: sha512-lcF1mX+iZbXEE3vLF4RGIXWM6UXkeNNgqFZjQeSzL7Nk5l0Esg9LMYX6SR4ct6KF+a4NatMDL0hFimvdoP6AEg==}
     dependencies:
-      '@gun-vue/composables': 0.3.10
+      '@gun-vue/composables': 0.5.1
       '@qrcode/svg': 1.0.0-beta.2
       '@vueuse/core': 7.5.3_vue@3.2.26
       curved-arrows: 0.1.0
@@ -245,8 +245,8 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@gun-vue/composables/0.3.10:
-    resolution: {integrity: sha512-lmenWuYYxMTVKJFgW6q6SLBJTu8oVPI+L786Qu0FknmYG0OVE7RiamF1FriB+aYHcpDcunv4quUzfDy1eMXfBw==}
+  /@gun-vue/composables/0.5.1:
+    resolution: {integrity: sha512-gcJ2qx5VxZGOlgE6DCFrsiCXM5eSFmkwdOiJ07F5NZB5khBMd/BM49gAqiE0X/teg6Nq0+tYUPNPdUSXm3A7Zg==}
     dependencies:
       '@vueuse/core': 7.5.3_vue@3.2.26
       base32: 0.0.6
