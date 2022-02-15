@@ -1,3 +1,15 @@
+<script setup>
+import { useData } from 'vitepress'
+const { theme, frontmatter } = useData();
+
+const pages = theme.value.pages[frontmatter.value.list];
+
+function getDate(timestamp) {
+  let date = new Date(timestamp)
+  return date.toLocaleString('default', { month: 'short', year: '2-digit' });
+}
+</script>
+
 <template lang="pug">
 .cards
   a.card(
@@ -5,6 +17,11 @@
     :key= "page.link"
     :href="page.link"
   ) 
+    img.rounded.w-40.h-40(
+      style="margin:  1rem 0"
+      v-if="page.cover"
+      :src="page.cover"
+    )
     img.rounded.w-20.h-20(
       style="margin:  1rem 0"
       v-if="page.icon"
@@ -18,18 +35,6 @@
       .p-0 {{ getDate(page.lastModified) }}
 </template>
 
-<script setup>
-import { useData } from 'vitepress'
-const { theme, frontmatter } = useData();
-
-const pages = theme.value.pages[frontmatter.value.list];
-
-function getDate(timestamp) {
-  let date = new Date(timestamp)
-  return date.toLocaleString('default', { month: 'short', year: '2-digit' });
-}
-
-</script>
 
 <style lang="postcss" scoped>
 .cards {
