@@ -1,8 +1,9 @@
 <script setup>
 import { useData } from 'vitepress'
+import { computed } from 'vue'
 const { theme, frontmatter } = useData();
 
-const pages = theme.value.pages[frontmatter.value.list];
+const pages = computed(() => theme.value.pages[frontmatter.value.list])
 
 function getDate(timestamp) {
   let date = new Date(timestamp)
@@ -11,7 +12,7 @@ function getDate(timestamp) {
 </script>
 
 <template lang="pug">
-.cards
+.flex.flex-wrap.gap-2.p-2
   a.card(
     v-for="page in pages"
     :key= "page.link"
@@ -28,30 +29,18 @@ function getDate(timestamp) {
       :src="page.icon"
     )
     .p-2
-      .title {{ page.title }}
+      .text-xl.font-bold.md_text-2xl {{ page.title }}
       .text-md.mt-2(v-if="page.subtitle") {{ page.subtitle }}
-    .time
+    .absolute.right-8px.bottom-4px.opacity-10.text-xs.flex.items-center.transition-all.duration-400.hover_opacity-90
       ic-round-update.mr-1
       .p-0 {{ getDate(page.lastModified) }}
 </template>
 
 
 <style lang="postcss" scoped>
-.cards {
-  @apply flex flex-wrap p-4;
-}
 .card {
   scroll-snap-align: start;
-  @apply text-left flex min-w-250px flex-col relative rounded-md bg-light-400 dark_(bg-dark-100) shadow-md transition-all duration-200 p-4 m-2 no-underline hover_(bg-light-100 shadow-lg dark_(bg-dark-400));
-  flex: 1 1 45%;
-  & .title {
-    @apply text-xl font-bold md_text-2xl;
-  }
-  & .time {
-    @apply absolute right-8px bottom-4px opacity-10 text-xs flex items-center transition-all duration-400;
-  }
-  &:hover .time {
-    @apply opacity-80;
-  }
+  @apply bg-light-400 dark_(bg-dark-100) shadow-md transition-all duration-200 p-4 no-underline hover_(bg-light-100 shadow-lg dark_(bg-dark-400));
+  flex: 1 1 200px;
 }
 </style>

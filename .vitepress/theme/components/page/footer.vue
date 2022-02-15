@@ -1,18 +1,15 @@
-<template lang="pug">
-footer
-  a.flex.flex-col.items-center.no-underline(href="/") 
-    .font-bold.text-2xl.p-2 {{ site.title }}
-</template>
-
 <script setup>
 import { useData } from 'vitepress'
 
 const { site } = useData();
 </script>
 
+<template lang="pug">
+footer
+  a.flex.flex-col.items-center.no-underline(href="/") 
+    .font-bold.text-2xl.p-2 {{ site.title }}
+    slot
+</template>
+
 <style scoped>
-footer {
-  scroll-snap-align: end;
-  @apply transition-all duration-600 bg-dark-100 text-light-300/80 py-4 px-4 sm_px-8 md_px-16 flex flex-col items-center dark_(bg-dark-900);
-}
 </style>
