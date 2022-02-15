@@ -1,19 +1,21 @@
-<template lang="pug">
-.flex.flex-wrap.items-center
-  a.link(v-if="prev" :href="prev.link") 
-    carbon-arrow-left.mr-1
-    span {{ prev.title }}
-  a.link(v-if="next" :href="next.link") 
-    carbon-arrow-right.mr-1
-    span {{ next.title }}
-</template>
+
 
 <script setup>
 import { useSiblings } from '../../composables/links.js'
 
-const { next, prev } = useSiblings();
+const siblings = useSiblings();
 
 </script>
+
+<template lang="pug">
+.flex.flex-wrap.items-center
+  a.link(v-if="siblings.prev" :href="siblings.prev.link") 
+    carbon-arrow-left.mr-1
+    span {{ siblings.prev.title }}
+  a.link(v-if="siblings.next" :href="siblings.next.link") 
+    carbon-arrow-right.mr-1
+    span {{ siblings.next.title }}
+</template>
 
 <style  scoped>
 .link {

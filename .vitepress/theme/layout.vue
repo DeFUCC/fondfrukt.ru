@@ -12,10 +12,10 @@ function scrollTop() {
 </script>
 
 <template lang="pug">
-.min-h-100vh.flex.flex-col
-  header.sticky.top-0.left-0.flex.flex-wrap
+.min-h-100vh.flex.flex-col.bg-cover.bg-fixed(:style="{ backgroundImage: `url(${getMediaPath(route.path, frontmatter.cover)})` }")
+  nav.sticky.top-0.left-0.flex.flex-wrap
 
-    a.no-underline(href="/")
+    a.no-underline.p-4(href="/")
       img.w-12rem(:src="theme.logo")
     //- .flex.flex-col
     //-   nav-links.my-4
@@ -23,15 +23,14 @@ function scrollTop() {
     page-parents
     .flex-auto
     nav-dark.p-4.mr-4
+  header.mt-8.p-8.bg-light-200.bg-opacity-90.z-2
+    img.max-w-20(v-if="frontmatter.icon" :src="getMediaPath(route.path, frontmatter.icon)")
+    h1.text-4xl.font-bold.mb-8 {{ frontmatter.title }}
+    .text-xl {{ frontmatter.subtitle }}
   .content.z-20
-    img(v-if="frontmatter.cover" :src="getMediaPath(route.path, frontmatter.cover)")
     transition(name="fade" mode="out-in" )
-      .flex.flex-col.h-full(:key="route.path")
+      .flex.flex-col.h-full
 
-        header.my-8.px-8
-          img(v-if="frontmatter.icon" :src="getMediaPath(route.path, frontmatter.icon)")
-          h1.text-4xl.font-bold.mb-8 {{ frontmatter.title }}
-          .text-xl {{ frontmatter.subtitle }}
         content.px-8.mb-16.markdown
 
         page-list.panel(

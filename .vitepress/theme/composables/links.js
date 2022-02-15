@@ -3,19 +3,23 @@ import { computed } from "vue";
 
 export function useSiblings() {
   const { theme, frontmatter, page } = useData();
-  const tags = frontmatter.value?.tags;
-  const pages = theme.value?.pages;
-  let prev, next;
-  if (tags && typeof tags == "string" && pages[tags]) {
-    const index = pages[tags].findIndex((el) => el.title == page.value.title);
-    if (index >= 0 && index <= pages[tags].length) {
-      next = pages[tags][index + 1];
+
+  const pair = computed(() => {
+    const tags = frontmatter.value?.tags;
+    const pages = theme.value?.pages;
+    let prev, next;
+    if (tags && typeof tags == "string" && pages[tags]) {
+      const index = pages[tags].findIndex((el) => el.title == page.value.title);
+      if (index >= 0 && index <= pages[tags].length) {
+        next = pages[tags][index + 1];
+      }
+      if (index > 0) {
+        prev = pages[tags][index - 1];
+      }
     }
-    if (index > 0) {
-      prev = pages[tags][index - 1];
-    }
-  }
-  return { prev, next };
+    return { prev, next };
+  });
+  return pair;
 }
 
 export function useParents() {
