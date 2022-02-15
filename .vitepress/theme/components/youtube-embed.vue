@@ -22,6 +22,6 @@ const props = defineProps({
   
 <style scoped>
 .row {
-  @apply flex flex-wrap py-8 sm:py-32 shadow-2xl;
+  @apply flex flex-wrap py-8 sm_py-32 shadow-2xl;
 }
 </style>

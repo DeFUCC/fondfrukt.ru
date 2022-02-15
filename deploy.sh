@@ -1,4 +1,4 @@
-cd .vitepress/dist
+cd _dist
 
 git init
 git add -A

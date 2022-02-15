@@ -1,22 +1,33 @@
-import { metaData } from "./config/constants.js";
-import head from "./config/head.js";
+import { defineConfig } from "vitepress";
+
+import { metaData } from "./constants.js";
+import head from "./head.js";
 import getTags from "vitepress-tags";
 
 import mdLinks from "markdown-it-external-links";
 import mdClass from "markdown-it-classy";
 import mdContainer from "markdown-it-container";
 
-export const pages = getTags("./");
+export const pages = getTags({
+  dir: "./",
+  publicMedia: [],
+});
 
-export default {
+export default defineConfig({
   title: metaData.title,
   description: metaData.description,
   lang: metaData.locale,
   head,
+  outDir: "_dist",
   themeConfig: {
     pages,
     repo: "",
     logo: metaData.logo,
+  },
+  vite: {
+    build: {
+      chunkSizeWarningLimit: 300000,
+    },
   },
   markdown: {
     config: (md) => {
@@ -27,4 +38,4 @@ export default {
       });
     },
   },
-};
+});
