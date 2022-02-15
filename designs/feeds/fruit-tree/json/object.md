@@ -5,8 +5,6 @@ icon: json.png
 tags: fruit-tree
 ---
 
-![](./json.png)
-
 ```
 {
   "personae" : {

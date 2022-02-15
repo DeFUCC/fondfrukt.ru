@@ -1,24 +1,21 @@
 ---
-title: 'MIDI монитор'
-subtitle: 'Веб-приложение для визуализации и координации MIDI-сигналов'
+title: "MIDI монитор"
+subtitle: "Веб-приложение для визуализации и координации MIDI-сигналов"
 status: product
 opportunities:
-    -
-        icon: 'fa fa-search-plus'
-        verb: Мониторить
-        text: 'MIDI-события прямо в браузере'
-        link: 'https://midi.chromatone.center'
-    -
-        icon: 'fa fa-github-alt'
-        verb: Разрабатывать
-        text: 'приложение совместно на GitHub'
-        link: 'https://github.com/DeFUCC/midi-paper'
+  - verb: Мониторить
+    text: "MIDI-события прямо в браузере"
+    link: "https://midi.chromatone.center"
+  - verb: Разрабатывать
+    text: "приложение совместно на GitHub"
+    link: "https://github.com/DeFUCC/midi-paper"
 tags: chromatone-apps
 ---
 
 ![](./screencapture-chromatone-center-apps-web-audio-components-2019-11-21-20_18_36.png)
 
 В проекте использованы:
+
 - [VueJS](https://vuejs.org)
 - [WebMIDI](https://djipco.github.io/webmidi/latest/classes/WebMidi.html)
 

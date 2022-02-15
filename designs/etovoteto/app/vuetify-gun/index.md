@@ -1,26 +1,20 @@
 ---
-title: 'Vuetify + GUN'
-subtitle: 'Классическое JS AJAX приложение с использованием PHP headless CMS'
+title: "Vuetify + GUN"
+subtitle: "Классическое JS AJAX приложение с использованием PHP headless CMS"
 icon: app.png
 tags: etovoteto-app
 status: finished
 
-start_date: '03-03-2020 14:47'
-end_date: '04-04-2020 16:27'
+start_date: "03-03-2020 14:47"
+end_date: "04-04-2020 16:27"
 opportunities:
-    -
-        icon: 'fa fa-github'
-        verb: 'Открыть код'
-        text: 'приложения на GitHub'
-        link: 'https://github.com/fondfrukt/etovoteto-app'
-    -
-        icon: ''
-        verb: 'Листать и добавлять'
-        text: 'придуманные слова и их значения в приложении'
-        link: 'https://app.etovoteto.ru'
+  - verb: "Открыть код"
+    text: "приложения на GitHub"
+    link: "https://github.com/fondfrukt/etovoteto-app"
+  - verb: "Листать и добавлять"
+    text: "придуманные слова и их значения в приложении"
+    link: "https://app.etovoteto.ru"
 ---
-
-![](./app.png)
 
 Вторая версия словаря ЭТОВОТЭТО получилась куда быстрее и интереснее. Распределенная графовая база данных позволила легко создавать слова и определения, связывать их друг с другом, как симметрично, так и нет.
 

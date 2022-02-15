@@ -1,9 +1,8 @@
 ---
 title: Программа
-media_order: design.svg
 taxonomy:
-    category:
-        - Дискурс
+  category:
+    - Дискурс
 icon: design.svg
 ---
 

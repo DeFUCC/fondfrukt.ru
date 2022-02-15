@@ -1,10 +1,9 @@
 ---
 title: Штука
-media_order: thing.svg
 icon: thing.svg
 taxonomy:
-    category:
-        - Дискурс
+  category:
+    - Дискурс
 ---
 
 ### Материальный предмет

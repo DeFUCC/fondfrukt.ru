@@ -1,9 +1,8 @@
 ---
 title: Проект
-media_order: project.svg
 taxonomy:
-    category:
-        - Дискурс
+  category:
+    - Дискурс
 icon: project.svg
 ---
 

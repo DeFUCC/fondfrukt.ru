@@ -1,17 +1,11 @@
 ---
-title: 'Color tuner'
-subtitle: 'Веб-приложение — тюнер для настройки музыкальных инструментов с визуализацией цвета текущей ноты'
+title: "Color tuner"
+subtitle: "Веб-приложение — тюнер для настройки музыкальных инструментов с визуализацией цвета текущей ноты"
 opportunities:
-    -
-        icon: 'fa fa-volume-up'
-        verb: Настроить
-        text: 'свой музыкальный инструмент в цвет нот'
-        link: 'https://tuner.chromatone.center/'
-    -
-        icon: null
-        verb: null
-        text: null
-        link: null
+  - verb: Настроить
+    text: "свой музыкальный инструмент в цвет нот"
+    link: "https://tuner.chromatone.center/"
+
 icon: screen.png
 status: product
 tags: chromatone-apps

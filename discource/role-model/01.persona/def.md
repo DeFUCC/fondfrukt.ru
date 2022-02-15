@@ -1,10 +1,9 @@
 ---
 title: Личность
-media_order: persona.svg
 icon: persona.svg
 taxonomy:
-    category:
-        - Дискурс
+  category:
+    - Дискурс
 ---
 
 ### Имя, которым представляется человек и от которого предпочитает взаимодействовать

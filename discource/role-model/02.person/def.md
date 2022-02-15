@@ -1,11 +1,10 @@
 ---
 title: Лицо
-media_order: person.svg
 icon: person.svg
-date: '14:56 24-06-2020'
+date: "14:56 24-06-2020"
 taxonomy:
-    category:
-        - Дискурс
+  category:
+    - Дискурс
 ---
 
 ### Человек, подтвердивший свою личность

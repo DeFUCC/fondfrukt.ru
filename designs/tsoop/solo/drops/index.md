@@ -1,20 +1,16 @@
 ---
 title: drops
-subtitle: 'Музыкальный альбом в концепции ярких цветных капель'
+subtitle: "Музыкальный альбом в концепции ярких цветных капель"
 icon: drops.png
 tags: tsoop-solo
 opportunities:
-    -
-        verb: Приобрести
-        text: 'альбом на Bandcamp'
-        link: 'https://tsoop.bandcamp.com/album/drops'
-    -
-        verb: Слушать
-        text: 'альбом в ВК'
-        link: 'https://vk.com/music/playlist/129086_50020670'
+  - verb: Приобрести
+    text: "альбом на Bandcamp"
+    link: "https://tsoop.bandcamp.com/album/drops"
+  - verb: Слушать
+    text: "альбом в ВК"
+    link: "https://vk.com/music/playlist/129086_50020670"
 ---
-
-![](./drops.png)
 
 Запись альбома начата в 2019 году.
 
