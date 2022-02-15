@@ -2,7 +2,7 @@
 title: "Наклейки на музыкальные инструменты"
 subtitle: "Виниловые наклейки для визуального обозначения нот"
 status: product
-
+icon: op-1.png
 opportunities:
   - verb: Купить
     text: "наборы на сайте"

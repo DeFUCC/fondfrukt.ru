@@ -13,47 +13,49 @@ function scrollTop() {
 </script>
 
 <template lang="pug">
-.min-h-100vh.flex.flex-col
+.min-h-100vh.flex.flex-col.leading-relaxed
   nav.sticky.top-0.left-0.flex.flex-wrap
     a.no-underline.p-4(href="/")
       img.w-12rem(:src="theme.logo")
-    //- .flex.flex-col
-    //-   nav-links.my-4
-    //-   .flex.p-2
-
     .flex-auto
     nav-dark.p-4.mr-4
-  .flex.flex-wrap.flex-1
-    header.bg-cover.bg-fixed(
-      style="flex: 1 1 220px"
-      :style="{ backgroundImage: `url(${getMediaPath(route.path, frontmatter.cover)})` }"
+  .flex.flex-wrap.flex-1.bg-cover.bg-fixed.z-10(
+    :style="{ backgroundImage: `url(${getMediaPath(route.path, frontmatter.cover)})` }"
+  )
+    header.bg-light-200.bg-opacity-90.z-2.dark_bg-dark-200.dark_bg-opacity-90(
+      style="flex: 1 1 320px"
       )
-      .sticky.top-0.bg-light-200.bg-opacity-90.z-2.dark_bg-dark-200.dark_bg-opacity-90
-        page-parents
-        .p-4.flex.flex-wrap
-          .p-2(style="flex: 1 1 100px" v-if="frontmatter.icon")
+      .sticky.top-0
+
+        page-parents(:root="route.path != '/' ? site.title : null" )
+        .p-4.flex.flex-wrap(v-if="route.path != '/'")
+          .px-2(style="flex: 1 1 120px" v-if="frontmatter.icon")
             img.max-h-60vh.rounded-3xl(:src="getMediaPath(route.path, frontmatter.icon)")
-          .p-4.flex-auto
-            h1.text-4xl.font-bold.mb-8 {{ frontmatter.title }}
-            .text-xl {{ frontmatter.subtitle }}
-        page-siblings
-    .flex.flex-wrap.z-20.bg-light-500.bg-opacity-95.z-2.dark_bg-dark-500.dark_bg-opacity-95(style="flex: 10 1 420px")
-      #content.flex.flex-col(
+          .px-4.flex-auto
+            h1.text-2xl.font-bold.mb-2 {{ frontmatter.title }}
+            .text-md {{ frontmatter.subtitle }}
+        .flex.flex-col.px-8(v-else)
+          nav-links.my-2
+          .flex.p-2
+        page-siblings.mt-8
+    .flex.flex-wrap.max-w-65ch.z-20.bg-light-500.bg-opacity-95.z-2.dark_bg-dark-500.dark_bg-opacity-95(style="flex: 1000 1 420px")
+      .flex.flex-col(
         style="flex: 1 1 300px"
       )
-        content
-
-      page-list.bg-light-700.dark_bg-dark-700(
-        style="flex: 1000 1 400px"
-        :key="route.path"
-        v-if="frontmatter.list"
+        content.content
+        .flex-auto(
+          style="flex: 1000 1"
         )
-
-  footer.flex.flex-wrap.p-4.sticky.bottom-0
+        page-list(
+          style="flex: 1 1 400px"
+          v-if="frontmatter.list"
+          )
+    .flex-1
+  footer.flex.flex-wrap.p-4
     a.flex.flex-col.items-center.no-underline(href="/") 
       .font-bold.text-2xl.p-2 {{ site.title }}
     .flex-auto
-    .p-4.rounded-full.shadow-lg.bg-light-200.dark_bg-dark-200.cursor-pointer(@click="scrollTop()")
+    .p-4.rounded-full.cursor-pointer(@click="scrollTop()")
       la-angle-up
 </template>
 
