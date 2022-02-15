@@ -1,7 +1,7 @@
 ---
 title: Творчество
-cover: logo/logo_T.svg
-date: '13:21 25-06-2020'
+cover: logo_T.svg
+date: "13:21 25-06-2020"
 tags: frukt
 ---
 

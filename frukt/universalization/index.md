@@ -1,7 +1,7 @@
 ---
 title: Универсализация
-cover: logo/logo_U.svg
-date: '13:16 25-06-2020'
+cover: logo_U.svg
+date: "13:16 25-06-2020"
 tags: frukt
 ---
 

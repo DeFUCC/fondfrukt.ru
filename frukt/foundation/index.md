@@ -1,6 +1,6 @@
 ---
 title: Фонд
-cover: logo/logo_F.svg
+cover: logo_F.svg
 tags: frukt
 ---
 
