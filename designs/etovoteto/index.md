@@ -4,6 +4,7 @@ subtitle: "Игра в словотворчество — веселое при�
 tags: designs
 list: etovoteto
 website: etovoteto.ru
+icon: eto.png
 
 start_date: "25-12-2018 00:07"
 status: process

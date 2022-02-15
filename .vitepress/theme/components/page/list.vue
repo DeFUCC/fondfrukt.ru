@@ -5,10 +5,10 @@
     :key= "page.link"
     :href="page.link"
   ) 
-    img.rounded(
+    img.rounded.w-20.h-20(
       style="margin:  1rem 0"
-      v-if="page.data.cover"
-      :src="'/media/' + page.data.cover"
+      v-if="page.icon"
+      :src="page.icon"
     )
     .p-2
       .title {{ page.title }}
