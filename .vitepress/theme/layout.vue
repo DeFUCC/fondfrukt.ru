@@ -20,11 +20,13 @@ function scrollTop() {
     page-parents
     .flex-auto
     nav-dark.p-4.mr-4
-  .content.z-20
+  .content.z-20 {{ frontmatter }} {{ route.path }}
+    img(v-if="frontmatter.cover" :src="'/_media' + route.path + frontmatter.cover")
     transition(name="fade" mode="out-in" )
       .flex.flex-col.h-full(:key="route.path")
 
         header.my-8.px-8
+          img(v-if="frontmatter.icon" :src="'/_media' + route.path + frontmatter.icon")
           h1.text-4xl.font-bold.mb-8 {{ frontmatter.title }}
           .text-xl {{ frontmatter.subtitle }}
         content.px-8.mb-16.markdown
