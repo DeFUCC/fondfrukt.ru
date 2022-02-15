@@ -1,14 +1,8 @@
 ---
 title: Событие
-media_order: event.svg
+date: 2022-02-26
 icon: event.svg
-taxonomy:
-  category:
-    - Дискурс
-content:
-  items: "@root.descendants"
-  filter:
-    type: event
+tags: discourse-development
 ---
 
 ### Cтруктурированная совместная деятельность людей в конкретном месте в определенное время

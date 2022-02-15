@@ -19,29 +19,27 @@ function scrollTop() {
       img.w-12rem(:src="theme.logo")
     .flex-auto
     nav-dark.p-4.mr-4
-  .flex.flex-wrap.flex-1.bg-cover.bg-fixed.z-10(
-    :style="{ backgroundImage: `url(${getMediaPath(route.path, frontmatter.cover)})` }"
-  )
+  .flex.flex-wrap.flex-1.bg-cover.bg-fixed.z-10
     header.bg-light-200.bg-opacity-90.z-2.dark_bg-dark-200.dark_bg-opacity-90(
       style="flex: 1 1 320px"
       )
       .sticky.top-0
 
         page-parents(:root="route.path != '/' ? site.title : null" )
+        h1.text-xl.font-bold.mb-2.p-4.bg-light-600.dark_bg-dark-500 {{ frontmatter.title }}
         .p-4.flex.flex-wrap(v-if="route.path != '/'")
-          .px-2(style="flex: 1 1 120px" v-if="frontmatter.icon")
+          .p-2(style="flex: 1 1 120px" v-if="frontmatter.icon")
             img.max-h-60vh.rounded-3xl(:src="getMediaPath(route.path, frontmatter.icon)")
-          .px-4.flex-auto
-            h1.text-2xl.font-bold.mb-2 {{ frontmatter.title }}
+          .p-4.flex-auto
             .text-md {{ frontmatter.subtitle }}
         .flex.flex-col.px-8(v-else)
           nav-links.my-2
-          .flex.p-2
-        page-siblings.mt-8
-    .flex.flex-wrap.max-w-65ch.z-20.bg-light-500.bg-opacity-95.z-2.dark_bg-dark-500.dark_bg-opacity-95(style="flex: 1000 1 420px")
+        page-siblings
+    .flex.flex-wrap.max-w-65ch.overflow-hidden.z-20.bg-light-500.bg-opacity-95.z-2.dark_bg-dark-500.dark_bg-opacity-95(style="flex: 1000 1 420px")
       .flex.flex-col(
         style="flex: 1 1 300px"
       )
+        img.w-full(v-if="frontmatter.cover" :src="getMediaPath(route.path, frontmatter.cover)")
         content.content
         .flex-auto(
           style="flex: 1000 1"
