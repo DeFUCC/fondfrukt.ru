@@ -23,6 +23,8 @@ const pages = computed(() => theme.value.pages[frontmatter.value.list])
   nav-scroll.fixed.bottom-8.left-4.p-4.rounded-full.cursor-pointer.z-90
     la-angle-up
   .flex.flex-wrap.flex-1.bg-cover.bg-fixed.z-10
+
+
     header.bg-light-200.bg-opacity-90.z-2.dark_bg-dark-200.dark_bg-opacity-90(
       style="flex: 1 1 320px"
       )
@@ -55,6 +57,7 @@ const pages = computed(() => theme.value.pages[frontmatter.value.list])
             :class="{ active: route.path.includes(page.link) }"
           ) {{ page.title }} 
 
+
     .flex.flex-wrap.overflow-hidden.z-20.bg-light-500.bg-opacity-95.z-2.dark_bg-dark-500.dark_bg-opacity-95.max-w-3xl(style="flex: 1000 1 420px")
 
       .flex.flex-col(
@@ -73,8 +76,8 @@ const pages = computed(() => theme.value.pages[frontmatter.value.list])
           :page="page"
         )
 
-
     .flex-auto(style="flex:100")
+
     .flex.flex-wrap.items-stretch.justify-stretch.w-full
       a.link.px-4.py-8(style="flex:1 1 auto" v-if="siblings.prev" :href="siblings.prev.link") 
         la-angle-left.mr-2
@@ -82,12 +85,16 @@ const pages = computed(() => theme.value.pages[frontmatter.value.list])
       a.link.justify-end.px-4.py-8(style="flex:1 1 auto" v-if="siblings.next" :href="siblings.next.link") 
         span {{ siblings.next.title }}
         la-angle-right.ml-2
+
+
     .flex.flex-wrap.items-stretch.w-full(style="flex: 1 1 auto")
       a.link.px-4.py-4(
         style="flex: 1 1 auto;"
         v-for="page in reverseParents", :key="page.title" :href="page.link") {{ page.title }}
           .flex-1
           la-angle-up.mr-2
+
+
   footer.flex.flex-wrap.p-4.justify-center.transition-all.duration-600.bg-light-900.items-center.dark_bg-dark-600
     a.no-underline.p-4(href="/")
       img.w-12rem(:src="theme.logo")
