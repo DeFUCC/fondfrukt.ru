@@ -1,7 +1,7 @@
 ---
 title: drops
 subtitle: "Яркие творческие встречи с аудио-визуальной импровизацией"
-icon: cover.jpg
+cover: cover.jpg
 website: drops.tsoop.ru
 media_order: cover@0.25x.jpg
 tags: tsoop

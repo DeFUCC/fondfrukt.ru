@@ -35,7 +35,7 @@ function scrollTop() {
         .flex.flex-col.px-8(v-else)
           nav-links.my-2
         page-siblings
-    .flex.flex-wrap.overflow-hidden.z-20.bg-light-500.bg-opacity-95.z-2.dark_bg-dark-500.dark_bg-opacity-95(style="flex: 1000 1 420px")
+    .flex.flex-wrap.overflow-hidden.z-20.bg-light-500.bg-opacity-95.z-2.dark_bg-dark-500.dark_bg-opacity-95.max-w-65ch(style="flex: 1000 1 420px")
       .flex.flex-col(
         style="flex: 1 1 300px"
       )

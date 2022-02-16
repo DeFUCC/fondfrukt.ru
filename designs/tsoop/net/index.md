@@ -3,7 +3,7 @@ title: "Представительства в сети"
 subtitle: "Размещение и продвижение аудио и видеозаписей выступлений, треков, джемов."
 status: process
 
-icon: tsoop-19.jpeg
+cover: tsoop-19.jpeg
 tags: tsoop
 list: tsoop-net
 ---

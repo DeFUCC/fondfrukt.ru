@@ -1,7 +1,7 @@
 ---
 title: drops
 subtitle: "Музыкальный альбом в концепции ярких цветных капель"
-icon: drops.png
+cover: drops.png
 tags: tsoop-solo
 opportunities:
   - verb: Приобрести

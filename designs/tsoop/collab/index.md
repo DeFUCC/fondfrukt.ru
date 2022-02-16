@@ -4,7 +4,7 @@ subtitle: "Совместные музыкальные проекты с люд�
 start_date: "20-07-2018 17:38"
 status: process
 
-icon: impro.png
+cover: impro.png
 content:
   items: "@self.children"
   order:

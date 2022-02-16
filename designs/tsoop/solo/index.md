@@ -3,8 +3,7 @@ title: "Сольные альбомы"
 subtitle: "Музыкальные альбомы, сочиненные и записанные  полностью самостоятельно"
 start_date: "20-11-2015 17:36"
 
-icon: 7395_saturn_gill_infrared.jpg
-media_order: 7395_saturn_gill_infrared.jpg
+cover: 7395_saturn_gill_infrared.jpg
 tags: tsoop
 list: tsoop-solo
 ---

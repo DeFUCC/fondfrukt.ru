@@ -5,7 +5,7 @@ subtitle: "Круг радости — сингл с песней про про�
 start_date: "02-11-2020 21:19"
 end_date: "02-04-2021 21:20"
 status: product
-icon: cover-s.jpg
+cover: cover-s.jpg
 
 people:
   - alias: /people/anna-starova
