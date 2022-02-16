@@ -35,9 +35,9 @@ function scrollTop() {
         .flex.flex-col.px-8(v-else)
           nav-links.my-2
         page-siblings
-    .flex.flex-wrap.overflow-hidden.z-20.bg-light-500.bg-opacity-95.z-2.dark_bg-dark-500.dark_bg-opacity-95.max-w-65ch(style="flex: 1000 1 420px")
+    .flex.flex-wrap.overflow-hidden.z-20.bg-light-500.bg-opacity-95.z-2.dark_bg-dark-500.dark_bg-opacity-95.max-w-3xl(style="flex: 1000 1 420px")
       .flex.flex-col(
-        style="flex: 1 1 300px"
+        style="flex: 100 1 300px"
       )
         img.w-full.max-w-100vw(v-if="frontmatter.cover" :src="getMediaPath(route.path, frontmatter.cover)")
         content.content
@@ -48,7 +48,7 @@ function scrollTop() {
           style="flex: 1 1 400px"
           v-if="frontmatter.list"
           )
-    .flex-auto(style="flex: 100 1 0px")
+    .flex-auto(style="flex:100")
   footer.flex.flex-wrap.p-4
     a.flex.flex-col.items-center.no-underline(href="/") 
       .font-bold.text-2xl.p-2 {{ site.title }}
