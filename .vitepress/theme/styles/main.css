@@ -60,7 +60,7 @@ body {
     @apply my-16 bg-dark-100/50 h-1px dark_bg-light-100/50 max-w-xl;
   }
   img {
-    @apply mx-auto my-16 max-w-55ch z-40;
+    @apply max-w-full my-16 z-40 mx-auto;
   }
   img[alt='no-shadow'] {
     @apply shadow-none;

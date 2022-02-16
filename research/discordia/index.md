@@ -34,8 +34,8 @@ In this telling, Eris becomes something of a patron saint of chaotic creation:
 
 The concept of Eris as developed by the Principia Discordia is used and expanded upon in the science fiction work The Illuminatus! Trilogy by Robert Shea and Robert Anton Wilson (in which characters from Principia Discordia appear). In this work, Eris is a major character.
 
-> ![](./Sacred_Chao_2.jpg)
-> The Sacred Chao
+![](./Sacred_Chao_2.jpg)
+The Sacred Chao
 
 [Discordianism](https://en.wikipedia.org/wiki/Discordianism) is a religion and subsequent philosophy based on the veneration or worship of Eris, a.k.a. Discordia, the Goddess of chaos, or archetypes or ideals associated with her. It was founded after the 1963 publication of its holy book, the Principia Discordia, written by Greg Hill with Kerry Wendell Thornley, the two working under the pseudonyms Malaclypse the Younger and Omar Khayyam Ravenhurst.
 

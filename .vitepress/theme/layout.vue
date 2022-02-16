@@ -39,7 +39,7 @@ function scrollTop() {
       .flex.flex-col(
         style="flex: 1 1 300px"
       )
-        img.w-full(v-if="frontmatter.cover" :src="getMediaPath(route.path, frontmatter.cover)")
+        img.w-full.max-w-100vw(v-if="frontmatter.cover" :src="getMediaPath(route.path, frontmatter.cover)")
         content.content
         .flex-auto(
           style="flex: 1000 1"
