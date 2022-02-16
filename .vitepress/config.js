@@ -10,6 +10,7 @@ import mdContainer from "markdown-it-container";
 
 export const pages = getTags({
   dir: "./",
+  mediaFolder: "media_files",
 });
 
 export default defineConfig({

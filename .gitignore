@@ -3,4 +3,4 @@ node_modules
 dist
 .obsidian
 _dist
-public/_media
+public/media_files

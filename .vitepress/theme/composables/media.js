@@ -8,5 +8,5 @@ export function getPath(path) {
 }
 
 export function getMediaPath(path, file) {
-  return "/_media" + getPath(path) + file;
+  return "/media_files" + getPath(path) + file;
 }
