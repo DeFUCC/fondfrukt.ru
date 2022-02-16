@@ -30,9 +30,11 @@ const route = useRoute();
           img.w-12rem(:src="theme.logo")
 
         .flex.flex-wrap.items-stretch.w-full
-          a.link.p-4.justify-center(
-            style="flex: 1 1 100px;"
+          a.link.p-4(
+            style="flex: 1 1 auto;"
             v-for="page in parents", :key="page.title" :href="page.link") {{ page.title }}
+              .flex-1
+              la-angle-up
         h1.w-full.text-xl.font-bold.mb-2.p-4.bg-light-600.dark_bg-dark-500.shadow-lg {{ frontmatter.title }}
         .p-4.flex.flex-wrap(v-if="route.path != '/'")
           .p-2(style="flex: 1 1 120px" v-if="frontmatter.icon")
@@ -47,7 +49,6 @@ const route = useRoute();
             :class="{ active: route.path.includes(page.link) }"
           ) {{ page.title }} 
 
-
     .flex.flex-wrap.overflow-hidden.z-20.bg-light-500.bg-opacity-95.z-2.dark_bg-dark-500.dark_bg-opacity-95.max-w-3xl(style="flex: 1000 1 420px")
 
       .flex.flex-col(
@@ -58,21 +59,23 @@ const route = useRoute();
         .flex-auto(
           style="flex: 1000 1"
         )
-        page-list(
-          style="flex: 1 1 400px"
-          v-if="frontmatter.list"
-          )
+      page-list.w-full(
+        style="flex: 1 1 100%"
+        v-if="frontmatter.list"
+        )
       .flex.flex-wrap.items-stretch.justify-stretch.w-full
         a.link.px-4.py-8(style="flex:1 1 auto" v-if="siblings.prev" :href="siblings.prev.link") 
-          carbon-arrow-left.mr-2
+          la-angle-left.mr-2
           span {{ siblings.prev.title }}
         a.link.justify-end.px-4.py-8(style="flex:1 1 auto" v-if="siblings.next" :href="siblings.next.link") 
           span {{ siblings.next.title }}
-          carbon-arrow-right.ml-2
+          la-angle-right.ml-2
       .flex.flex-wrap.items-stretch.w-full
-        a.link.px-4.py-8.justify-center(
+        a.link.px-4.py-8(
           style="flex: 1 1 auto;"
           v-for="page in reverseParents", :key="page.title" :href="page.link") {{ page.title }}
+            .flex-1
+            la-angle-up.mr-2
     .flex-auto(style="flex:100")
   footer.flex.flex-wrap.p-4.justify-center.transition-all.duration-600.bg-dark-500.items-center.dark_bg-dark-600
     a.no-underline.p-4(href="/")
@@ -82,6 +85,6 @@ const route = useRoute();
 
 <style lang="postcss" scoped>
 .link {
-  @apply flex-auto  flex items-center text-lg text-center transition-all duration-500 no-underline bg-light-800/60 dark_(bg-dark-100/10) hover_(bg-light-100 dark_bg-dark-100);
+  @apply flex-auto relative flex items-center text-lg text-center transition-all duration-500 no-underline bg-light-800/60 dark_(bg-dark-100/10) hover_(bg-light-100 dark_bg-dark-100);
 }
 </style>
