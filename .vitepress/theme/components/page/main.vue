@@ -7,11 +7,12 @@ import { useParents, useSiblings } from '../../composables/links.js'
 
 const parents = useParents();
 const siblings = useSiblings();
-
 const reverseParents = computed(() => [...parents.value].reverse())
 
 const { site, frontmatter, theme } = useData();
 const route = useRoute();
+
+const pages = computed(() => theme.value.pages[frontmatter.value.list])
 
 
 </script>
@@ -64,9 +65,12 @@ const route = useRoute();
         .flex-auto(
           style="flex: 1000 1"
         )
-      page-list.w-full(
-        style="flex: 1 1 100%"
-        v-if="frontmatter.list"
+
+      .flex.flex-wrap.gap-2.p-2.w-full(style="flex: 1 1 100%" v-if="pages && Object.keys(pages).length > 0")
+        item-card(
+          v-for="page in pages"
+          :key= "page.link"
+          :page="page"
         )
 
 
