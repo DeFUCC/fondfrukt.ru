@@ -1,6 +1,6 @@
 const isProd = process.env.NODE_ENV === "production";
 
-const site = isProd ? "https://www.frkt.ru" : "http://localhost:3000";
+const site = isProd ? "https://defucc.github.io" : "http://localhost:3000";
 
 export const metaData = {
   title: "Фонд ФРУКТ",

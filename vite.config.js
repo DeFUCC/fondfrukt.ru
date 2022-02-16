@@ -63,13 +63,6 @@ export default defineConfig({
       '@vueuse/core'
     ],
   },
-  build: {
-    rollupOptions: {
-      manualChunks: {
-        vitepress: ['vitepress-tags']
-      }
-    }
-  }
 })
 
 

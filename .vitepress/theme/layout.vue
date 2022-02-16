@@ -35,7 +35,7 @@ function scrollTop() {
         .flex.flex-col.px-8(v-else)
           nav-links.my-2
         page-siblings
-    .flex.flex-wrap.max-w-65ch.overflow-hidden.z-20.bg-light-500.bg-opacity-95.z-2.dark_bg-dark-500.dark_bg-opacity-95(style="flex: 1000 1 420px")
+    .flex.flex-wrap.overflow-hidden.z-20.bg-light-500.bg-opacity-95.z-2.dark_bg-dark-500.dark_bg-opacity-95(style="flex: 1000 1 420px")
       .flex.flex-col(
         style="flex: 1 1 300px"
       )
@@ -48,7 +48,7 @@ function scrollTop() {
           style="flex: 1 1 400px"
           v-if="frontmatter.list"
           )
-    .flex-1
+    .flex-auto(style="flex: 100 1 0px")
   footer.flex.flex-wrap.p-4
     a.flex.flex-col.items-center.no-underline(href="/") 
       .font-bold.text-2xl.p-2 {{ site.title }}

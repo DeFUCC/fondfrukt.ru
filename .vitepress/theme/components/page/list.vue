@@ -18,7 +18,7 @@ function getDate(timestamp) {
     v-for="page in pages"
     :key= "page.link"
     :href="page.link"
-    :style="{ backgroundImage: `url(${page.cover})` }"
+    :style="{ backgroundImage: page.cover ? `url(${page.cover})` : '' }"
   ) 
     img.rounded-xl.w-36(
       style="margin:  1rem 0"
