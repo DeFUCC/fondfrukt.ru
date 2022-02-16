@@ -32,6 +32,9 @@ body {
 
 .content {
   @apply hyphens-auto break-words p-4 md_p-6 xl_p-8;
+  & * {
+    @apply max-w-full;
+  }
   h1,
   h2,
   h3,

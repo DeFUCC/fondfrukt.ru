@@ -14,7 +14,7 @@ function getDate(timestamp) {
 <template lang="pug">
 .flex.flex-wrap.gap-4.p-4.bg-dark-50.bg-opacity-30.dark_bg-dark-700(v-if="pages && Object.keys(pages).length > 0")
   a.card.flex.flex-col.p-1.justify-between.items-center.relative.bg-cover.rounded-3xl(
-    style="flex: 1 1 300px;"
+    style="flex: 1 1 240px;"
     v-for="page in pages"
     :key= "page.link"
     :href="page.link"
