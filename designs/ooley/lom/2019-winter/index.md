@@ -3,7 +3,7 @@ title: Зимний ЛОМ
 subtitle: Новогодний творческий лагерь для взрослых
 start_date: 2019-01-03
 end_date: 2019-01-08
-date: 2018-01-01
+date: 2019-01-03
 tags: lomcamp
 cover: winter.jpg
 type: event
