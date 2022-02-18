@@ -2,7 +2,7 @@
 title: "Проектный подход"
 subtitle: "Обобщенная система реализации любых творческих начинаний"
 icon: "wheel.png"
-website: ooley.ru/projectapp
+url: https://ooley.ru/projectapp
 opportunities:
   - verb: Изучить
     text: "простой метод разделения сложных творческих задач на простые выполнимые этапы"
@@ -13,6 +13,7 @@ opportunities:
 status: process
 tags: ooley
 list: ooley-project
+type: project
 ---
 
 ### Синтез множества подходов к реализации творческих начинаний с позиций психологии, педагогики и непосредственной практики.

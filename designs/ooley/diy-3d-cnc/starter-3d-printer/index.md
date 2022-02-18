@@ -1,14 +1,13 @@
 ---
-title: 'Начальный 3D-принтер'
-subtitle: 'Комплект для знакомства с аддитивным способом производства'
-start_date: '31-07-2020 21:56'
+title: "Начальный 3D-принтер"
+subtitle: "Комплект для знакомства с аддитивным способом производства"
+start_date: "31-07-2020 21:56"
 status: process
-
+type: object
 tags: ooley-3d
 list: 3d-printer
+cover: 3d-bear.jpg
 ---
-
-![](./xGrYC8YpKLA.jpg)
 
 ### Полезные ссылки
 
