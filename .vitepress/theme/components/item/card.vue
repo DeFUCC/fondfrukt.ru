@@ -30,11 +30,13 @@ a.card.flex.flex-col.justify-between.items-center.relative.bg-cover.bg-center(
     :src="page.icon"
     )
   .flex-auto
-  .info.w-full.flex.flex-col.p-4.bg-light-400.dark_bg-dark-200.bg-opacity-95.transition-all.duration-300(
+  .info.w-full.flex.flex-col.p-4.bg-light-400.bg-opacity-80.dark_bg-opacity-80.dark_bg-dark-200.transition-all.duration-300.backdrop-filter.backdrop-blur-sm(
     :style="{ marginTop: page.cover ? '120px' : '0' }"
   )
     .flex.w-full
-      .text-xl.font-bold.md_text-2xl {{ page.title }} 
+      .flex.flex-col
+        item-type(:type="page.data?.type")
+        .text-xl.font-bold.md_text-2xl {{ page.title }} 
       .flex-1
       .font-bold(v-if="countPages > 0") {{ countPages }} 
     .text-md.mt-2.line-clamp-4(v-if="page.subtitle") {{ page.subtitle }}

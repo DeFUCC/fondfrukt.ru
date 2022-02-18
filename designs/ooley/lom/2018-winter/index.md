@@ -6,6 +6,7 @@ end_date: 2018-01-07 18:00
 date: 2018-01-01
 tags: lomcamp
 cover: winter-lom.png
+type: event
 ---
 
 [VIMEO VIDEO](https://vimeo.com/287449460)

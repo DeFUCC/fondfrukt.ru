@@ -9,4 +9,5 @@ opportunities:
 status: request
 tags: ooley
 start_date: 2013-02-10 10:00
+type: project
 ---

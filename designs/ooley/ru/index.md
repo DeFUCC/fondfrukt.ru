@@ -1,10 +1,11 @@
 ---
 title: "Медиапортал о развитии открытых мастерских в России и мире"
 subtitle: "Постоянно обновляемый источник информации по всем аспектам свободного творчества в открытых мастерских."
-icon: ooleyru.png
+cover: ooleyru.png
 status: process
-website: ooley.ru
+url: https://www.ooley.ru
 tags: ooley
+type: project
 opportunities:
   - verb: Найти
     text: "открытую мастерскую в своем городе"

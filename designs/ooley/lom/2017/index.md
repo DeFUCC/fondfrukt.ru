@@ -6,6 +6,7 @@ start_date: 2017-08-17 12:00
 end_date: 2017-08-24 12:00
 tags: lomcamp
 cover: lom2017.jpg
+type: event
 ---
 
 [vimeo video](https://vimeo.com/287451333)

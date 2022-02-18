@@ -6,6 +6,7 @@ end_date: 2019-08-18
 date: 2018-08-03
 tags: lomcamp
 cover: A6.png
+type: event
 ---
 
 [vimeo video](https://vimeo.com/355821493)
