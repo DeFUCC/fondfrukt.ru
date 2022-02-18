@@ -1,6 +1,6 @@
 ---
 title: "cassini dreams"
-subtitle: "Альбом 2017 года <br> 7 треков, 77 минут"
+subtitle: "7 треков, 77 минут"
 cover: cassini.jpg
 tags: tsoop-solo
 opportunities:

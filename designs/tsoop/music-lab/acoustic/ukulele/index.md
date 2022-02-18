@@ -1,7 +1,7 @@
 ---
 title: Укулеле
 subtitle: "Сопрано от компании Flight"
-icon: uke.jpg
+cover: uke.jpg
 history:
   - date: "10-12-2017 14:44"
     text: "Передана в пользование Николаем"

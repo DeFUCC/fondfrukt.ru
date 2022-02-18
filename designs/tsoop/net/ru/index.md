@@ -1,13 +1,13 @@
 ---
 title: tsoop.ru
 subtitle: "Веб-сайт — представительство проекта в сети со всеми альбомами, клипами и лайвами, собранными на одном ресурсе"
-website: tsoop.ru
+url: https://www.tsoop.ru
 opportunities:
   - verb: Посмотреть
     text: "записи выступлений и музыкальных композиций"
     link: "https://tsoop.ru"
 
-icon: ru.png
+cover: ru.png
 status: process
 
 tags: tsoop-net

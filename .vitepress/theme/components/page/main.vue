@@ -49,6 +49,10 @@ const pages = computed(() => theme.value.pages[frontmatter.value.list])
             img.max-h-60vh.rounded-3xl(:src="getMediaPath(route.path, frontmatter.icon)")
           .p-4.flex-auto
             .text-md {{ frontmatter.subtitle }}
+          a.p-2.flex-auto.underline.text-xl(v-if="frontmatter.url" :href="frontmatter.url" target="_blank") {{ frontmatter.url.replace(/^https?:\/\//, '') }}
+          p {{ frontmatter.start_date }}
+
+
         .flex.flex-col.w-full(v-else)
           a.link.p-4.no-underline.transition-all.duration-300.text-xl.justify-center.w-full(
             v-for="page in theme.pages.main"
@@ -65,6 +69,7 @@ const pages = computed(() => theme.value.pages[frontmatter.value.list])
       )
         img.w-full.max-w-100vw(v-if="frontmatter.cover" :src="getMediaPath(route.path, frontmatter.cover)") 
         content.content
+        //- component.content(:is="route.component")
         .flex-auto(
           style="flex: 1000 1"
         )
@@ -87,14 +92,6 @@ const pages = computed(() => theme.value.pages[frontmatter.value.list])
         la-angle-right.ml-2
 
 
-    .flex.flex-wrap.items-stretch.w-full(style="flex: 1 1 auto")
-      a.link.px-4.py-4(
-        style="flex: 1 1 auto;"
-        v-for="page in reverseParents", :key="page.title" :href="page.link") {{ page.title }}
-          .flex-1
-          la-angle-up.mr-2
-
-
   footer.flex.flex-wrap.p-4.justify-center.transition-all.duration-600.bg-light-900.items-center.dark_bg-dark-600
     a.no-underline.p-4(href="/")
       img.w-12rem(:src="theme.logo")
@@ -103,6 +100,6 @@ const pages = computed(() => theme.value.pages[frontmatter.value.list])
 
 <style lang="postcss" scoped>
 .link {
-  @apply flex-auto relative flex items-center text-lg text-center transition-all duration-500 no-underline bg-light-500/60 dark_(bg-dark-100/10) hover_(bg-light-100 dark_bg-dark-100);
+  @apply flex-auto relative flex items-center text-ьв text-center transition-all duration-500 no-underline bg-light-500/60 dark_(bg-dark-100/10) hover_(bg-light-100 dark_bg-dark-100);
 }
 </style>

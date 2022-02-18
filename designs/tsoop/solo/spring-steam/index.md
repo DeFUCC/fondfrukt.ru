@@ -1,7 +1,7 @@
 ---
 title: spring steam
 subtitle: Альбом текучей инструментальной музыки для созерцания природы
-icon: spring.jpg
+cover: spring.jpg
 tags: tsoop-solo
 ---
 

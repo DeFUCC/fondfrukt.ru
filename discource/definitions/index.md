@@ -3,9 +3,6 @@ title: "Научные определения"
 subtitle: Что такое дискурс с точки зрения науки
 date: 2022-02-28
 cover: books.jpg
-taxonomy:
-  category:
-    - Дискурс
 tags: discourse
 ---
 

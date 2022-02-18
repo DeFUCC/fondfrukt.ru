@@ -1,7 +1,7 @@
 ---
 title: "Teenage Engineering OP-Z"
 subtitle: "Карманный секвенсор и синтезатор"
-icon: op-z.jpg
+cover: op-z.jpg
 status: process
 people:
   - alias: /people/davay

@@ -7,6 +7,7 @@ status: product
 icon: scribe.png
 tags: designs
 list: axioma
+url: https://axioma.defucc.me
 ---
 
 ![](./grey.png)
