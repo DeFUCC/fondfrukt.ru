@@ -1,7 +1,7 @@
 ---
 title: "Набор пластика для печати"
 subtitle: "Комплект нити для печати различных изделий"
-start_date: "30-08-2020 22:08"
+start_date: 2020-08-30
 status: process
 type: purchase
 quality:

@@ -2,7 +2,7 @@
 title: "Башня Наблюдателя"
 subtitle: "Смотровая площадка как памятник открытиям квантовой физики ХХ века, в частности открытию Н. Бором принципа дополнительности."
 icon: Observers-tower.svg
-start_date: "12-01-2013 23:23"
+start_date: 2013-01-12
 status: development
 
 tags: designs

@@ -1,7 +1,7 @@
 ---
 title: "ЛОМ: Лесные Открытые Мастерские"
 subtitle: "Лагерь совместного свободного творчества на природе"
-start_date: 2017-05-01 13:57
+start_date: 2017-05-01
 status: request
 cover: lom.jpg
 url: https://lomcamp.ooley.ru

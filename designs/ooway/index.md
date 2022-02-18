@@ -2,10 +2,10 @@
 title: OOWAY
 subtitle: "Видео-журнал о медитации как всеобщей практике самопознания"
 icon: OOWAY.svg
-website: ooway.ru
+url: https://frkt.ru/ooway
 status: process
 idea: "Популяризация медитации как универсального средства гармонизации сознания для людей любых взглядов и верований"
-start_date: "02-05-2013 22:46"
+start_date: 2013-05-02
 
 tags: designs
 list: ooway

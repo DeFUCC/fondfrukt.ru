@@ -2,9 +2,9 @@
 title: "Международный буквенный счёт и учёт"
 subtitle: "Универсальная система учёта независимых сущностей, свободная от цифр и вносимых ими искажений восприятия."
 icon: ilca.svg
-website: ilca.online
+url: https://frkt.ru/ilca/
 status: development
-start_date: "24-01-2014 23:23"
+start_date: 2014-01-24
 
 tags: designs
 list: ilca

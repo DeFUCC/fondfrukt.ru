@@ -3,10 +3,10 @@ title: ЭТОВОТЭТО
 subtitle: "Игра в словотворчество — веселое придумывание слов в компании"
 tags: designs
 list: etovoteto
-website: etovoteto.ru
+url: https://etovoteto.ru
 icon: eto.png
 
-start_date: "25-12-2018 00:07"
+start_date: 2018-12-25
 status: process
 ideas:
   - title: "Настольная игра в придумывание слов"

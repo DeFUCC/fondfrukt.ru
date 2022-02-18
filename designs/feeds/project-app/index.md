@@ -1,11 +1,11 @@
 ---
 title: Project-app
 subtitle: "Реактивные данные в JS компонентах как базис интерактивности веб-приложения"
-icon: project-app.png
+cover: project-app.png
 status: process
-website: project.frkt.ru
+url: https://project.frkt.ru
 
-start_date: "11-11-2020 14:47"
+start_date: 2020-11-11
 opportunities:
   - verb: "Открыть код"
     text: "приложения на GitHub"

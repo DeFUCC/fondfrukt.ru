@@ -2,14 +2,14 @@
 title: "Feeds на Firebase"
 subtitle: "Реактивные ленты сообщений, привязанные к url страницы"
 status: finished
-icon: feeds.png
+cover: feeds.png
 
-start_date: "01-04-2014 11:47"
-end_date: "26-09-2018 18:47"
+start_date: 2014-04-01
+end_date: 2018-09-26
 opportunities:
   - verb: "Открыть код"
     text: "приложения на GitHub"
-    link: "https://github.com/fondfrukt/Feeds"
+    link: "https://github.com/DeFUCC/Feeds"
   - verb: "Попробовать вживую"
     text: "приложение на Glitch.me"
     link: "http://feeds.glitch.me/"

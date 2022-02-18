@@ -2,10 +2,8 @@
 title: Исследования
 subtitle: "Результаты изучения общества и условий современности."
 tags: frukt-design
-start_date: "15-11-2012 15:53"
+start_date: 2012-11-15
 status: process
-
-media_order: 22.png
 icon: 22.png
 ---
 

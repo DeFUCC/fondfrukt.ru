@@ -1,11 +1,11 @@
 ---
-title: 'Трика йога'
-subtitle: 'Собрание янтр, мантр, гимнов и текстов Недвойственного Кашмирского шиваизма'
+title: "Трика йога"
+subtitle: "Собрание янтр, мантр, гимнов и текстов Недвойственного Кашмирского шиваизма"
 icon: sadvidya.svg
-website: trikayoga.ru
+url: https://trikayoga.ru
 status: process
 
-start_date: '18-04-2015 13:37'
+start_date: 2015-04-18
 tags: designs
 list: trika-yoga
 ---

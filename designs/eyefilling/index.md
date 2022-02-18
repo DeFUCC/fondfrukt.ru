@@ -2,10 +2,10 @@
 title: Eyefilling
 subtitle: "Мы внимательно наблюдаем за миром вокруг и внутри, собираем самые яркие мгновения и мысли в альбомы и сочинения и делимся всем этим богатством с вами."
 icon: color.svg
-website: eyefilling.ru
-start_date: "01-11-2016 23:27"
+url: https://eyefilling.ru
+start_date: 2016-11-01
 status: process
-
+type: design
 tags: designs
 list: eyefilling
 ---

@@ -1,16 +1,16 @@
 ---
 title: "Vuetify + GUN"
 subtitle: "Классическое JS AJAX приложение с использованием PHP headless CMS"
-icon: app.png
+cover: app.png
 tags: etovoteto-app
 status: finished
 
-start_date: "03-03-2020 14:47"
-end_date: "04-04-2020 16:27"
+  2020-03-03
+end_date: 2020-04-04
 opportunities:
   - verb: "Открыть код"
     text: "приложения на GitHub"
-    link: "https://github.com/fondfrukt/etovoteto-app"
+    link: "https://github.com/etovoteto/etovoteto-app"
   - verb: "Листать и добавлять"
     text: "придуманные слова и их значения в приложении"
     link: "https://app.etovoteto.ru"

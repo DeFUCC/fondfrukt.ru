@@ -1,7 +1,7 @@
 ---
 title: Видеоканал
 subtitle: "Youtube канал с таймлапс съемками медитирующих людей"
-start_date: "21-10-2013 22:50"
+start_date: 2013-10-21
 status: process
 
 opportunities:

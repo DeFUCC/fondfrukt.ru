@@ -1,8 +1,8 @@
 ---
 title: Площадка ЛОМ на WAFEst'18
 subtitle: Зона мастер-классов и творческих проектов на фестивале стихий
-start_date: 2018-08-01 10:00
-end_date: 2018-08-05 22:00
+start_date: 2018-08-01
+end_date: 2018-08-05
 date: 2018-08-01
 tags: lomcamp
 cover: poster.jpg

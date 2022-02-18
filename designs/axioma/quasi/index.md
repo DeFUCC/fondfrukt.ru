@@ -1,7 +1,7 @@
 ---
 title: "Генератор квазикристаллов"
 icon: quasi-7.svg
-start_date: "01-11-2020 18:01"
+start_date: 2020-01-11
 status: process
 
 tags: axioma

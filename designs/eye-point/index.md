@@ -2,9 +2,9 @@
 title: "eye • point"
 subtitle: "То, что цепляет глаз. Приятные мелочи жизни, сделанные своими руками."
 icon: small-square.svg
-website: eye-point.ru
+url: https://frkt.ru/eye-point/
 status: process
-start_date: "04-12-2016 23:03"
+start_date: 2016-12-04
 people:
   - alias: /people/anna-starova
     role: author

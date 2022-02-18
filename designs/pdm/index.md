@@ -2,7 +2,7 @@
 title: "Помещения для медитации"
 subtitle: "Общественные помещения для уединения"
 icon: pdm.svg
-start_date: "18-03-2014 00:16"
+start_date: 2014-03-18
 status: development
 
 tags: designs

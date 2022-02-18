@@ -1,7 +1,7 @@
 ---
 title: "Начальный 3D-принтер"
 subtitle: "Комплект для знакомства с аддитивным способом производства"
-start_date: "31-07-2020 21:56"
+start_date: 2020-07-31
 status: process
 type: object
 tags: ooley-3d

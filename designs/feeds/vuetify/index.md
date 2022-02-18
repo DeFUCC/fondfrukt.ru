@@ -3,8 +3,8 @@ title: "Feeds-app на Vuetify + GUN"
 subtitle: "Клиентское приложение, переписанное с нуля на новом фреймворке и с новой базой данных"
 icon: app.png
 
-start_date: "03-03-2020 11:47"
-end_date: "14-06-2020 08:47"
+start_date: 2020-03-03
+end_date: 2020-06-03
 opportunities:
   - verb: "Открыть код"
     text: "приложения на GitHub"

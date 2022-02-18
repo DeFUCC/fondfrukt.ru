@@ -1,7 +1,7 @@
 ---
 title: "ЧПУ-станок от Balkon Crafts"
 subtitle: "Самодельный многофункциональный ЧПУ-станок на основе самых простых и доступных компонентов."
-start_date: "27-06-2020 14:11"
+start_date: 2020-06-27
 status: process
 tags: ooley-3d
 list: diy-cnc

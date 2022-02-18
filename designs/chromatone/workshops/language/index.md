@@ -1,10 +1,8 @@
 ---
 title: "Chromatone — визуально-музыкальный язык для обучения, коммуникации и самовыражения."
-start_date: "07-10-2020 19:00"
+start_date: 2020-10-07
 status: development
 icon: poster.png
-
-end_date: "07-10-2020 22:00"
 subtitle: "Лекция и перформанс в рамках образовательной среды коворкинга Colab"
 tags: chromatone-workshops
 ---

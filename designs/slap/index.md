@@ -2,8 +2,8 @@
 title: ШЛЁП
 subtitle: "Разработка и внедрение практик прямого обращения людей друг к другу через использование свободных городских поверхностей"
 icon: slap.svg
-website: shlyop.com
-start_date: "19-11-2015 23:26"
+url: https://frkt.ru/shlyop
+start_date: 2015-11-19
 status: development
 
 tags: designs

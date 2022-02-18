@@ -1,7 +1,7 @@
 ---
 title: "Интерактивные 3D визуализации цветных нот"
 subtitle: "Разработанные на движке Unity трехмерные визуализации MIDI-сигналов в соответствии с системой Chromatone"
-start_date: "02-02-2019 18:01"
+start_date: 2019-02-02
 
 icon: circle-logo.png
 tags: chromatone

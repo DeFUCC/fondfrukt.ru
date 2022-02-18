@@ -3,7 +3,7 @@ title: "Клуб экологичного питания"
 subtitle: "Здоровый подход к рациональному растительному питанию"
 status: development
 icon: efc.svg
-start_date: "05-08-2014 22:54"
+start_date: 2014-08-05
 tags: designs
 list: ecofoodclub
 ---

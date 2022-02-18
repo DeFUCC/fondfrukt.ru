@@ -1,11 +1,11 @@
 ---
 title: tsoop
 subtitle: "Пространство коллективного музыкального самовыражения"
-website: tsoop.ru
+url: https://tsoop.ru
 icon: tsoop-room.jpg
 status: process
 
-start_date: "28-09-2016 16:15"
+start_date: 2016-09-28
 tags: designs
 list: tsoop
 ---

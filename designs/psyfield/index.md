@@ -1,12 +1,12 @@
 ---
 title: "Психологическое поле"
-date: "19:33 19-03-2021"
+date: 2021-03-19
 subtitle: "Пространство в сети, где разработки и открытия современной психологии обретают форму"
-
+url: https://psyfield.ru
 tags: design
 list: psyfield
 icon: psyfield.png
-start_date: "19-03-2021 22:39"
+start_date: 2021-03-19
 status: development
 ---
 

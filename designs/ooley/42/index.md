@@ -8,6 +8,6 @@ opportunities:
     link: "https://www.instagram.com/ooley42/"
 status: request
 tags: ooley
-start_date: 2013-02-10 10:00
+start_date: 2013-02-10
 type: project
 ---

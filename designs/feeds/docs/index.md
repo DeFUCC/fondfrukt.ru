@@ -1,11 +1,11 @@
 ---
 title: Доки
 subtitle: "Переработанный сайт ФРУКТ со встроенным проектным дискурсом"
-icon: grav.png
+cover: grav.png
 status: process
-website: docs.frkt.ru
+url: https://docs.frkt.ru
 
-start_date: "10-05-2020 14:47"
+start_date: 2020-05-10
 opportunities:
   - verb: Редактировать
     text: "содержание и оформление на GitHub"
