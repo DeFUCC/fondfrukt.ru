@@ -23,7 +23,7 @@ a.card.flex.flex-col.justify-between.items-center.relative.bg-cover.bg-center(
   :href="page.link"
   :style="{ backgroundImage: page.cover ? `url(${page.cover})` : '' }"
 ) 
-  .flex-auto
+  .flex-auto {{ page.link }}
   img.rounded-xl.w-36(
     style="margin:  1rem 0"
     v-if="page.icon"
