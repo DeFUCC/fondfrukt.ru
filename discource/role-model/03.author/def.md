@@ -1,10 +1,7 @@
 ---
 title: Автор
 icon: author.svg
-date: "23:24 28-06-2020"
-taxonomy:
-  category:
-    - Дискурс
+date: 2020-06-09
 author: Давай
 ---
 

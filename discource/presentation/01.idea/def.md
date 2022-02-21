@@ -1,9 +1,6 @@
 ---
 title: Идея
-date: "16:47 24-06-2020"
-taxonomy:
-  category:
-    - Дискурс
+date: 2020-06-24
 icon: idea.svg
 ---
 

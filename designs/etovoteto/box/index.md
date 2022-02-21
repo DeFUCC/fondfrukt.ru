@@ -1,7 +1,7 @@
 ---
 title: "Коробочная версия"
 subtitle: "Дорожный формат игры в экологичной упаковке"
-start_date: 2019-09-03
+date: 2019-09-03
 status: product
 
 tags: etovoteto

@@ -3,7 +3,7 @@ title: "Электронный сетап в рюкзаке"
 subtitle: "Набор производительного музыкального оборудования для полноценного живого электронного выступления и сочинительства"
 status: process
 cover: purple.jpg
-start_date: 2016-08-20
+date: 2016-08-20
 tags: tsoop-lab
 list: tsoop-setup
 ---

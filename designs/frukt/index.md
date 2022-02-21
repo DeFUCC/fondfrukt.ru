@@ -3,7 +3,7 @@ title: ФРУКТ
 subtitle: "Фонд Развития Универсализации, Кооперации и Творчества"
 url: https://frkt.ru
 icon: sq-round.svg
-start_date: 2012-07-12
+date: 2012-07-12
 status: development
 tags: designs
 list: frukt-design

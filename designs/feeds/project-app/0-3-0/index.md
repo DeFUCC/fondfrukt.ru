@@ -1,7 +1,7 @@
 ---
 title: 0.3.0
 subtitle: "Первая синхронизированная версия программы"
-start_date: 2020-01-01
+date: 2020-01-01
 end_date: 2021-01-07
 
 tags: feeds-project

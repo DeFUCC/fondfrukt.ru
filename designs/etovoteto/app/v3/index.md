@@ -1,8 +1,7 @@
 ---
 title: Онлайн словарь v3
-date: "07:27 26-02-2021"
 subtitle: "Vite + Gun + pug + stylus — быстрое и стабильное веб-приложение для игры"
-start_date: 2021-02-01
+date: 2021-02-01
 status: development
 tags: etovoteto-app
 

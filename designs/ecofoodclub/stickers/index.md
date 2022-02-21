@@ -4,7 +4,7 @@ subtitle: Самостоятельная маркировка товаров в 
 status: development
 
 tags: ecofoodclub
-start_date: 2016-01-22
+date: 2016-01-22
 ---
 
 ![](./stickers.jpg)

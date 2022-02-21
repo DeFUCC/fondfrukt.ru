@@ -1,7 +1,7 @@
 ---
 title: "Первая пробная конструкция"
 subtitle: "Каркасная постройка из брусков 40х60 на площади одного поддона."
-start_date: 2020-09-02
+date: 2020-09-02
 status: process
 cover: pav.jpg
 tags: pdm-wood

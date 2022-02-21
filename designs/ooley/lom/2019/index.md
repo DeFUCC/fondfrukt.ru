@@ -1,9 +1,8 @@
 ---
 title: ЛОМ 2019
 subtitle: Творческий лагерь для взрослых
-start_date: 2019-08-03
+date: 2019-08-03
 end_date: 2019-08-18
-date: 2018-08-03
 tags: lomcamp
 cover: A6.png
 type: event

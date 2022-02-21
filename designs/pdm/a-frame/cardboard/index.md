@@ -2,7 +2,7 @@
 title: "Макет из картона и пластилина"
 subtitle: "Простейшая модель простой конструкции из листового материала."
 cover: maket.jpg
-start_date: 2017-03-02
+date: 2017-03-02
 end_date: 2017-03-03
 status: finished
 

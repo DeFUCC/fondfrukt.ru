@@ -4,7 +4,7 @@ subtitle: "Классическое JS AJAX приложение с исполь
 tags: etovoteto-app
 status: finished
 
-start_date: 2019-03-17
+date: 2019-03-17
 end_date: 2020-03-25
 opportunities:
   - verb: "Открыть код"

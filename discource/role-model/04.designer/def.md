@@ -1,10 +1,7 @@
 ---
 title: Ведущий
 icon: designer.svg
-date: "21:22 27-06-2020"
-taxonomy:
-  category:
-    - Дискурс
+date: 2020-06-27
 author: Давай
 ---
 

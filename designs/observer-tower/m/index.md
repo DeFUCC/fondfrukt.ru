@@ -1,7 +1,7 @@
 ---
 title: Микромакет
 subtitle: "Настольный архитектурный макет башни"
-start_date: 2013-12-21
+date: 2013-12-21
 status: process
 
 tags: tower

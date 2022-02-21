@@ -1,11 +1,10 @@
 ---
 title: "Ремикс-коллаборация Круг радости"
 subtitle: "Коллективное дополнение к синглу"
-start_date: 2021-04-05
+date: 2021-04-05
+end_date: 2921-06-01
 status: process
-
 icon: wheel.png
-end_date: "01-06-2021 21:26"
 tags: tsoop-collab
 ---
 

@@ -2,7 +2,7 @@
 title: Axioma
 subtitle: "Наглядное представление геометрических закономерностей и базовой структуры пространства."
 
-start_date: 2015-11-14 23:25
+date: 2015-11-14 23:25
 status: product
 icon: scribe.png
 tags: designs

@@ -2,7 +2,7 @@
 title: "История синестетических систем"
 subtitle: "Связь цветов и нот: от Ньютона до Римского-Корсакова"
 status: process
-start_date: 2018-10-06
+date: 2018-10-06
 tags: chromatone-center
 ---
 

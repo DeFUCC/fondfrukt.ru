@@ -4,7 +4,7 @@ subtitle: "То, что цепляет глаз. Приятные мелочи �
 icon: small-square.svg
 url: https://frkt.ru/eye-point/
 status: process
-start_date: 2016-12-04
+date: 2016-12-04
 people:
   - alias: /people/anna-starova
     role: author

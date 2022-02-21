@@ -26,7 +26,7 @@ opportunities:
   - verb: Слушать
     text: "на Amazon Music"
     link: "https://www.amazon.com/Miracle-Mechanism-tsoop/dp/B07YNC3KBX/ref=sr_1_1?keywords=tsoop&qid=1577706006&s=dmusic&sr=1-1"
-start_date: 2019-07-07
+date: 2019-07-07
 end_date: 2019-08-17
 ---
 

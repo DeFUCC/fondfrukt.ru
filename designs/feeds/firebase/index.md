@@ -4,7 +4,7 @@ subtitle: "Реактивные ленты сообщений, привязан�
 status: finished
 cover: feeds.png
 
-start_date: 2014-04-01
+date: 2014-04-01
 end_date: 2018-09-26
 opportunities:
   - verb: "Открыть код"

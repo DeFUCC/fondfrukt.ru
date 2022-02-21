@@ -5,7 +5,7 @@ cover: grav.png
 status: process
 url: https://docs.frkt.ru
 
-start_date: 2020-05-10
+date: 2020-05-10
 opportunities:
   - verb: Редактировать
     text: "содержание и оформление на GitHub"

@@ -2,7 +2,7 @@
 title: "MIDI paper"
 subtitle: "Веб-приложение, генерирующее двухмерные визуализации мидисигнала в браузере"
 status: process
-start_date: 2019-10-10
+date: 2019-10-10
 tags: chromatone-apps
 opportunities:
   - verb: Рисовать

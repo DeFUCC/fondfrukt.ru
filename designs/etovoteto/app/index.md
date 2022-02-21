@@ -3,7 +3,7 @@ title: Онлайн-словарь новых слов
 subtitle: Веб-приложение для сбора и обзора придуманных в ходе игры слов
 status: development
 cover: canvas.png
-start_date: 2019-04-02
+date: 2019-04-02
 tags: etovoteto
 list: etovoteto-app
 ---

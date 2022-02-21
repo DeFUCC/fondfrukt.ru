@@ -4,7 +4,7 @@ subtitle: "Изготовленные вручную 10 полноценных �
 people:
   - alias: /people/davay
     role: person
-start_date: 2020-08-21
+date: 2020-08-21
 status: product
 tags: etovoteto-box
 ---

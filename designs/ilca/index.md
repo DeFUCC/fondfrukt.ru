@@ -4,7 +4,7 @@ subtitle: "Универсальная система учёта независи
 icon: ilca.svg
 url: https://frkt.ru/ilca/
 status: development
-start_date: 2014-01-24
+date: 2014-01-24
 
 tags: designs
 list: ilca

@@ -23,7 +23,7 @@ opportunities:
     text: "в ВК"
     link: "https://vk.com/music/album/129086_50020668"
 status: product
-start_date: 2017-07-01
+date: 2017-07-01
 end_date: 2017-09-15
 ---
 

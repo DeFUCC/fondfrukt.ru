@@ -3,7 +3,7 @@ title: "Кант — Сократ"
 subtitle: "Журнал о прекрасном в искусстве, творчестве и ремесле"
 icon: KS.svg
 cover: sokrat-umiraet.jpg
-start_date: 2015-02-14
+date: 2015-02-14
 status: development
 
 tags: designs

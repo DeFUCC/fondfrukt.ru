@@ -1,7 +1,7 @@
 ---
 title: "3D-модель башни"
 subtitle: "Высоко детализированная параметризированная модель Башни"
-start_date: 2013-06-23
+date: 2013-06-23
 status: development
 
 opportunities:

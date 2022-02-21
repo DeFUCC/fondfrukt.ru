@@ -7,7 +7,7 @@ finance:
   max: 14000
 cover: op1keyboard.jpeg
 status: finished
-start_date: 2019-08-16
+date: 2019-08-16
 variants:
   - title: iFixit
     description: "Единственный официальный поставщик запчастей. Находится в США, в РФ не доставляет"

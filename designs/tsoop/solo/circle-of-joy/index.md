@@ -1,8 +1,7 @@
 ---
 title: Circle of Joy
-date: "18:19 08-04-2021"
 subtitle: "Круг радости — сингл с песней про проектный подход OOLEY"
-start_date: 2020-11-02
+date: 2020-11-02
 end_date: 2021-04-02
 status: product
 cover: cover-s.jpg

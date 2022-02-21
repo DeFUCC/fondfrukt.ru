@@ -5,7 +5,7 @@ cover: project-app.png
 status: process
 url: https://project.frkt.ru
 
-start_date: 2020-11-11
+date: 2020-11-11
 opportunities:
   - verb: "Открыть код"
     text: "приложения на GitHub"

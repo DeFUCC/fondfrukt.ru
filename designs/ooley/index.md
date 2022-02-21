@@ -14,7 +14,7 @@ ideas:
 
   - alias: /people/anna-starova
     role: designer
-start_date: 2012-11-23
+date: 2012-11-23
 ---
 
 #### OOLEY развивает творческие возможности человека и общества

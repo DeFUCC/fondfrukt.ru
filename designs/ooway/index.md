@@ -5,7 +5,7 @@ icon: OOWAY.svg
 url: https://frkt.ru/ooway
 status: process
 idea: "Популяризация медитации как универсального средства гармонизации сознания для людей любых взглядов и верований"
-start_date: 2013-05-02
+date: 2013-05-02
 
 tags: designs
 list: ooway

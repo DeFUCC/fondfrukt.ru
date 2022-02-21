@@ -5,7 +5,7 @@ icon: sadvidya.svg
 url: https://trikayoga.ru
 status: process
 
-start_date: 2015-04-18
+date: 2015-04-18
 tags: designs
 list: trika-yoga
 ---

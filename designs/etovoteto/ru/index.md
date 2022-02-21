@@ -1,7 +1,7 @@
 ---
 title: "Сайт с правилами"
 subtitle: "Веб-сайт с правилами игры и новостями проекта"
-start_date: 2018-12-30
+date: 2018-12-30
 status: development
 cover: drawing.jpg
 tags: etovoteto
