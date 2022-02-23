@@ -5,7 +5,7 @@ tags: designs
 list: etovoteto
 url: https://etovoteto.ru
 icon: eto.png
-
+type: design
 date: 2018-12-25
 status: process
 ideas:

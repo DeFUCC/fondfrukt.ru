@@ -6,4 +6,5 @@ status: development
 cover: Silly_walk-lines.png
 icon: pl.png
 tags: designs
+type: design
 ---

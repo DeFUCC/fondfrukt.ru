@@ -6,7 +6,7 @@ url: https://frkt.ru/ooway
 status: process
 idea: "Популяризация медитации как универсального средства гармонизации сознания для людей любых взглядов и верований"
 date: 2013-05-02
-
+type: design
 tags: designs
 list: ooway
 ---

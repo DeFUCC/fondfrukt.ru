@@ -4,7 +4,7 @@ subtitle: "Собрание янтр, мантр, гимнов и текстов
 icon: sadvidya.svg
 url: https://trikayoga.ru
 status: process
-
+type: design
 date: 2015-04-18
 tags: designs
 list: trika-yoga

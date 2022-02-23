@@ -5,7 +5,7 @@ icon: slap.svg
 url: https://frkt.ru/shlyop
 date: 2015-11-19
 status: development
-
+type: design
 tags: designs
 ---
 

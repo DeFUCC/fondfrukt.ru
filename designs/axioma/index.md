@@ -7,6 +7,7 @@ icon: scribe.png
 tags: designs
 list: axioma
 url: https://axioma.defucc.me
+type: design
 ---
 
 ![](./grey.png)

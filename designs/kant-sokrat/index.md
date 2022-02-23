@@ -5,7 +5,7 @@ icon: KS.svg
 cover: sokrat-umiraet.jpg
 date: 2015-02-14
 status: development
-
+type: design
 tags: designs
 ---
 

@@ -5,7 +5,7 @@ icon: feeds.svg
 url: https://feeds.frkt.ru
 date: 2013-12-20
 status: development
-
+type: design
 tags: designs
 list: feeds
 ---

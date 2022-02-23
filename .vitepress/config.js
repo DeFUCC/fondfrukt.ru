@@ -31,7 +31,7 @@ export default defineConfig({
   },
   markdown: {
     config: (md) => {
-      md.use(mdClass);
+      // md.use(mdClass);
       md.use(mdContainer, "card");
       md.use(mdLinks, {
         internalDomains: ["localhost", "frkt.ru"],

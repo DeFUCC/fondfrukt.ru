@@ -4,7 +4,7 @@ subtitle: "Общественные помещения для уединения
 icon: pdm.svg
 date: 2014-03-18
 status: development
-
+type: design
 tags: designs
 list: pdm
 ---

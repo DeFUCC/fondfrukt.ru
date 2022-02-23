@@ -1,7 +1,8 @@
 ---
-title: Давай
-birthday: "12:00 07-03-1987"
+title: Денис Старов
+subtitle: "@davay42"
+birthday: 1987-03-07
 city: Москва
-subtitle: "Денис Старов"
 icon: sea-me.jpg
+tags: people
 ---

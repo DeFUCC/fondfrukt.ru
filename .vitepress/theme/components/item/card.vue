@@ -19,7 +19,7 @@ function getDate(timestamp) {
 
 <template lang="pug">
 a.card.flex.flex-col.justify-between.items-center.relative.bg-cover.bg-center(
-  style="flex: 1 1 240px;"
+  style="flex: 1 1 340px;"
   :href="page.link"
   :style="{ backgroundImage: page.cover ? `url(${page.cover})` : '' }"
 ) 

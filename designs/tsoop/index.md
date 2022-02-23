@@ -4,7 +4,7 @@ subtitle: "Пространство коллективного музыкаль�
 url: https://tsoop.ru
 icon: tsoop-room.jpg
 status: process
-
+type: design
 date: 2016-09-28
 tags: designs
 list: tsoop

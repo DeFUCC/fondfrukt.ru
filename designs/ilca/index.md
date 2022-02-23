@@ -5,7 +5,7 @@ icon: ilca.svg
 url: https://frkt.ru/ilca/
 status: development
 date: 2014-01-24
-
+type: design
 tags: designs
 list: ilca
 ---

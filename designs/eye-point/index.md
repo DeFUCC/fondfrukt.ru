@@ -9,6 +9,7 @@ people:
   - alias: /people/anna-starova
     role: author
 tags: designs
+type: design
 ---
 
 ![](./exp.svg)
