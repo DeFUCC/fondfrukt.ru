@@ -1,3 +1,10 @@
+<script setup>
+import { defineProps } from 'vue'
+const props = defineProps({
+  social: Object
+});
+</script>
+
 <template lang="pug">
 .social 
   a(v-if="social.instagram", :href="'https://instagram.com/' + social.instagram", target="_blank")
@@ -13,13 +20,6 @@
     la-at.icon
     .name {{ social.email }}
 </template>
-
-<script setup>
-import { defineProps } from 'vue'
-const props = defineProps({
-  social: Object
-});
-</script>
 
 <style scoped>
 .social {

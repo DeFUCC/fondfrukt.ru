@@ -1,13 +1,3 @@
-<template lang="pug">
-.flex.flex-col.items-center.my-8
-  .box
-    .text-xl.pb-4 {{ title }}
-    audio.rounded-xl.mx-auto(
-      controls
-      :src="file"
-    )
-</template>
-
 <script setup>
 const props = defineProps({
   title: {
@@ -20,6 +10,16 @@ const props = defineProps({
   }
 });
 </script>
+
+<template lang="pug">
+.flex.flex-col.items-center.my-8
+  .box
+    .text-xl.pb-4 {{ title }}
+    audio.rounded-xl.mx-auto(
+      controls
+      :src="file"
+    )
+</template>
 
 <style scoped>
 .box {

@@ -1,8 +1,3 @@
-<template lang="pug">
-button(@click="scroll()")
-  la-arrow-up
-</template>
-
 <script setup>
 function scroll() {
   window.scrollTo({
@@ -12,6 +7,11 @@ function scroll() {
   });
 }
 </script>
+
+<template lang="pug">
+button(@click="scroll()")
+  la-arrow-up
+</template>
 
 <style scoped>
 </style>

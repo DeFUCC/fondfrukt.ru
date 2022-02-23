@@ -1,13 +1,3 @@
-<template lang="pug">
-.flex.flex-wrap.mx-auto.max-w-md.justify-center
-  button(
-    v-for="(lang,key) in langs" 
-    :key="key"
-    :class="{ active: lang }"
-    @click="langs[key] = !langs[key]"
-    ) {{ langNames[key] }}
-</template>
-
 <script setup>
 import { langs } from '../composables/langs.js'
 const props = defineProps({
@@ -24,6 +14,16 @@ const langNames = {
 
 
 </script>
+
+<template lang="pug">
+.flex.flex-wrap.mx-auto.max-w-md.justify-center
+  button(
+    v-for="(lang,key) in langs" 
+    :key="key"
+    :class="{ active: lang }"
+    @click="langs[key] = !langs[key]"
+    ) {{ langNames[key] }}
+</template>
 
 <style scoped>
 button {

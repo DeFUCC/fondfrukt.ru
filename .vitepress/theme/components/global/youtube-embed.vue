@@ -1,3 +1,12 @@
+<script setup>
+const props = defineProps({
+  id: {
+    type: String,
+    default: ''
+  }
+});
+</script>
+  
 <template lang="pug">
 iframe.shadow-2xl.rounded-lg.mx-auto.py-4(
   loading="lazy"
@@ -10,15 +19,6 @@ iframe.shadow-2xl.rounded-lg.mx-auto.py-4(
   allowfullscreen
   )
 </template>
-  
-<script setup>
-const props = defineProps({
-  id: {
-    type: String,
-    default: ''
-  }
-});
-</script>
   
 <style scoped>
 .row {
