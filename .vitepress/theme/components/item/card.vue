@@ -19,7 +19,7 @@ function getDate(timestamp) {
 
 <template lang="pug">
 a.card.flex.flex-col.justify-between.items-center.relative.bg-cover.bg-center(
-  style="flex: 1 1 340px;"
+  style="flex: 1 1 280px;"
   :href="page.link"
   :style="{ backgroundImage: page.cover ? `url(${page.cover})` : '' }"
 ) 
@@ -48,7 +48,7 @@ a.card.flex.flex-col.justify-between.items-center.relative.bg-cover.bg-center(
 
 <style lang="postcss" scoped>
 .card {
-  @apply rounded-md overflow-hidden bg-light-700 dark_(bg-dark-100) transition-all duration-200  no-underline hover_(bg-light-900 shadow-lg dark_(bg-dark-400));
+  @apply rounded-md shadow-md overflow-hidden bg-light-700 dark_(bg-dark-100) transition-all duration-200  no-underline hover_(bg-light-900 shadow-lg dark_(bg-dark-400));
   &:hover .info {
     @apply bg-light-100 dark_bg-dark-100;
   }

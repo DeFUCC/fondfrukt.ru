@@ -1,9 +1,10 @@
 cd _dist
 
 git init
-git add -A
+git remote add origin git@github.com:DeFUCC/frkt.ru.git 
+git add . --force
 git commit -m 'deploy'
 
-git push -f git@github.com:DeFUCC/DeFUCC.github.io.git master:master
+git push -f origin HEAD:gh-pages
 
 cd -

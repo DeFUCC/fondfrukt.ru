@@ -4,4 +4,6 @@ subtitle: Краткие, но емкие изложения психологи�
 date: 2021-02-03
 tags: psyfield
 list: psyfield-synopsis
+url: https://psyfield.ru/synopsis/
+type: project
 ---
