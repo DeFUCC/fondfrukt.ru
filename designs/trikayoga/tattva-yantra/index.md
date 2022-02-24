@@ -1,8 +1,8 @@
 ---
-title: 'Таттва янтры'
-subtitle: 'Картины, передающие структуру Вселенной'
+title: "Таттва янтры"
+subtitle: "Картины, передающие структуру Вселенной"
 status: process
-
+type: project
 tags: trika-yoga
 ---
 

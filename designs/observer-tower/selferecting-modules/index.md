@@ -5,6 +5,7 @@ date: 2013-03-16
 status: development
 cover: 03.jpg
 tags: tower
+type: project
 ---
 
 ![](./03.jpg)

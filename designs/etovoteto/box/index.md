@@ -3,7 +3,7 @@ title: "Коробочная версия"
 subtitle: "Дорожный формат игры в экологичной упаковке"
 date: 2019-09-03
 status: product
-
+type: project
 tags: etovoteto
 list: etovoteto-box
 cover: IMG_1599.jpg

@@ -3,7 +3,7 @@ title: "Vue 2 + Directus"
 subtitle: "Классическое JS AJAX приложение с использованием PHP headless CMS"
 tags: etovoteto-app
 status: finished
-
+cover: april2019.png
 date: 2019-03-17
 end_date: 2020-03-25
 opportunities:
@@ -11,8 +11,6 @@ opportunities:
     text: "клиентского приложения на GitHub"
     link: "https://github.com/fondfrukt/Etovoteto"
 ---
-
-![](./april2019.png)
 
 PHP платформа [Directus](https://directus.io/) позволяет легко создавать и управлять MySQL базами данных в удобном административном интерфейсе. Создаются и наполняются таблицы, устанавливаются связи между ними. Далее все это легко и приятно рулится через REST API из клиентского Vue приложения.
 

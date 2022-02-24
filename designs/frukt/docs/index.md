@@ -6,6 +6,7 @@ status: process
 url: https://docs.frkt.ru
 
 date: 2020-05-10
+type: project
 opportunities:
   - verb: Редактировать
     text: "содержание и оформление на GitHub"

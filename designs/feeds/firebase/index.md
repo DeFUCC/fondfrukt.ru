@@ -15,6 +15,7 @@ opportunities:
     link: "http://feeds.glitch.me/"
 tags: feeds
 list: feeds-firebase
+type: project
 ---
 
 Также назывался до 2016 года [Chitfeed](https://github.com/DeFUCC/Chitfeed)

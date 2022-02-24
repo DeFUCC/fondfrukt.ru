@@ -10,7 +10,7 @@ opportunities:
     text: "музыкальную коллаборацию "
     link: "https://www.instagram.com/tsoopru"
 status: process
-
+type: project
 tags: tsoop
 list: tsoop-lab
 ---

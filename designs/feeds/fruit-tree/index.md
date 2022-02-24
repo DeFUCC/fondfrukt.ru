@@ -4,6 +4,7 @@ subtitle: "Реактивные данные в JS компонентах как
 status: finished
 tags: feeds
 list: fruit-tree
+type: project
 date: 2013-12-14
 end_date: 2014-03-18
 opportunities:

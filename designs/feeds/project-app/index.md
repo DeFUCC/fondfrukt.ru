@@ -4,6 +4,7 @@ subtitle: "Реактивные данные в JS компонентах как
 cover: project-app.png
 status: process
 url: https://project.frkt.ru
+type: project
 
 date: 2020-11-11
 opportunities:

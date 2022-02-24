@@ -4,6 +4,7 @@ subtitle: "Макет из сосновых реек и алюминиевой �
 date: 2013-05-06
 end_date: 2019-08-25
 status: finished
+type: project
 
 tags: tower
 ---

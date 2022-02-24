@@ -6,4 +6,5 @@ status: process
 
 tags: pdm
 list: pdm-wood
+type: project
 ---

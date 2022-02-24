@@ -2,6 +2,7 @@
 title: "Feeds-app на Vuetify + GUN"
 subtitle: "Клиентское приложение, переписанное с нуля на новом фреймворке и с новой базой данных"
 icon: app.png
+type: project
 
 date: 2020-03-03
 end_date: 2020-06-03

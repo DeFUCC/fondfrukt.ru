@@ -6,6 +6,7 @@ list: chromatone-theory
 date: 2017-12-02
 status: process
 cover: chromatic-a.png
+type: project
 ---
 
 ### Связь чувств как язык

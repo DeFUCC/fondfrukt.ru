@@ -6,4 +6,5 @@ icon: avatars.gif
 tags: defucc
 cover: rooms.gif
 url: https://npmjs.com/gun-avatar
+type: project
 ---

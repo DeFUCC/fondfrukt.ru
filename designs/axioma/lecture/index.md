@@ -5,6 +5,7 @@ date: 2017-04-06
 status: product
 
 tags: axioma
+type: project
 ---
 
 Рассказ с презентацией на экране и наглядными пособиями в руках.

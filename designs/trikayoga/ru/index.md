@@ -22,6 +22,7 @@ opportunities:
     link: "https://trikayoga.ru/sources"
 status: process
 tags: trika-yoga
+type: project
 ---
 
 Автономный источник базовых знаний по йоге, как подношение Всевышнему труда во благо учения о нём самом.

@@ -3,6 +3,7 @@ title: "3D-модель башни"
 subtitle: "Высоко детализированная параметризированная модель Башни"
 date: 2013-06-23
 status: development
+type: project
 
 opportunities:
   - verb: Подключиться

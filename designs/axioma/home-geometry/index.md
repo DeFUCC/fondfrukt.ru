@@ -4,4 +4,5 @@ subtitle: "Физические модели правильных геометр
 date: 2017-06-15
 status: development
 tags: axioma
+type: project
 ---

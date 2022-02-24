@@ -6,4 +6,5 @@ tags: chromatone
 date: 2017-11-20
 list: chromatone-center
 cover: site.png
+type: project
 ---
