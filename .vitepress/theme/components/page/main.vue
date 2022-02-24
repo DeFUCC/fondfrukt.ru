@@ -47,7 +47,7 @@ const pages = computed(() => theme.value.pages[frontmatter.value.list])
         .p-4.flex.flex-wrap(v-if="route.path != '/'")
           .p-2(style="flex: 1 1 120px" v-if="frontmatter.icon")
             img.max-h-60vh.rounded-3xl(:src="getMediaPath(route.path, frontmatter.icon)")
-          .p-4.flex-auto
+          .p-4.flex-auto(v-if="frontmatter.subtitle")
             .text-md {{ frontmatter.subtitle }}
           a.p-2.flex-auto.underline.text-xl(v-if="frontmatter.url" :href="frontmatter.url" target="_blank") {{ frontmatter.url.replace(/^https?:\/\//, '') }}
           p {{ frontmatter.start_date }}
