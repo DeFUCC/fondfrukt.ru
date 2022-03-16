@@ -9,7 +9,7 @@ opportunities:
   - verb: Подключиться
     text: "к совместной разработке 3D-модели в облаке Fusion 360"
     link: "https://a360.co/35775pH"
-tags: tower
+
 list: tower-3d
 ---
 

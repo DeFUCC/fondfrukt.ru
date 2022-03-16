@@ -2,7 +2,7 @@
 title: "Визуально-музыкальные веб-приложения"
 subtitle: "Программы, работающие прямо в браузере, связывающие звуки и цвета вместе"
 cover: glitch1.png
-tags: chromatone
+
 list: chromatone-apps
 status: development
 type: project

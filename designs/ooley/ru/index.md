@@ -4,7 +4,7 @@ subtitle: "Постоянно обновляемый источник инфор
 cover: ooleyru.png
 status: process
 url: https://www.ooley.ru
-tags: ooley
+
 type: project
 opportunities:
   - verb: Найти

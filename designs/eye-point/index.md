@@ -8,7 +8,7 @@ date: 2016-12-04
 people:
   - alias: /people/anna-starova
     role: author
-tags: designs
+
 type: design
 ---
 

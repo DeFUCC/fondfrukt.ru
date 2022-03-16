@@ -4,7 +4,7 @@ subtitle: "Музыкальные альбомы, сочиненные и зап
 date: 2015-11-20
 type: project
 cover: 7395_saturn_gill_infrared.jpg
-tags: tsoop
+
 list: tsoop-solo
 ---
 

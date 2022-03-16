@@ -2,6 +2,6 @@
 title: "Книга веганских рецептов на каждый день"
 subtitle: "Простые блюда с полностью сбалансированным содержанием питательных веществ"
 status: development
-tags: ecofoodclub
+
 type: project
 ---

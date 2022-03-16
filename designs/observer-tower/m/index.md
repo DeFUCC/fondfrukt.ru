@@ -4,7 +4,6 @@ subtitle: "Настольный архитектурный макет башни
 date: 2013-12-21
 status: process
 
-tags: tower
 type: project
 ---
 

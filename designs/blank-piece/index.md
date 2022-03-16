@@ -2,7 +2,7 @@
 title: "Чистый лист"
 subtitle: "Открытая художественная студия"
 author: Давай
-tags: designs
+
 cover: logo.png
 ideas:
   - title: "Дом искусств"

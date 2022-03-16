@@ -1,8 +1,7 @@
 ---
 title: Фруктовый дискурс JSON
 subtitle: Оцифрованные в виде json-файла блокноты и книги про устройство ФРУКТа
-icon: json.png
-tags: fruit-tree
+cover: json.png
 ---
 
 ```

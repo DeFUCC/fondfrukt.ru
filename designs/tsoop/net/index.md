@@ -4,7 +4,7 @@ subtitle: "Размещение и продвижение аудио и виде
 status: process
 type: project
 cover: tsoop-19.jpeg
-tags: tsoop
+
 list: tsoop-net
 ---
 

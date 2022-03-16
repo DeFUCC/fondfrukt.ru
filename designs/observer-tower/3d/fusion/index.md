@@ -9,5 +9,4 @@ history:
   - date: "02-09-2020 15:46"
     text: "Начало разработки модели"
     link: null
-tags: tower-3d
 ---

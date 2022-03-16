@@ -5,7 +5,7 @@ date: 2014-12-14
 status: development
 cover: Silly_walk-lines.png
 icon: pl.png
-tags: designs
+
 type: design
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "10 принципов сообщества Burning Man"
-tags: research
+
 icon: burning-man.png
 subtitle: "10 принципов, объединяющих сообщество «бёрнеров», ежегодно собирающихся в пустыне, чтобы прожить неделю вместе в ином мире, свободном от торговли, рекламы и денег"
 additional: "[Burning Man Philosophical Center](https://burningman.org/culture/philosophical-center/10-principles/?target=_blank)"

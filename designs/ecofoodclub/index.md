@@ -4,7 +4,7 @@ subtitle: "Здоровый подход к рациональному раст�
 status: development
 icon: efc.svg
 date: 2014-08-05
-tags: designs
+
 list: ecofoodclub
 type: design
 ---

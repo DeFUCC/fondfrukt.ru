@@ -2,7 +2,7 @@
 title: Автор
 subtitle: Первоначальный сочинитель программы или проекта
 icon: author.svg
-tags: discourse-roles
+
 date: 2020-06-09
 author: Давай
 ---

@@ -4,7 +4,7 @@ subtitle: "Разработанные на движке Unity трехмерны
 date: 2019-02-02
 
 icon: circle-logo.png
-tags: chromatone
+
 type: project
 ---
 

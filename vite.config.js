@@ -5,12 +5,14 @@ import IconsResolver from 'unplugin-icons/resolver'
 import WindiCSS from 'vite-plugin-windicss'
 import AutoImport from 'unplugin-auto-import/vite'
 import { ViteAliases } from 'vite-aliases'
+import Pages from "vite-plugin-pages";
+import { generatePages } from "./.vitepress/pages.js";
 
 
 export default defineConfig({
   base: './',
   server: {
-    port:3342,
+    port: 3442,
   },
   plugins: [
     AutoImport({
@@ -23,6 +25,17 @@ export default defineConfig({
         'vue',
       ],
     }),
+    Pages(generatePages({
+      hostname: 'https://fondfrukt.ru/',
+      dirs: [
+        { dir: "designs", baseRoute: "designs" },
+        { dir: "discourse", baseRoute: "discourse" },
+        { dir: "frukt", baseRoute: "frukt" },
+        { dir: "giftonomy", baseRoute: "giftonomy" },
+        { dir: "people", baseRoute: "people" },
+        { dir: "research", baseRoute: "research" },
+      ],
+    })),
     ViteAliases({
       dir: '.vitepress',
       deep: false,
@@ -62,6 +75,9 @@ export default defineConfig({
       'vue',
       '@vueuse/core'
     ],
+  },
+  ssr: {
+    noExternal: ["ol"],
   },
 })
 

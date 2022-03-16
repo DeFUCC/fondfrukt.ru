@@ -3,7 +3,7 @@ title: "Flying Bear 5 3D-printer"
 price: 50000
 collected: 0
 subtitle: "Недорогой, универсальный 3Д-принтер, готовый к работе без особенных знаний в электронике"
-tags: 3d-printer
+
 type: purchase
 people:
   - alias: /people/davay

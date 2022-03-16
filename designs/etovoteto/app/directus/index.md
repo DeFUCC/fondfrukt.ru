@@ -1,7 +1,7 @@
 ---
 title: "Vue 2 + Directus"
 subtitle: "Классическое JS AJAX приложение с использованием PHP headless CMS"
-tags: etovoteto-app
+
 status: finished
 cover: april2019.png
 date: 2019-03-17

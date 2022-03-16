@@ -7,7 +7,7 @@ opportunities:
   - verb: Купить
     text: "наборы на сайте"
     link: "https://chromatone.center/#practice"
-tags: chromatone
+
 list: chromatone-stickers
 date: 2016-12-01
 type: project

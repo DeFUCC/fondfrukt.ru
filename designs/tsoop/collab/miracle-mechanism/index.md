@@ -3,7 +3,7 @@ title: "miracle mechanism (feat. daria dubovik)"
 status: product
 cover: miracle.png
 subtitle: "recorded live at the 7th wafest festival @ 2019/7/6, released @ 2019/7/17"
-tags: tsoop-collab
+
 opportunities:
   - verb: Купить
     text: "на Bandcamp"

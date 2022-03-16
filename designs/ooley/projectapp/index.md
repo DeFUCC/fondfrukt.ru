@@ -11,7 +11,7 @@ opportunities:
     text: "команду OOLEY провести семинар с практикумом по проработке проектов для ваших сотрудников, клиентов или друзей"
     link: "https://www.instagram.com/ooley42/"
 status: process
-tags: ooley
+
 list: ooley-project
 type: project
 ---

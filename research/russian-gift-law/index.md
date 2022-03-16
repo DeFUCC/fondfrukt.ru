@@ -1,7 +1,7 @@
 ---
 title: "Правовое поле дарения в РФ"
 subtitle: Юридические определения и налогообложение дарения в России
-tags: research
+
 icon: Scale-of-Justice.png
 ---
 

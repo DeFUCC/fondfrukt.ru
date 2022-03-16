@@ -5,7 +5,7 @@ date: 2017-05-01
 status: request
 cover: lom.jpg
 url: https://lomcamp.ooley.ru
-tags: ooley
+
 list: lomcamp
 type: project
 ---

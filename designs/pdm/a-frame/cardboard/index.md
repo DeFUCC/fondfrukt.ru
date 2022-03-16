@@ -5,6 +5,4 @@ cover: maket.jpg
 date: 2017-03-02
 end_date: 2017-03-03
 status: finished
-
-tags: pdm-a
 ---

@@ -2,7 +2,7 @@
 title: drops
 subtitle: "Музыкальный альбом в концепции ярких цветных капель"
 cover: drops.png
-tags: tsoop-solo
+
 opportunities:
   - verb: Приобрести
     text: "альбом на Bandcamp"

@@ -3,7 +3,7 @@ title: "Синий луч"
 subtitle: "Светодиодный лазер синего цвета на несколько сотен миливатт."
 date: 2020-06-27
 status: product
-tags: diy-cnc
+
 type: purchase
 cover: laser.jpg
 ---

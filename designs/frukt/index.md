@@ -5,7 +5,7 @@ url: https://frkt.ru
 icon: sq-round.svg
 date: 2012-07-12
 status: development
-tags: designs
+
 list: frukt-design
 type: design
 ideas:

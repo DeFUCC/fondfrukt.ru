@@ -4,7 +4,7 @@ subtitle: "Набор производительного музыкальног�
 status: process
 cover: purple.jpg
 date: 2016-08-20
-tags: tsoop-lab
+
 list: tsoop-setup
 ---
 

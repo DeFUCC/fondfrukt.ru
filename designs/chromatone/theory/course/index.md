@@ -1,7 +1,7 @@
 ---
 title: Видео-курс Визуальная теория музыки
 subtitle: Совместно со SKILLBOX
-tags: chromatone-theory
+
 date: 2021-08-04
 url: https://skillbox.ru/course/applied-music-theory/
 cover: course.jpeg

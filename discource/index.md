@@ -1,7 +1,7 @@
 ---
 title: Дискурс
 subtitle: "Дискурс — язык и система целенаправленного мышления и взаимодействия людей."
-tags: main
+
 date: 2022-02-10
 list: discourse
 cover: all-concepts.svg

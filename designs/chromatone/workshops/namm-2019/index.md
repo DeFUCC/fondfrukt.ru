@@ -2,7 +2,7 @@
 title: "Выступление и презентация на NAMM 2019 в Москве"
 subtitle: "Лайв сет на полчаса и краткий рассказ про цветные ноты"
 date: 2019-09-03
-tags: chromatone-workshops
+
 status: finished
 ---
 

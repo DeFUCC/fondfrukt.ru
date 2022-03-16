@@ -4,7 +4,7 @@ subtitle: "Комплект для знакомства с аддитивным 
 date: 2020-07-31
 status: process
 type: object
-tags: ooley-3d
+
 list: 3d-printer
 cover: 3d-bear.jpg
 ---

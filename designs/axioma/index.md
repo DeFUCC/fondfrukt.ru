@@ -4,7 +4,7 @@ subtitle: "Наглядное представление геометричес�
 date: 2015-11-14
 status: product
 icon: scribe.png
-tags: designs
+
 list: axioma
 url: https://axioma.defucc.me
 type: design

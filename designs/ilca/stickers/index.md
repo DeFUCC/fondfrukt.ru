@@ -2,7 +2,7 @@
 title: "Стикеры для учета всего"
 subtitle: "Наклейки для каталогизации любых предметов"
 status: development
-tags: ilca
+
 type: project
 
 opportunities:

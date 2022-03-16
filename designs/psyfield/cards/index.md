@@ -4,6 +4,6 @@ subtitle: Краткие визуальные памятки с ключевым
 date: 2021-05-04
 type: project
 url: https://psyfield.ru/cards/
-tags: psyfield
+
 list: psyfield-cards
 ---

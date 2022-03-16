@@ -13,5 +13,4 @@ history:
     text: "Нанесены наклейки с цветными нотами Chromatone"
     link: null
 status: product
-tags: tsoop-acoustic
 ---

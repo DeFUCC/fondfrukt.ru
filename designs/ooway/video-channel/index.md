@@ -9,5 +9,4 @@ opportunities:
   - verb: Подписаться
     text: "на канал"
     link: "https://www.youtube.com/channel/UCVXBrDGX805Vid8DoI9nfzg/featured?view_as=subscriber"
-tags: ooway
 ---

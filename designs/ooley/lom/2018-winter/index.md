@@ -3,7 +3,7 @@ title: СНежный ЛОМ
 subtitle: Новогодние лесные открытые мастерские
 date: 2017-12-30
 end_date: 2018-01-07
-tags: lomcamp
+
 cover: winter-lom.png
 type: event
 ---

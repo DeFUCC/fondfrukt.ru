@@ -12,7 +12,7 @@ history:
 people:
   - alias: /people/davay
     role: person
-tags: tsoop-setup
+
 list: op-1
 ---
 

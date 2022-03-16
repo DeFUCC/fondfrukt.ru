@@ -4,7 +4,6 @@ subtitle: "Простое наглядное объяснение аксиом �
 date: 2017-04-06
 status: product
 
-tags: axioma
 type: project
 ---
 

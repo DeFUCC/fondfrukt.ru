@@ -11,7 +11,6 @@ opportunities:
   - verb: Редактировать
     text: "содержание и оформление на GitHub"
     link: "https://github.com/DeFUCC/docs"
-tags: frukt-design
 ---
 
 Разработанный с нуля новый сайт Фонда на [flat file PHP CMS Grav](https://getgrav.org).

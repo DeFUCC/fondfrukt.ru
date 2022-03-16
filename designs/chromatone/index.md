@@ -1,7 +1,7 @@
 ---
 title: Chromatone
 subtitle: "Визуальный музыкальный язык и средства для его изучения и использования."
-tags: designs
+
 url: https://chromatone.center
 date: 2017-12-02
 status: process

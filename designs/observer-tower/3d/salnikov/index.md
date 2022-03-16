@@ -9,7 +9,6 @@ history:
   - date: 2013-06-30
     text: "Подана заявка на конкурс АрхКузница'13"
     link: null
-tags: tower-3d
 ---
 
 ![](./09.jpg)

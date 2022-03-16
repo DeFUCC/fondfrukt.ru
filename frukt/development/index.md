@@ -1,7 +1,7 @@
 ---
 title: Развитие
 icon: logo_R.svg
-tags: frukt
+
 date: 2022-02-26
 subtitle: Развитие — движение системы к новому равновесию
 ---

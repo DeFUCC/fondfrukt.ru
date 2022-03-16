@@ -1,6 +1,6 @@
 ---
 title: Дарономика
-tags: main
+
 list: giftonomy
 amount: 1 420 601
 icon: fruits-s.png

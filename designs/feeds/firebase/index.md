@@ -13,7 +13,7 @@ opportunities:
   - verb: "Попробовать вживую"
     text: "приложение на Glitch.me"
     link: "http://feeds.glitch.me/"
-tags: feeds
+
 list: feeds-firebase
 type: project
 ---

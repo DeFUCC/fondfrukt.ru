@@ -9,7 +9,6 @@ opportunities:
   - verb: Разрабатывать
     text: "приложение совместно на GitHub"
     link: "https://github.com/DeFUCC/midi-paper"
-tags: chromatone-apps
 ---
 
 ![](./screencapture-chromatone-center-apps-web-audio-components-2019-11-21-20_18_36.png)

@@ -2,7 +2,7 @@
 title: "Фруктовое дерево на AngularJS"
 subtitle: "Реактивные данные в JS компонентах как базис интерактивности веб-приложения"
 status: finished
-tags: feeds
+
 list: fruit-tree
 type: project
 date: 2013-12-14

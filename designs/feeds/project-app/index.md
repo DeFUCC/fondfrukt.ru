@@ -11,7 +11,7 @@ opportunities:
   - verb: "Открыть код"
     text: "приложения на GitHub"
     link: "https://github.com/DeFUCC/project-app"
-tags: feeds
+
 list: feeds-project
 ---
 

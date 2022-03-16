@@ -8,7 +8,7 @@ opportunities:
     text: "бесплатную PDF-версию руководства по открытым мастерским "
     link: "https://ooley.ru/theory/handbook/"
 status: product
-tags: ooley
+
 date: 2015-08-06
 ---
 

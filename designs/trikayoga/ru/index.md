@@ -21,7 +21,7 @@ opportunities:
     text: "сканы доступных книг по Кашмирскому Шиваизму"
     link: "https://trikayoga.ru/sources"
 status: process
-tags: trika-yoga
+
 type: project
 ---
 

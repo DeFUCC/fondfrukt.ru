@@ -2,16 +2,13 @@ import { defineConfig } from "vitepress";
 
 import { metaData } from "./constants.js";
 import head from "./head.js";
-import getTags from "vitepress-tags";
+
 
 import mdLinks from "markdown-it-external-links";
 import mdClass from "markdown-it-classy";
 import mdContainer from "markdown-it-container";
 
-export const pages = getTags({
-  dir: "./",
-  mediaFolder: "media_files",
-});
+
 
 export default defineConfig({
   title: metaData.title,
@@ -20,9 +17,9 @@ export default defineConfig({
   head,
   outDir: "_dist",
   themeConfig: {
-    pages,
     repo: "",
     logo: metaData.logo,
+    color: "#ccc"
   },
   vite: {
     build: {
@@ -34,7 +31,7 @@ export default defineConfig({
       // md.use(mdClass);
       md.use(mdContainer, "card");
       md.use(mdLinks, {
-        internalDomains: ["localhost", "frkt.ru"],
+        internalDomains: ["localhost", "frkt.ru", "fondfrukt.ru"],
       });
     },
   },

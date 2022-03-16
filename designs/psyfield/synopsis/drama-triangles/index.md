@@ -8,7 +8,7 @@ taxonomy:
     - Психология
 icon: triangles.svg
 toc: true
-tags: psyfield-synopsis
+
 type: object
 url: https://psyfield.ru/synopsis/transact/
 ---

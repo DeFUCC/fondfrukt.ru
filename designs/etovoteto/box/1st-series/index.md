@@ -6,5 +6,4 @@ people:
     role: person
 date: 2020-08-21
 status: product
-tags: etovoteto-box
 ---

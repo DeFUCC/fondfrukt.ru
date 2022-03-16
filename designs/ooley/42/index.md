@@ -7,7 +7,7 @@ opportunities:
     text: "открытую мастерскую воплотить совместный творческий проект"
     link: "https://www.instagram.com/ooley42/"
 status: request
-tags: ooley
+
 date: 2013-02-10
 type: project
 ---

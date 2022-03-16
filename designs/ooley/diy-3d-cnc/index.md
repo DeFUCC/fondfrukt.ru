@@ -5,7 +5,7 @@ date: 2020-02-01
 end_date: 2020-07-27
 status: process
 icon: 3d_printer.jpg
-tags: ooley
+
 list: ooley-3d
 type: project
 ---

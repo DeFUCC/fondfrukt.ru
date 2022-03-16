@@ -1,7 +1,7 @@
 ---
 title: "Дар для будущего"
 subtitle: "Фундаментальное исследование экономики дарения с древних времен до современности"
-tags: research
+
 cover: gift.jpg
 additional: "![Подкаст-прочтение статьи](gift-podcast.mp3)\r\n\r\n[Apple Podcasts](https://podcasts.apple.com/ru/podcast/%D1%84%D0%BE%D0%BD%D0%B4-%D1%84%D1%80%D1%83%D0%BA%D1%82/id1495594629?target=_blank)\r\n\r\n[Яндекс.Музыка](https://music.yandex.ru/album/9835693/track/62398131?target=_blank)"
 ---

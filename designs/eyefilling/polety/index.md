@@ -8,7 +8,7 @@ opportunities:
   - verb: Смотреть
     text: "видео-ролики на сайте"
     link: "https://eyefilling.ru/category/polety/"
-tags: eyefilling
+
 type: project
 ---
 

@@ -2,7 +2,7 @@
 title: "Vuetify + GUN"
 subtitle: "Классическое JS AJAX приложение с использованием PHP headless CMS"
 cover: app.png
-tags: etovoteto-app
+
 status: finished
 date: 2020-03-03
 end_date: 2020-04-04

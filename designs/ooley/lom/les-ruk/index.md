@@ -3,7 +3,7 @@ title: Лес Рук
 subtitle: Проект ремесленного лагеря
 date: 2017-06-11
 end_date: 2017-06-20
-tags: lomcamp
+
 cover: lesr.jpg
 ---
 

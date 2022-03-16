@@ -14,7 +14,6 @@ opportunities:
     text: "приложения на Glitch.me"
     link: "https://feeds.frkt.ru/"
 status: process
-tags: feeds
 ---
 
 # FEEDS

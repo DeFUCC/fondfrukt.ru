@@ -5,7 +5,7 @@ icon: Observers-tower.svg
 date: 2013-01-12
 status: development
 type: design
-tags: designs
+
 list: tower
 ---
 

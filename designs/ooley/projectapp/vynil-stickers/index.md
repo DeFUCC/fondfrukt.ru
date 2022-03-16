@@ -2,7 +2,7 @@
 title: "Виниловые наклейки"
 subtitle: "Стойкие яркие наклейки с проектным циклом"
 status: product
-tags: ooley-project
+
 type: object
 ---
 

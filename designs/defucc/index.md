@@ -3,7 +3,7 @@ title: DeFUCC
 subtitle: Development Foundation for Universalization, Cooperation and Creativity
 date: 2012-06-22
 list: defucc
-tags: designs
+
 type: design
 cover: defucc.png
 ---

@@ -4,7 +4,7 @@ subtitle: Веб-приложение для сбора и обзора прид
 status: development
 cover: canvas.png
 date: 2019-04-02
-tags: etovoteto
+
 list: etovoteto-app
 type: project
 ---

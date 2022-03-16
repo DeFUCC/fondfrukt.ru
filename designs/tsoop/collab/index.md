@@ -5,6 +5,6 @@ date: 2018-07-20
 status: process
 type: project
 cover: impro.png
-tags: tsoop
+
 list: tsoop-collab
 ---

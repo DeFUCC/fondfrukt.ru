@@ -4,7 +4,7 @@ subtitle: "Веб-сайт с правилами игры и новостями 
 date: 2018-12-30
 status: development
 cover: drawing.jpg
-tags: etovoteto
+
 type: project
 ---
 

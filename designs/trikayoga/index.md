@@ -6,7 +6,7 @@ url: https://trikayoga.ru
 status: process
 type: design
 date: 2015-04-18
-tags: designs
+
 list: trika-yoga
 ---
 

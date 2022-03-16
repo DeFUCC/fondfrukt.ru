@@ -14,5 +14,4 @@ quantity:
   - title: "2 катушки"
     text: "Равномерная толщина по всей длине"
     required: true
-tags: 3d-printer
 ---

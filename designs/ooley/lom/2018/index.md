@@ -3,7 +3,7 @@ title: Творческий лагерь ЛОМ'18
 subtitle: Учиться творить, отдыхая
 date: 2018-06-09
 end_date: 2018-06-24
-tags: lomcamp
+
 cover: poster-2018.png
 type: event
 ---

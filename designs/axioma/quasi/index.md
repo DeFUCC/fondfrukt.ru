@@ -4,7 +4,6 @@ icon: quasi-7.svg
 date: 2020-01-11
 status: process
 
-tags: axioma
 type: project
 opportunities:
   - verb: Сгенерировать

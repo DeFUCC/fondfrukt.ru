@@ -8,7 +8,6 @@ opportunities:
 
 icon: screen.png
 status: product
-tags: chromatone-apps
 ---
 
 ![](./screen.png)

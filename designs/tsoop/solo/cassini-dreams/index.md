@@ -2,7 +2,7 @@
 title: Cassini Dreams
 subtitle: Альбом-экспедиция, посвященный истории космической миссии Кассини-Гюйгенс
 cover: cassini.jpg
-tags: tsoop-solo
+
 opportunities:
   - verb: Приобрести
     text: "альбом на Bandcamp"

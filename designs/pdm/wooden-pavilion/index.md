@@ -4,7 +4,6 @@ subtitle: "Простейшая конструкция из самых дост�
 date: 2015-05-08
 status: process
 
-tags: pdm
 list: pdm-wood
 type: project
 ---

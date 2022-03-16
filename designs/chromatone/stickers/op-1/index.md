@@ -6,5 +6,4 @@ status: product
 people:
   - alias: /people/davay
     role: person
-tags: chromatone-stickers
 ---
