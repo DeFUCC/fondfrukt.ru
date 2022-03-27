@@ -4,7 +4,6 @@ subtitle: Цвета, звуки, движение, midi - все включен
 url: https://chromatone.center
 
 date: 2017-11-20
-list: chromatone-center
 cover: site.png
 type: project
 ---

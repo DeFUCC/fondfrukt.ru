@@ -67,11 +67,10 @@ const backgroundImage = computed(() => {
         h1.w-full.text-xl.font-bold.mb-2.p-4.bg-light-600.dark_bg-dark-500.shadow-lg {{ page?.title }}
         .p-4.flex.flex-wrap(v-if="route.path != '/'")
           .p-2(style="flex: 1 1 120px" v-if="page?.icon")
-            img.max-h-60vh.rounded-3xl(:src="getMediaPath(route.path, page?.icon)")
+            img.max-h-60vh.rounded-3xl(:src="page.icon")
           .p-4.flex-auto(v-if="page?.subtitle")
             .text-md {{ page?.subtitle }}
           a.p-2.flex-auto.underline.text-xl(v-if="page?.url" :href="page?.url" target="_blank") {{ page?.url.replace(/^https?:\/\//, '') }}
-          p {{ page?.date }}
 
 
         .flex.flex-col.w-full(v-else)
@@ -105,10 +104,10 @@ const backgroundImage = computed(() => {
     .flex-auto(style="flex:100")
 
     .flex.flex-wrap.items-stretch.justify-stretch.w-full
-      a.link.px-4.py-8(style="flex:1 1 auto" v-if="siblings.prev" :href="withBase(siblings.prev.link)") 
+      a.link.px-4.py-8(style="flex:1 1 auto" v-if="siblings.prev" :href="trailing(siblings.prev.path)") 
         la-angle-left.mr-2
         span {{ siblings.prev.title }}
-      a.link.justify-end.px-4.py-8(style="flex:1 1 auto" v-if="siblings.next" :href="withBase(siblings.next.link)") 
+      a.link.justify-end.px-4.py-8(style="flex:1 1 auto" v-if="siblings.next" :href="trailing(siblings.next.path)") 
         span {{ siblings.next.title }}
         la-angle-right.ml-2
 
