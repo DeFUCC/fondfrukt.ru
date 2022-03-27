@@ -30,11 +30,8 @@
     "vite-aliases": "^0.8.7",
     "vite-plugin-windicss": "^1.7.0",
     "vitepress": "0.22.2",
-    "vitepress-tags": "^0.6.2",
     "vite-plugin-pages": "^0.21.4",
-    "sharp": "^0.30.2",
-    "app-root-path": "^3.0.0",
-    "gray-matter": "^4.0.3",
+    "vitepress-pages": "^0.4.6",
     "vite-plugin-pages-sitemap": "^1.1.11"
   }
 }

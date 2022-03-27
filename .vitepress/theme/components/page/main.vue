@@ -40,15 +40,13 @@ const backgroundImage = computed(() => {
   nav-scroll.fixed.bottom-4.right-4.p-4.rounded-full.cursor-pointer.z-90
     la-angle-up
   .flex.flex-wrap.flex-1.bg-cover.bg-fixed.z-10
-
-
     header.bg-light-200.bg-opacity-90.z-2.dark_bg-dark-200.dark_bg-opacity-90(
       style="flex: 1 1 320px"
       )
       .sticky.top-0.flex.flex-col.items-center
         a.no-underline.p-4(href="/")
           img.w-12rem(:src="theme.logo")
-        nav-parents Фонд ФРУКТ
+        nav-parents(:key="route.path") Фонд ФРУКТ
         transition(name="fade" mode="out-in")
           .p-4.flex.flex-wrap.text-center(v-if="route.path != '/'")
             h1.w-full.text-xl.font-bold.mb-2.p-4.bg-light-600.dark_bg-dark-500.shadow-lg {{ page?.title }}
