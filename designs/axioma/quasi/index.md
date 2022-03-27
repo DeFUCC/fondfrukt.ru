@@ -1,6 +1,6 @@
 ---
 title: "Генератор квазикристаллов"
-icon: quasi-7.svg
+cover: quasi-7.svg
 date: 2020-01-11
 status: process
 
@@ -15,5 +15,3 @@ opportunities:
 ---
 
 Непериодическое замощение плоскости — прямо в браузере.
-
-![](./quasi-7.svg)

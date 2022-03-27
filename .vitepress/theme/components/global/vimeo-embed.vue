@@ -6,14 +6,18 @@ const props = defineProps({
   }
 });
 
-let rx = /^.*(?:(?:youtu\.be\/|v\/|vi\/|u\/\w\/|embed\/)|(?:(?:watch)?\?v(?:i)?=|\&v(?:i)?=))([^#\&\?]*).*/
+let regEx = /(https?:\/\/)?(www\.)?(player\.)?vimeo\.com\/?(showcase\/)*([0-9))([a-z]*\/)*([0-9]{6,11})[?]?.*/;
+
 
 const id = computed(() => {
-  if (props?.link.includes('youtu')) {
-    let r = props.link.match(rx)
-    return r[1]
-  } else {
-    return props.link
+  if (props?.link.includes('vimeo')) {
+    let match = props.link.match(regEx);
+    if (match && match.length == 7) {
+      return match[6];
+    }
+    else {
+      return props.link
+    }
   }
 })
 </script>
@@ -22,8 +26,8 @@ const id = computed(() => {
 .iframe-container
   iframe.overflow-hidden.mx-auto(
     loading="lazy"
-    :src="`https://www.youtube-nocookie.com/embed/${id}`", 
-    title="YouTube video player", 
+    :src="`https://player.vimeo.com/video/${id}`", 
+    title="Vimeo video player", 
     frameborder="0", 
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture", 
     allowfullscreen

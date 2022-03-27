@@ -12,13 +12,13 @@ const props = defineProps({
 </script>
 
 <template lang="pug">
-.flex.flex-col.items-center.my-8
-  .box
-    .text-xl.pb-4 {{ title }}
-    audio.rounded-xl.mx-auto(
-      controls
-      :src="file"
-    )
+.box.flex.flex-col.items-center.w-full
+  .text-xl.pb-4 {{ title }}
+  audio.rounded-xl.mx-auto.w-full(
+    controls
+    :src="file"
+  )
+  slot
 </template>
 
 <style scoped>

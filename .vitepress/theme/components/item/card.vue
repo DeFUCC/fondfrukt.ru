@@ -1,12 +1,17 @@
 <script setup>
 import { watch, ref, computed, onMounted } from 'vue'
 import { useData, useRoute } from 'vitepress'
-import { trailing, pages } from '../../composables/pages.js'
+import { routes, pages, trailing } from '../../composables/pages.js'
 
 const { site, frontmatter, theme } = useData();
 
 const props = defineProps({
   page: Object
+})
+
+const children = computed(() => {
+  let p = pages[trailing(props.page.path)]
+  return p ? p.length : null
 })
 
 function getDate(timestamp) {
@@ -19,16 +24,22 @@ function getDate(timestamp) {
 a.card.flex.flex-col.justify-between.items-center.relative.bg-cover.bg-center(
   style="flex: 1 1 280px;"
   :href="trailing(page.path)"
-  :style="{ backgroundImage: page.cover ? `url(${page.cover})` : '' }"
+  :style="{ backgroundColor: page?.color ? page.color : 'transparent' }"
 ) 
+  img.absolute.top-0.min-w-full.flex-1(
+    :src="page?.cover"
+    v-if="page.cover"
+    loading="lazy"
+    alt="cover"
+  )
   .flex-auto
-  img.rounded-xl.w-36(
+  img.rounded-xl.w-36.z-50(
     style="margin:  1rem 0"
     v-if="page.icon"
     :src="page.icon"
     )
   .flex-auto
-  .info.w-full.flex.flex-col.p-4.bg-light-400.bg-opacity-80.dark_bg-opacity-80.dark_bg-dark-200.transition-all.duration-300.backdrop-filter.backdrop-blur-sm(
+  .info.w-full.flex.flex-col.p-4.bg-light-400.bg-opacity-80.dark_bg-opacity-80.dark_bg-dark-200.transition-all.duration-300.backdrop-filter.backdrop-blur-sm.z-100(
     :style="{ marginTop: page.cover ? '120px' : '0' }"
   )
     .flex.w-full
@@ -45,9 +56,38 @@ a.card.flex.flex-col.justify-between.items-center.relative.bg-cover.bg-center(
 
 <style lang="postcss" scoped>
 .card {
-  @apply rounded-md shadow-md overflow-hidden bg-light-700 dark_(bg-dark-100) transition-all duration-200  no-underline hover_(bg-light-900 shadow-lg dark_(bg-dark-400));
+  @apply overflow-hidden rounded-md shadow-md overflow-hidden bg-light-700 dark_(bg-dark-50) transition-all duration-200  no-underline hover_( shadow-lg );
   &:hover .info {
     @apply bg-light-100 dark_bg-dark-100;
   }
+  &:hover .play {
+    @apply opacity-90 z-30;
+  }
+}
+
+.card::before {
+  z-index: 1;
+  transition: all 200ms ease-in-out;
+  /* backdrop-filter: blur(3px); */
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: hsla(0, 0%, 100%, 0.5);
+}
+.dark .card::before {
+  background-color: hsla(0, 0%, 0%, 0.3);
+}
+
+.card:hover::before {
+  backdrop-filter: blur(0px);
+  background-color: hsla(0, 0%, 0%, 0);
+}
+
+.card:hover .date,
+.card:hover .status {
+  @apply opacity-80;
 }
 </style>
