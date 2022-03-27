@@ -2,7 +2,7 @@
 title: "Chromatone — визуально-музыкальный язык для обучения, коммуникации и самовыражения."
 date: 2020-10-07
 status: development
-icon: poster.png
+cover: poster.png
 subtitle: "Лекция и перформанс в рамках образовательной среды коворкинга Colab"
 ---
 

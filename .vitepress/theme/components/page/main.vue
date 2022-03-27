@@ -48,21 +48,7 @@ const backgroundImage = computed(() => {
       .sticky.top-0.flex.flex-col.items-center
         a.no-underline.p-4(href="/")
           img.w-12rem(:src="theme.logo")
-        a.link.p-4.w-full(
-          v-if="route.path != '/'"
-          style="flex: 1 1 auto;"
-          href="/") {{ site.title }}
-            .flex-1
-            la-angle-up
-        .flex.flex-wrap.items-stretch.w-full
-          transition-group(name="fade" mode="out-in")
-            a.link.p-4(
-              style="flex: 1 1 auto;"
-              v-for="parent in parents", :key="parent.title" 
-              :href="trailing(parent.path)"
-              ) {{ parent.title }}
-                .flex-1
-                la-angle-up
+        nav-parents Фонд ФРУКТ
         transition(name="fade" mode="out-in")
           .p-4.flex.flex-wrap.text-center(v-if="route.path != '/'")
             h1.w-full.text-xl.font-bold.mb-2.p-4.bg-light-600.dark_bg-dark-500.shadow-lg {{ page?.title }}
@@ -104,7 +90,7 @@ const backgroundImage = computed(() => {
 
     .flex-auto(style="flex:100")
 
-    nav-siblings.w-full
+    nav-siblings(:key="route.path")
 
 
   footer.flex.flex-wrap.p-4.justify-center.transition-all.duration-600.bg-light-900.items-center.dark_bg-dark-600
@@ -125,7 +111,7 @@ const backgroundImage = computed(() => {
 }
 
 .link .panel {
-  @apply font-bold text-lg z-10 p-4 m-2 shadow-md bg-light-200 bg-opacity-90 dark_bg-dark-200 dark_bg-opacity-90 rounded flex items-center flex-wrap;
+  @apply text-lg z-10 p-4 m-2 shadow-md bg-light-200 bg-opacity-90 dark_bg-dark-200 dark_bg-opacity-90 rounded flex items-center;
 }
 
 .link::before {
