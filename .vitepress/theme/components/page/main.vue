@@ -52,7 +52,7 @@ const backgroundImage = computed(() => {
         transition(name="fade" mode="out-in")
           .p-4.flex.flex-wrap.text-center(v-if="route.path != '/'")
             h1.w-full.text-xl.font-bold.mb-2.p-4.bg-light-600.dark_bg-dark-500.shadow-lg {{ page?.title }}
-            .p-2(style="flex: 1 1 120px" v-if="page?.icon")
+            .p-2.flex.justify-center(style="flex: 1 1 120px" v-if="page?.icon")
               img.max-h-60vh.rounded-3xl(:src="page.icon")
             .p-4.flex-auto(v-if="page?.subtitle")
               .text-md {{ page?.subtitle }}
@@ -75,10 +75,6 @@ const backgroundImage = computed(() => {
         )
           img.w-full.max-w-100vw(v-if="page?.cover" :src="page.cover") 
           content.content
-          //- component.content(:is="route.component")
-          .flex-auto(
-            style="flex: 1000 1"
-          )
 
         .flex.flex-wrap.gap-8.p-8.w-full(style="flex: 1 1 100%" v-if="pages && Object.keys(pages).length > 0")
           transition-group(name="fade" mode="out-in")

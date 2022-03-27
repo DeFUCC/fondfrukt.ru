@@ -31,7 +31,7 @@ function getImage(page) {
     .flex-1
     la-angle-up
   transition-group(name="fade" mode="out-in")
-    a.link.p-4.active.relative.text-center.flex-auto.shadow-lg(
+    a.link.p-4.active.relative.flex-auto.shadow-lg(
       style="flex: 1 1 auto" 
       v-for="(page, p) in parents" 
       :key="page.title" 
