@@ -2,7 +2,6 @@ html {
   scroll-behavior: smooth;
   scroll-padding-top: 2rem;
   hyphens: auto;
-  overscroll-behavior-y: none;
 }
 
 body {
@@ -11,13 +10,13 @@ body {
   min-height: 100vh;
   overflow-x: hidden;
   line-height: 1.2;
-  font-size: 18px;
+  
+  font-size: 16px;
   font-weight: 400;
   color: #333;
   background-color: #dfdfdf;
   direction: ltr;
   font-synthesis: none;
-  overscroll-behavior-y: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -25,23 +24,10 @@ body {
 }
 
 #app {
-  font-family: var(--font-family-base);
+  font-family: 'Commissioner', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+  Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans',
+  'Helvetica Neue', sans-serif;
 }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
- font-family: var(--font-family-heading);
- font-size: 1.62rem;
-}
-
-a:hover {
-  @apply underline
-}
-
 
 .dark body {
   background-color: #222;
@@ -49,7 +35,7 @@ a:hover {
 }
 
 .content {
-  @apply hyphens-auto break-words p-6 md_p-8 lg_p-12 leading-relaxed max-w-3xl;
+  @apply hyphens-auto break-words p-4 md_p-6 xl_p-8;
   & * {
     @apply max-w-full;
   }
@@ -58,44 +44,30 @@ a:hover {
   h3,
   h4,
   h5,
-  h6 {
-    @apply relative flex items-center;
-  }
+  h6,
   p {
-    @apply my-4;
+    @apply max-w-2xl mx-auto leading-relaxed my-4;
   }
   a {
-    @apply underline font-bold
+    @apply underline
   }
   em {
     @apply not-italic text-dark-100/60 dark_text-light-100/60;
   }
   .header-anchor {
-    @apply text-lg absolute -left-3 opacity-10  transition duration-200ms ease;
+    @apply text-lg absolute -mx-5  opacity-20;
   }
-  h1:hover .header-anchor,
-  h2:hover .header-anchor,
-  h3:hover .header-anchor,
-  h4:hover .header-anchor {
-    @apply opacity-100;
+  h1 {
+    @apply font-bold text-3xl my-4 p-1;
   }
-  & h1 {
-    @apply font-bold text-4xl my-8 p-1;
-  }
-  & h2 {
-    @apply font-bold text-3xl p-1 my-8;
-  }
-  & h3 {
-    @apply font-bold text-2xl p-1 my-6;
-  }
-  & h4 {
-    @apply font-bold text-xl mt-4;
+  h2 {
+    @apply font-bold text-2xl p-1 my-4;
   }
   ul, ol {
-    @apply pl-4;
+    @apply p-4;
   }
   li {
-    @apply leading-relaxed;
+    @apply leading-relaxed py-2;
   }
   hr {
     @apply my-16 bg-dark-100/50 h-1px dark_bg-light-100/50 max-w-xl;
@@ -115,17 +87,7 @@ a:hover {
       @apply bg-dark-100/10 dark_bg-light-100/10;
     }
   }
-  pre, code {
+  pre, code, {
     @apply overflow-x-scroll max-w-full
-  }
-}
-
-
-.slides p {
-  /* scroll-snap-type: x mandatory;   */
-  -webkit-overflow-scrolling: touch;
-  @apply flex  overflow-x-scroll ;
-  & > img {
-    /* scroll-snap-align: middle; */
   }
 }

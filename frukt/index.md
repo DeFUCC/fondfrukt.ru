@@ -1,8 +1,6 @@
 ---
 title: ФРУКТ
 date: 2022-02-16
-cover: blocks.svg
+cover: mk-s.jpg
 subtitle: "Фонд Развития Универсализации, Кооперации и Творчества"
-
-list: frukt
 ---

@@ -2,8 +2,8 @@
 title: "Психологическое поле"
 subtitle: "Пространство в сети, где разработки и открытия современной психологии обретают форму"
 url: https://psyfield.ru
-
-list: psyfield
+github: davay42/psyfield.ru
+color: hsl(210, 10%,80%)
 icon: psyfield.png
 date: 2021-03-19
 status: development

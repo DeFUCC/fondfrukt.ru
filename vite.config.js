@@ -29,10 +29,7 @@ export default defineConfig({
       hostname: 'https://fondfrukt.ru/',
       dirs: [
         { dir: "designs", baseRoute: "designs" },
-        { dir: "discourse", baseRoute: "discourse" },
         { dir: "frukt", baseRoute: "frukt" },
-        { dir: "giftonomy", baseRoute: "giftonomy" },
-        { dir: "people", baseRoute: "people" },
         { dir: "research", baseRoute: "research" },
       ],
     })),

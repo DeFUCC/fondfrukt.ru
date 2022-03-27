@@ -1,8 +1,7 @@
 ---
 title: ЭТОВОТЭТО
 subtitle: "Игра в словотворчество — веселое придумывание слов в компании"
-
-list: etovoteto
+color: hsl(0,0%,70%)
 url: https://etovoteto.ru
 icon: eto.png
 type: design

@@ -1,5 +1,9 @@
 <script setup>
-import { isDark, toggleDark } from '../../composables/state.js'
+import { useDark, useToggle } from '@vueuse/core'
+
+const isDark = useDark();
+
+const toggleDark = useToggle(isDark);
 
 </script>
 

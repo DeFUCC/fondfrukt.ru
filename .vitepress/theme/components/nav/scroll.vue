@@ -9,7 +9,7 @@ function scroll() {
 </script>
 
 <template lang="pug">
-button(@click="scroll()" aria-label="Scroll to the top")
+button(@click="scroll()")
   la-arrow-up
 </template>
 
