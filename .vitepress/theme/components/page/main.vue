@@ -1,12 +1,6 @@
 <script setup>
 import { watch, ref, computed, onMounted } from 'vue'
 import { useData, useRoute, withBase } from 'vitepress'
-import { getMediaPath } from '../../composables/media.js'
-
-import { useParents, useSiblings } from '../../composables/links.js'
-
-
-const reverseParents = computed(() => [...parents.value].reverse())
 
 const { site, frontmatter, theme } = useData();
 const route = useRoute();
@@ -64,8 +58,9 @@ const backgroundImage = computed(() => {
             v-for="parent in parents", :key="parent.title" :href="trailing(parent.path)") {{ parent.title }}
               .flex-1
               la-angle-up
-        h1.w-full.text-xl.font-bold.mb-2.p-4.bg-light-600.dark_bg-dark-500.shadow-lg {{ page?.title }}
+
         .p-4.flex.flex-wrap(v-if="route.path != '/'")
+          h1.w-full.text-xl.font-bold.mb-2.p-4.bg-light-600.dark_bg-dark-500.shadow-lg {{ page?.title }}
           .p-2(style="flex: 1 1 120px" v-if="page?.icon")
             img.max-h-60vh.rounded-3xl(:src="page.icon")
           .p-4.flex-auto(v-if="page?.subtitle")
@@ -81,25 +76,25 @@ const backgroundImage = computed(() => {
             :class="{ active: route.path.includes(card.path) }"
           ) {{ card.title }} 
 
+    transition(name="fade" mode="out-in")
+      .flex.flex-wrap.overflow-hidden.z-20.bg-light-500.bg-opacity-95.z-2.dark_bg-dark-500.dark_bg-opacity-95.max-w-3xl(style="flex: 1000 1 420px" :key="route.path")
 
-    .flex.flex-wrap.overflow-hidden.z-20.bg-light-500.bg-opacity-95.z-2.dark_bg-dark-500.dark_bg-opacity-95.max-w-3xl(style="flex: 1000 1 420px")
-
-      .flex.flex-col(
-        style="flex: 100 1 300px"
-      )
-        img.w-full.max-w-100vw(v-if="page?.cover" :src="page.cover") 
-        content.content
-        //- component.content(:is="route.component")
-        .flex-auto(
-          style="flex: 1000 1"
+        .flex.flex-col(
+          style="flex: 100 1 300px"
         )
+          img.w-full.max-w-100vw(v-if="page?.cover" :src="page.cover") 
+          content.content
+          //- component.content(:is="route.component")
+          .flex-auto(
+            style="flex: 1000 1"
+          )
 
-      .flex.flex-wrap.gap-8.p-8.w-full(style="flex: 1 1 100%" v-if="pages && Object.keys(pages).length > 0")
-        item-card(
-          v-for="card in pages[route.path]"
-          :key="card.path"
-          :page="card"
-        )
+        .flex.flex-wrap.gap-8.p-8.w-full(style="flex: 1 1 100%" v-if="pages && Object.keys(pages).length > 0")
+          item-card(
+            v-for="card in pages[route.path]"
+            :key="card.path"
+            :page="card"
+          )
 
     .flex-auto(style="flex:100")
 
