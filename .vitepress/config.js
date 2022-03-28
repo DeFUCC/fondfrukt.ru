@@ -3,7 +3,6 @@ import { metaData } from "./constants.js";
 import head from "./head.js";
 
 import mdLinks from "markdown-it-external-links";
-import mdClass from "markdown-it-classy";
 import mdContainer from "markdown-it-container";
 
 export default defineConfig({

@@ -6,7 +6,7 @@ import WindiCSS from 'vite-plugin-windicss'
 import AutoImport from 'unplugin-auto-import/vite'
 import { ViteAliases } from 'vite-aliases'
 import Pages from "vite-plugin-pages";
-import { generatePages } from "vitepress-pages";
+import { extendRoutes } from "vitepress-pages";
 import generateSitemap from 'vite-plugin-pages-sitemap'
 
 
@@ -27,16 +27,17 @@ export default defineConfig({
       ],
     }),
     Pages({
-      ...generatePages({
-        dirs: [
-          { dir: "designs", baseRoute: "designs" },
-          { dir: "discourse", baseRoute: "discourse" },
-          { dir: "frukt", baseRoute: "frukt" },
-          { dir: "giftonomy", baseRoute: "giftonomy" },
-          { dir: "people", baseRoute: "people" },
-          { dir: "research", baseRoute: "research" },
-        ],
-      }),
+      dirs: [
+        { dir: "designs", baseRoute: "designs" },
+        { dir: "discourse", baseRoute: "discourse" },
+        { dir: "frukt", baseRoute: "frukt" },
+        { dir: "giftonomy", baseRoute: "giftonomy" },
+        { dir: "people", baseRoute: "people" },
+        { dir: "research", baseRoute: "research" },
+      ],
+      exclude: ['**/node_modules/**/*.*', '**/!(index).md'],
+      extensions: ['md'],
+      ...extendRoutes(),
       onRoutesGenerated: routes => (generateSitemap({ routes, hostname: 'https://fondfrukt.ru/' })),
     }),
     ViteAliases({
