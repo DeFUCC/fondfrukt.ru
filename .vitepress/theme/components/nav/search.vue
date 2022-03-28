@@ -1,6 +1,15 @@
 <script setup>
-import { fuse, trailing } from '../../composables/pages'
 import { useFocus, onClickOutside } from '@vueuse/core'
+import { trailSlash } from 'vitepress-pages/browser'
+import Fuse from "fuse.js";
+import routes from '~pages'
+
+
+const fuse = new Fuse(routes, {
+  includeScore: true,
+  ignoreLocation: true,
+  keys: ["title", 'subtitle', 'city', 'place'],
+});
 
 const open = ref()
 const input = ref('')

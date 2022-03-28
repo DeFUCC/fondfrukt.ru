@@ -1,7 +1,6 @@
 import "virtual:windi.css";
 import "./styles/index.css";
 import "./styles/main.css";
-import "@gun-vue/components/dist/style.css";
 
 import Layout from "./layout.vue";
 import NotFound from "./not-found.vue";
@@ -28,7 +27,7 @@ function setupOWA() {
       window.owa_baseUrl =
         "https:" == document.location.protocol
           ? window.owa_baseSecUrl ||
-            window.owa_baseUrl.replace(/http:/, "https:")
+          window.owa_baseUrl.replace(/http:/, "https:")
           : window.owa_baseUrl;
       _owa.src =
         window.owa_baseUrl + "modules/base/js/owa.tracker-combined-min.js";
