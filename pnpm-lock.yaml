@@ -19,7 +19,7 @@ specifiers:
   vite-plugin-pages-sitemap: ^1.1.11
   vite-plugin-windicss: ^1.7.0
   vitepress: 0.22.2
-  vitepress-pages: ^0.6.1
+  vitepress-pages: ^0.6.3
   vue: ^3.2.31
 
 dependencies:
@@ -27,7 +27,7 @@ dependencies:
   '@vueuse/core': 7.6.2_vue@3.2.31
   fuse.js: 6.5.3
   ol: 6.13.0
-  vitepress-pages: 0.6.1
+  vitepress-pages: 0.6.3
   vue: 3.2.31
 
 devDependencies:
@@ -2763,8 +2763,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitepress-pages/0.6.1:
-    resolution: {integrity: sha512-y6Rw68Ys0VpfKhhGkwMt/hFNLkb9gcFiAF6cb21CVw/ipU7zvVrwlYW/6KYybuQZ8aqfD1Z8FDzIKaKvEMlq9Q==}
+  /vitepress-pages/0.6.3:
+    resolution: {integrity: sha512-W56+P3UNfcaS3LqSJjKmTNtmlm+IiG8VC78bd75vQ/UocyT0fHFw9DxweuyN0Vxx0Izx+duFisrrTtP32uFHOA==}
     dependencies:
       gray-matter: 4.0.3
       sharp: 0.30.3

@@ -15,7 +15,7 @@
     "@vueuse/core": "7.6.2",
     "vue": "^3.2.31",
     "ol": "^6.13.0",
-    "vitepress-pages": "^0.6.1",
+    "vitepress-pages": "^0.6.3",
     "fuse.js": "^6.5.3"
   },
   "devDependencies": {

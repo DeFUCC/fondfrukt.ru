@@ -3,25 +3,14 @@ import { watch, ref, computed, onMounted } from 'vue'
 import { useData, useRoute, withBase } from 'vitepress'
 
 const { site, frontmatter, theme } = useData();
+
+import routes from '~pages'
+import { trailSlash, getPage, getPages } from 'vitepress-pages/browser'
+
 const route = useRoute();
 
-
-import { getSiblings, getParents, trailing, pages, routes } from '../../composables/pages.js'
-
-const siblings = computed(() => getSiblings(route.path))
-const parents = computed(() => getParents(route.path))
-
-function getImage(side) {
-  if (siblings.value[side]?.cover) {
-    return `url(${siblings.value[side].cover})`
-  } else if (siblings.value[side]?.icon) {
-    return `url(${siblings.value[side].icon})`
-  } else {
-    return 'transparent'
-  }
-}
-
-const page = computed(() => routes.find(p => trailing(p.path) == route.path))
+const page = computed(() => getPage(route.path, routes))
+const pages = getPages(routes)
 
 const backgroundImage = computed(() => {
   if (frontmatter.value.home) {
@@ -61,7 +50,7 @@ const backgroundImage = computed(() => {
             a.link.p-4.no-underline.transition-all.duration-300.text-xl.justify-center.w-full(
               v-for="card in pages[route.path]"
               :key="card.path"
-              :href="trailing(card.path)"
+              :href="trailSlash(card.path)"
               :class="{ active: route.path.includes(card.path) }"
             ) {{ card.title }} 
 
