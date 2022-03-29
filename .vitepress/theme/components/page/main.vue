@@ -5,7 +5,7 @@ import { useData, useRoute, withBase } from 'vitepress'
 const { site, frontmatter, theme } = useData();
 
 import routes from '~pages'
-import { normalize, getPage, getPages } from 'vitepress-pages/browser'
+import { getPage, getPages } from 'vitepress-pages/browser'
 
 const route = useRoute();
 
@@ -50,7 +50,7 @@ const backgroundImage = computed(() => {
             a.link.p-4.no-underline.transition-all.duration-300.text-xl.justify-center.w-full(
               v-for="card in pages[route.path]"
               :key="card.path"
-              :href="normalize(card.path)"
+              :href="card.path"
               :class="{ active: route.path.includes(card.path) }"
             ) {{ card.title }} 
 
