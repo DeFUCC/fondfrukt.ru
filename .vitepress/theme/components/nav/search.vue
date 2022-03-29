@@ -1,6 +1,6 @@
 <script setup>
 import { useFocus, onClickOutside } from '@vueuse/core'
-import { trailSlash } from 'vitepress-pages/browser'
+import { normalize } from 'vitepress-pages/browser'
 import Fuse from "fuse.js";
 import routes from '~pages'
 

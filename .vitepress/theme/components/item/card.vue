@@ -1,6 +1,6 @@
 <script setup>
 import routes from '~pages'
-import { trailSlash, getPages } from 'vitepress-pages/browser'
+import { normalize, getPages } from 'vitepress-pages/browser'
 
 const pages = getPages(routes)
 
@@ -9,7 +9,7 @@ const props = defineProps({
 })
 
 const children = computed(() => {
-  let p = pages[trailSlash(props.page.path)]
+  let p = pages[normalize(props.page.path)]
   return p ? p.length : null
 })
 
@@ -22,7 +22,7 @@ function getDate(timestamp) {
 <template lang="pug">
 a.card.flex.flex-col.justify-between.items-center.relative.bg-cover.bg-center(
   style="flex: 1 1 280px;"
-  :href="trailSlash(page.path)"
+  :href="normalize(page.path)"
   :style="{ backgroundColor: page?.color ? page.color : 'transparent' }"
 ) 
   img.absolute.top-0.min-w-full.flex-1(
