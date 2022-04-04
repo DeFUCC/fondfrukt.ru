@@ -17,7 +17,7 @@ function setupOWA() {
   if (process.env.NODE_ENV === "production" && typeof window !== "undefined") {
     window.owa_baseUrl = "http://stats.frkt.ru/";
     window.owa_cmds = window.owa_cmds || [];
-    window.owa_cmds.push(["setSiteId", "208c9637261a8f5c206280d960ed2ca3"]);
+    window.owa_cmds.push(["setSiteId", "17fc847066610df3e6df52062a7826b7"]);
     window.owa_cmds.push(["trackPageView"]);
     window.owa_cmds.push(["trackClicks"]);
     (function () {
