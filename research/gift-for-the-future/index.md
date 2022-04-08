@@ -3,6 +3,7 @@ title: "Дар для будущего"
 subtitle: "Фундаментальное исследование экономики дарения с древних времен до современности"
 toc: true
 cover: gift.jpg
+date: 2021-07-01
 ---
 
 <audio-player title="Подкаст - прочтение статьи" file="/media/gift/gift-podcast.mp3" >

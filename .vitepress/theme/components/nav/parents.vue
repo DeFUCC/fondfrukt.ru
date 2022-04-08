@@ -7,6 +7,10 @@ const route = useRoute();
 
 const parents = computed(() => getParents(route.path, routes))
 
+const props = defineProps({
+  reverse: Boolean,
+})
+
 function getImage(page) {
   if (page?.cover) {
     return `url(${page?.cover})`
@@ -32,7 +36,7 @@ function getImage(page) {
   transition-group(name="fade" mode="out-in")
     a.link.p-4.active.relative.flex-auto.shadow-lg(
       style="flex: 1 1 auto" 
-      v-for="(page, p) in parents" 
+      v-for="(page, p) in reverse ? [...parents].reverse() : parents" 
       :key="page.title" 
       :href="page.path"
       :style="{ backgroundImage: getImage(page) }"

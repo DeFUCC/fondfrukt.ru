@@ -7,6 +7,7 @@ icon: applications.png
 additional: "[Скачать оригинал](BackfeedEconomicModel.pdf)"
 youtube: https://youtu.be/SsCxgez1XBo
 toc: true
+date: 2022-03-01
 ---
 
 ## Децентрализованная кооперация

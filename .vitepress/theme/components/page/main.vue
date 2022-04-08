@@ -73,8 +73,8 @@ const backgroundImage = computed(() => {
 
     .flex-auto(style="flex:100")
 
-    nav-siblings(:key="route.path")
-
+    nav-siblings.p-6(:key="route.path")
+    nav-parents.p-6(:key="route.path" :reverse="true")
 
   footer.flex.flex-wrap.p-4.justify-center.transition-all.duration-600.bg-light-900.items-center.dark_bg-dark-600
     a.no-underline.p-4(:href="withBase('/')")

@@ -20,31 +20,32 @@ function getDate(timestamp) {
 </script>
 
 <template lang="pug">
-a.card.flex.flex-col.justify-between.items-center.relative.bg-cover.bg-center(
+a.card.flex.flex-col.justify-between.items-center.relative.bg-cover.bg-center.min-h-60(
   style="flex: 1 1 280px;"
   :href="page.path"
   :style="{ backgroundColor: page?.color ? page.color : 'transparent' }"
 ) 
-  img.absolute.top-0.min-w-full.flex-1(
+  img.min-w-full.flex-1.absolute(
     :src="page?.cover"
     v-if="page.cover"
     loading="lazy"
     alt="cover"
   )
-  .flex-auto
-  img.rounded-xl.w-36.z-50(
+  img.rounded-xl.w-50.z-50(
     style="margin:  1rem 0"
     v-if="page.icon"
     :src="page.icon"
     )
   .flex-auto
-  .info.w-full.flex.flex-col.p-4.bg-light-400.bg-opacity-80.dark_bg-opacity-80.dark_bg-dark-200.transition-all.duration-300.backdrop-filter.backdrop-blur-sm.z-100(
-    :style="{ marginTop: page.cover ? '120px' : '0' }"
+  .info.w-full.flex.flex-col.p-4.bg-light-400.bg-opacity-80.dark_bg-opacity-80.dark_bg-dark-200.transition-all.duration-300.backdrop-filter.backdrop-blur-sm.z-100.bottom-0(
+    :style="{ marginTop: page?.cover && !page?.icon ? '16em' : '' }"
   )
     .flex.w-full
-      .flex.flex-col
+      .flex.flex-col.w-full
         item-type(:type="page.data?.type")
-        .text-xl.font-bold.md_text-2xl {{ page.title }} 
+        .flex.items-center.w-full
+          .text-xl.md_text-2xl.font-bold.flex-auto {{ page.title }} 
+          .font-bold.py-1.px-2.bg-light-800.rounded-xl(v-if="children") {{ children }}
       .flex-1
     .text-md.mt-2.line-clamp-4(v-if="page.subtitle") {{ page.subtitle }}
   .absolute.right-8px.bottom-4px.opacity-10.text-xs.flex.items-center.transition-all.duration-400.hover_opacity-90
@@ -77,12 +78,12 @@ a.card.flex.flex-col.justify-between.items-center.relative.bg-cover.bg-center(
   background-color: hsla(0, 0%, 100%, 0.5);
 }
 .dark .card::before {
-  background-color: hsla(0, 0%, 0%, 0.3);
+  background-color: hsla(0, 0%, 50%, 0.3);
 }
 
 .card:hover::before {
   backdrop-filter: blur(0px);
-  background-color: hsla(0, 0%, 0%, 0);
+  background-color: hsla(0, 0%, 30%, 0.2);
 }
 
 .card:hover .date,
