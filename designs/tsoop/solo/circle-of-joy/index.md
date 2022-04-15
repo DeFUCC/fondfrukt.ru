@@ -25,7 +25,7 @@ people:
 
 **Музыка:**
 
-- Денис Старов на [OP-Z](/designs/tsoop/music-lab/setup/op-z/)
+- Денис Старов на [OP-Z](../../music-lab/setup/op-z/index.md)
 
 **Вокал:**
 
