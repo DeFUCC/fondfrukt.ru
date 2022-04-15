@@ -7,6 +7,7 @@ specifiers:
   markdown-it-classy: ^0.2.0
   markdown-it-container: ^3.0.0
   markdown-it-external-links: ^0.0.6
+  markdown-it-wikilinks: ^1.2.0
   ol: ^6.14.1
   pug: 3.0.2
   unplugin-auto-import: ^0.6.9
@@ -33,6 +34,7 @@ devDependencies:
   markdown-it-classy: 0.2.0
   markdown-it-container: 3.0.0
   markdown-it-external-links: 0.0.6
+  markdown-it-wikilinks: 1.2.0
   pug: 3.0.2
   unplugin-auto-import: 0.6.9_@vueuse+core@8.2.5+vite@2.9.1
   unplugin-icons: 0.14.1_vite@2.9.1
@@ -1066,6 +1068,10 @@ packages:
       is-extendable: 0.1.1
     dev: false
 
+  /extend/3.0.2:
+    resolution: {integrity: sha512-fjquC59cD7CyW6urNXK0FBufkZcoiGG80wTuPujX590cB5Ttln20E2UB4S/WARVqhXffZl2LNgS+gQdPIIim/g==}
+    dev: true
+
   /fast-glob/3.2.11:
     resolution: {integrity: sha512-xrO3+1bxSo3ZVHAnqzyuewYT6aMFHRAd4Kcs92MAonjwQZLsK9d0SF1IyQ3k5PoirxTW0Oe/RqFgMQ6TcNE5Ew==}
     engines: {node: '>=8.6.0'}
@@ -1554,6 +1560,18 @@ packages:
     resolution: {integrity: sha1-lQMlj85MgQEOoV/nF2nWOhNG2AE=}
     dev: true
 
+  /markdown-it-regexp/0.4.0:
+    resolution: {integrity: sha1-1k1xPuzsVc5M/esyF1DswJniwtw=}
+    dev: true
+
+  /markdown-it-wikilinks/1.2.0:
+    resolution: {integrity: sha512-/je6wEW0btHZ7S9YZD91t+IUGAHFc1TZ6En8UKqfzpwm2R6MCXytZaOFO1wbEtZWbhwTDy4VYJK3MnnGtVFNqg==}
+    dependencies:
+      extend: 3.0.2
+      markdown-it-regexp: 0.4.0
+      sanitize-filename: 1.6.3
+    dev: true
+
   /merge-stream/2.0.0:
     resolution: {integrity: sha512-abv/qOcuPfk3URPfDzmZU1LKmuw8kT+0nIHvKrKgFrwifol/doWcdA4ZqsWQ8ENrFKkd67Mfpo/LovbIUsbt3w==}
     dev: true
@@ -2039,6 +2057,12 @@ packages:
     resolution: {integrity: sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==}
     dev: false
 
+  /sanitize-filename/1.6.3:
+    resolution: {integrity: sha512-y/52Mcy7aw3gRm7IrcGDFx/bCk4AhRh2eI9luHOQM86nZsqwiRkkq2GekHXBBD+SmPidc8i2PqtYZl+pWJ8Oeg==}
+    dependencies:
+      truncate-utf8-bytes: 1.0.2
+    dev: true
+
   /section-matter/1.0.0:
     resolution: {integrity: sha512-vfD3pmTzGpufjScBh50YHKzEu2lxBWhVEHsNGoEXmCmn2hKGfeNLYMzCJpe8cD7gqX7TJluOVpBkAequ6dgMmA==}
     engines: {node: '>=4'}
@@ -2245,6 +2269,12 @@ packages:
     resolution: {integrity: sha1-zCAOqyYT9BZtJ/+a/HylbUnfbrQ=}
     dev: true
 
+  /truncate-utf8-bytes/1.0.2:
+    resolution: {integrity: sha1-QFkjkJWS1W94pYGENLC3hInKXys=}
+    dependencies:
+      utf8-byte-length: 1.0.4
+    dev: true
+
   /tunnel-agent/0.6.0:
     resolution: {integrity: sha1-J6XeoGs2sEoKmWZ3SykIaPD8QP0=}
     dependencies:
@@ -2390,6 +2420,10 @@ packages:
       vite: 2.9.1
       webpack-sources: 3.2.3
       webpack-virtual-modules: 0.4.3
+    dev: true
+
+  /utf8-byte-length/1.0.4:
+    resolution: {integrity: sha1-9F8VDExm7uloGGUFq5P8u4rWv2E=}
     dev: true
 
   /util-deprecate/1.0.2:

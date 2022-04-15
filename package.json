@@ -22,6 +22,7 @@
     "markdown-it-classy": "^0.2.0",
     "markdown-it-container": "^3.0.0",
     "markdown-it-external-links": "^0.0.6",
+    "markdown-it-wikilinks": "^1.2.0",
     "pug": "3.0.2",
     "unplugin-auto-import": "^0.6.9",
     "unplugin-icons": "^0.14.1",
