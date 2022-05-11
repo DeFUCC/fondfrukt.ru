@@ -49,7 +49,8 @@ body {
     @apply max-w-2xl mx-auto leading-relaxed my-4;
   }
   a {
-    @apply underline
+    @apply underline decoration-1 underline-offset-4
+    hover_(underline-offset-4 decoration-2) transition-all
   }
   em {
     @apply not-italic text-dark-100/60 dark_text-light-100/60;

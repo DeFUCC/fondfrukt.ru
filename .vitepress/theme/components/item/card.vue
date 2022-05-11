@@ -45,7 +45,7 @@ a.card.flex.flex-col.justify-between.items-center.relative.bg-cover.bg-center.mi
         item-type(:type="page.data?.type")
         .flex.items-center.w-full
           .text-xl.md_text-2xl.font-bold.flex-auto {{ page.title }} 
-          .font-bold.py-1.px-2.bg-light-800.rounded-xl(v-if="children") {{ children }}
+          .font-bold.py-1.px-2.bg-light-800.rounded-xl.dark_bg-dark-200(v-if="children") {{ children }}
       .flex-1
     .text-md.mt-2.line-clamp-4(v-if="page.subtitle") {{ page.subtitle }}
   .absolute.right-8px.bottom-4px.opacity-10.text-xs.flex.items-center.transition-all.duration-400.hover_opacity-90

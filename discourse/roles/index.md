@@ -2,7 +2,7 @@
 title: Роли
 subtitle: "Ролевая модель конструктивных человеческих взаимодействий"
 date: 2020-06-24
-
+icon: roles.svg
 list: discourse-roles
 ---
 
