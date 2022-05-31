@@ -3,7 +3,7 @@
 </script>
 
 <template lang="pug">
-page-main
+page
 </template>
 
 <style lang="postcss" scoped>

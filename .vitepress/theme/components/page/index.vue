@@ -1,11 +1,9 @@
 <script setup>
-import { watch, ref, computed, onMounted } from 'vue'
 import { useData, useRoute, withBase } from 'vitepress'
-
-const { site, frontmatter, theme } = useData();
-
 import routes from '~pages'
 import { getPage, getPages } from 'vitepress-pages/browser'
+
+const { site, frontmatter, theme } = useData();
 
 const route = useRoute();
 
@@ -85,8 +83,10 @@ const backgroundImage = computed(() => {
 <style lang="postcss" >
 .link {
   @apply bg-cover text-lg bg-center flex-auto relative flex items-center transition-all duration-500 no-underline bg-light-500/60 dark_(bg-dark-100/10) hover_(bg-light-100 dark_bg-dark-100);
+
   &.active {
     @apply bg-light-100 bg-opacity-70 z-2 dark_bg-dark-200 dark_bg-opacity-70;
+
     &:hover {
       @apply bg-opacity-100 dark_bg-opacity-100;
     }
@@ -109,6 +109,7 @@ const backgroundImage = computed(() => {
   left: 0px;
   background-color: hsla(0, 0%, 100%, 0.6);
 }
+
 .dark .link::before {
   background-color: hsla(0, 0%, 0%, 0.3);
 }
