@@ -2,6 +2,10 @@ import "virtual:windi.css";
 import "./styles/index.css";
 import "./styles/main.css";
 
+// import '@unocss/reset/normalize.css'
+
+// import "uno.css";
+
 import Layout from "./layout.vue";
 import NotFound from "./not-found.vue";
 

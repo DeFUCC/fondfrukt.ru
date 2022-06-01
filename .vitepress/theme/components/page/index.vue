@@ -58,7 +58,7 @@ const backgroundImage = computed(() => {
         .flex.flex-col(
           style="flex: 100 1 300px"
         )
-          img.w-full.max-w-100vw(v-if="page?.cover" :src="page.cover") 
+          img.w-full.max-w-100vw(v-if="page?.cover" :src="page.cover")
           content.content
 
         .flex.flex-wrap.gap-8.p-8.w-full(style="flex: 1 1 100%" v-if="pages && Object.keys(pages).length > 0")

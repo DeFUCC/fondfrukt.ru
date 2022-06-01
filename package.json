@@ -19,7 +19,7 @@
     "vue": "^3.2.36"
   },
   "devDependencies": {
-    "@iconify/json": "^2.1.54",
+    "@iconify/json": "^2.1.55",
     "markdown-it-classy": "^0.2.0",
     "markdown-it-container": "^3.0.0",
     "markdown-it-external-links": "^0.0.6",
