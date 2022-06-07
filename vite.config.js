@@ -34,12 +34,7 @@ export default defineConfig({
     }),
     Pages({
       dirs: [
-        { dir: "designs", baseRoute: "designs" },
-        { dir: "discourse", baseRoute: "discourse" },
-        { dir: "frukt", baseRoute: "frukt" },
-        { dir: "giftonomy", baseRoute: "giftonomy" },
-        { dir: "people", baseRoute: "people" },
-        { dir: "research", baseRoute: "research" },
+        { dir: ".", baseRoute: "." },
       ],
       exclude: ['**/node_modules/**/*.*', '**/!(index).md'],
       extensions: ['md'],
