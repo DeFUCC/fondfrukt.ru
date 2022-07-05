@@ -21,11 +21,7 @@ const backgroundImage = computed(() => {
 
 <template lang="pug">
 .min-h-100vh.flex.flex-col.leading-relaxed
-  nav-search
   nav-toc(v-if="page?.toc")
-  nav-dark.p-4.mr-4.fixed.bottom-4.left-4.z-90
-  nav-scroll.fixed.bottom-4.right-4.p-4.rounded-full.cursor-pointer.z-90
-    la-angle-up
   .flex.flex-wrap.flex-1.bg-cover.bg-fixed.z-10
     header.bg-light-200.bg-opacity-90.z-2.dark_bg-dark-200.dark_bg-opacity-90(
       style="flex: 1 1 320px"
@@ -33,7 +29,7 @@ const backgroundImage = computed(() => {
       .sticky.top-0.flex.flex-col.items-center
         a.no-underline.p-4(href="/")
           img.w-12rem(:src="theme.logo")
-        nav-parents(:key="route.path") Фонд ФРУКТ
+        nav-parents(:key="route.path")
         transition(name="fade" mode="out-in")
           .p-4.flex.flex-wrap.text-center(v-if="route.path != '/'")
             h1.w-full.text-xl.font-bold.mb-2.p-4.bg-light-600.dark_bg-dark-500.shadow-lg {{ page?.title }}
@@ -44,13 +40,6 @@ const backgroundImage = computed(() => {
             a.p-2.flex-auto.underline.text-xl(v-if="page?.url" :href="page?.url" target="_blank") {{ page?.url.replace(/^https?:\/\//, '') }}
 
 
-          .flex.flex-col.w-full(v-else)
-            a.link.p-4.no-underline.transition-all.duration-300.text-xl.justify-center.w-full(
-              v-for="card in pages[route.path]"
-              :key="card.path"
-              :href="card.path"
-              :class="{ active: route.path.includes(card.path) }"
-            ) {{ card.title }} 
 
     transition(name="fade" mode="out-in")
       .flex.flex-wrap.overflow-hidden.z-20.bg-light-500.bg-opacity-95.z-2.dark_bg-dark-500.dark_bg-opacity-95.max-w-3xl(style="flex: 1000 1 420px" :key="route.path")

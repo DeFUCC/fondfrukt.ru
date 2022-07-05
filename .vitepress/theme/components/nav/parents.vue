@@ -24,7 +24,7 @@ function getImage(page) {
 
 <template lang='pug'>  
 .flex.flex-wrap.items-stretch.w-full(v-if="parents")
-  a.link.p-4.w-full(
+  //- a.link.p-4.w-full(
     v-if="route.path != '/'"
     style="flex: 1 1 auto"
     href="/"
