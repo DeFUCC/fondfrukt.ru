@@ -1,9 +1,15 @@
 ---
 title: ФРУКТ
 date: 2022-02-16
-cover: sq-round.svg
+icon: sq-round.svg
 subtitle: "Фонд Развития Универсализации, Кооперации и Творчества"
 ---
+
+<script setup>
+import fruit from './fruit.vue'
+</script>
+
+<fruit />
 
 [Фонд](./foundation/index.md) - некоммерческая организация, все ресурсы которой добровольно направляются на реализацию её миссии.
 
