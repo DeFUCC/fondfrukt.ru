@@ -1,39 +1,40 @@
 {
-  "name": "frkt.ru",
-  "version": "0.1.0",
-  "description": "",
-  "scripts": {
-    "dev": "vitepress dev ",
-    "build": "vitepress build ",
-    "serve": "vitepress serve --port 5055",
-    "deploy": "sh deploy.sh"
-  },
-  "author": "Davay42",
-  "license": "ISC",
-  "dependencies": {
-    "@gun-vue/composables": "^0.9.3",
-    "@vueuse/core": "8.7.5",
-    "@vueuse/gesture": "^2.0.0-beta.1",
-    "fuse.js": "^6.6.2",
-    "ol": "^6.14.1",
-    "vitepress-pages": "^0.8.5",
-    "vue": "^3.2.37"
-  },
-  "devDependencies": {
-    "@iconify/json": "^2.1.72",
-    "markdown-it-classy": "^0.2.0",
-    "markdown-it-container": "^3.0.0",
-    "markdown-it-external-links": "^0.0.6",
-    "markdown-it-wikilinks": "^1.2.0",
-    "pug": "3.0.2",
-    "unplugin-auto-import": "^0.9.2",
-    "unplugin-icons": "^0.14.7",
-    "unplugin-vue-components": "^0.21.0",
-    "vite": "^2.9.13",
-    "vite-aliases": "^0.9.2",
-    "vite-plugin-pages": "^0.25.0",
-    "vite-plugin-pages-sitemap": "^1.2.2",
-    "vite-plugin-windicss": "^1.8.6",
-    "vitepress": "1.0.0-draft.8"
-  }
+	"name": "frkt.ru",
+	"version": "0.1.0",
+	"description": "",
+	"license": "ISC",
+	"author": "Davay42",
+	"scripts": {
+		"build": "vitepress build ",
+		"deploy": "sh deploy.sh",
+		"dev": "vitepress dev ",
+		"serve": "vitepress serve --port 5055"
+	},
+	"dependencies": {
+		"@gun-vue/composables": "^0.11.5",
+		"@vueuse/core": "9.2.0",
+		"@vueuse/gesture": "^2.0.0-beta.1",
+		"@vueuse/math": "^9.2.0",
+		"fuse.js": "^6.6.2",
+		"ol": "^7.1.0",
+		"vitepress-pages": "^0.8.5",
+		"vue": "^3.2.38"
+	},
+	"devDependencies": {
+		"@iconify/json": "^2.1.103",
+		"markdown-it-classy": "^0.2.0",
+		"markdown-it-container": "^3.0.0",
+		"markdown-it-external-links": "^0.0.6",
+		"markdown-it-wikilinks": "^1.2.0",
+		"pug": "3.0.2",
+		"unplugin-auto-import": "^0.11.2",
+		"unplugin-icons": "^0.14.9",
+		"unplugin-vue-components": "^0.22.4",
+		"vite": "^3.1.0",
+		"vite-aliases": "^0.9.2",
+		"vite-plugin-pages": "^0.26.0",
+		"vite-plugin-pages-sitemap": "^1.3.0",
+		"vite-plugin-windicss": "^1.8.7",
+		"vitepress": "1.0.0-alpha.13"
+	}
 }

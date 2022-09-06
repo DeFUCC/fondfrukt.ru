@@ -8,7 +8,7 @@ date: 2022-02-08
 
 <script setup>
 import {reactive} from 'vue'
-import { useClamp } from '@vueuse/core'
+import { useClamp } from '@vueuse/math'
 
 const ukt = reactive({
   y:useClamp(3,0,5),
