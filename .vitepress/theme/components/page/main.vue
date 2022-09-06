@@ -23,8 +23,8 @@ const backgroundImage = computed(() => {
 .min-h-100vh.flex.flex-col.leading-relaxed
   nav-toc(v-if="page?.toc")
   .flex.flex-wrap.flex-1.bg-cover.bg-fixed.z-10
-    header.bg-light-200.bg-opacity-90.z-2.dark_bg-dark-200.dark_bg-opacity-90(
-      style="flex: 1 1 320px"
+    header.bg-light-200.bg-opacity-90.z-2.dark_bg-dark-200.dark_bg-opacity-90.max-w-120(
+      style="flex: 1 1 300px"
       )
       .sticky.top-0.flex.flex-col.items-start.max-h-100vh.mb-4
         a.no-underline.p-4(href="/")
