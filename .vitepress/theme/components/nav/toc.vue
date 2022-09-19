@@ -12,7 +12,7 @@ onClickOutside(target, (event) => open.value = false)
 </script>
 
 <template lang='pug'>
-.fixed.top-4.left-2.z-200 
+.fixed.top-4.left-2.z-200
   button.screen-button.absolute.text-2xl.self-start.z-30.left-4.top-4.z-400(@mousedown="open = !open")
     ph-list-bullets
   transition(name="fade")

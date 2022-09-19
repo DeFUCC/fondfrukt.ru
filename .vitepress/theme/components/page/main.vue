@@ -22,8 +22,8 @@ const backgroundImage = computed(() => {
 <template lang="pug">
 .min-h-100vh.flex.flex-col.leading-relaxed
   nav-toc(v-if="page?.toc")
-  .flex.flex-wrap.flex-1.bg-cover.bg-fixed.z-10
-    header.bg-light-200.bg-opacity-90.z-2.dark_bg-dark-200.dark_bg-opacity-90.max-w-120(
+  .flex.flex-wrap.flex-1.bg-cover.bg-fixed
+    header.bg-light-200.bg-opacity-90.dark_bg-dark-200.dark_bg-opacity-90.max-w-120(
       style="flex: 1 1 300px"
       )
       .sticky.top-0.flex.flex-col.items-start.max-h-100vh.mb-4
@@ -39,12 +39,18 @@ const backgroundImage = computed(() => {
               .text-md {{ page?.subtitle }}
             a.p-2.flex-auto.underline.text-xl(v-if="page?.url" :href="page?.url" target="_blank") {{ page?.url.replace(/^https?:\/\//, '') }}
         .flex.flex-col.px-8.gap-2.w-full.overflow-scroll
-          a.font-normal(
+          a.font-bold.flex.items-center.transition.relative.before_content-DEFAULT.before_absolute.before_bg-light-700.before_w-full.before_h-2px.before-z-1.before_top-6.hover_before_bg-dark-50.before_transition.dark_before_bg-dark-50.dark_hover_before_bg-light-900.before_rounded-xl(
             v-for="card in pages[route.path]"
             :key="card.path"
             :href="card.path"
           ) {{ card?.title }}
-
+          .min-h-4 
+          a.flex.items-center.transition.relative.before_content-DEFAULT.before_absolute.before_bg-light-700.before_w-full.before_h-2px.before-z-1.before_top-6.hover_before_bg-dark-50.before_transition.dark_before_bg-dark-50.dark_hover_before_bg-light-900.before_rounded-xl(
+            @click="open = false"
+            v-for="header in route.data.headers"
+            :href="`#${header.slug}`"
+            ) 
+            .ml-1.z-2 {{ header.title }}
 
     transition(name="fade" mode="out-in")
       .flex.flex-wrap.overflow-hidden.z-20.bg-light-500.bg-opacity-95.z-2.dark_bg-dark-500.dark_bg-opacity-95.max-w-3xl(style="flex: 1000 1 300px" :key="route.path")
