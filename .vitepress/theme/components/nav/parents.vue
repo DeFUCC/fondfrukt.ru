@@ -35,7 +35,7 @@ function getImage(page) {
     la-angle-up
   transition-group(name="fade" mode="out-in")
     a.link.p-4.active.relative.flex-auto.shadow-lg(
-      style="flex: 1 1 auto" 
+      style="flex: 1 1 auto; filter: grayscale(60%) brightness(1.1);" 
       v-for="(page, p) in reverse ? [...parents].reverse() : parents" 
       :key="page.title" 
       :href="page.path"
@@ -48,4 +48,5 @@ function getImage(page) {
 
 
 <style lang="postcss" scoped>
+
 </style>
