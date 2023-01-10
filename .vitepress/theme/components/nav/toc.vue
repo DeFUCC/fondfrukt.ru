@@ -12,13 +12,12 @@ onClickOutside(target, (event) => open.value = false)
 </script>
 
 <template lang='pug'>
-.fixed.top-4.left-2.z-200
-  button.screen-button.absolute.text-2xl.self-start.z-30.left-4.top-4.z-400(@mousedown="open = !open")
+.fixed.top-4.left-2.z-200(ref="target")
+  button.screen-button.absolute.text-2xl.self-start.z-30.left-4.top-4.z-400.md-hidden(@click="open = !open")
     ph-list-bullets
   transition(name="fade")
     .rounded-lg.shadow-lg.absolute.top-18.left-4.z-20.gap-2.flex.flex-col.py-6.px-4.text-left.gap-1.bg-light-500.dark-bg-dark-100.min-w-xs.max-h-90vh.overflow-y-scroll.leading-relaxed.text-md(
       v-if="open"
-      ref="target"
       )
       a.flex.font-bold.pl-2(
         href="#start"

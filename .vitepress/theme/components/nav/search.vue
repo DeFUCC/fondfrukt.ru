@@ -3,9 +3,6 @@ import { useFocus, onClickOutside } from '@vueuse/core'
 import Fuse from "fuse.js";
 import routes from '~pages'
 
-
-
-
 const fuse = new Fuse(routes, {
   includeScore: true,
   ignoreLocation: true,
@@ -34,18 +31,18 @@ onClickOutside(target, (event) => open.value = false)
 </script>
 
 <template lang='pug'>
-.fixed.top-0.right-0.z-200
-  button.screen-button.absolute.right-6.top-8.z-400(@mousedown="toggle()" aria-label="Search")
+.fixed.top-0.right-0.z-200(ref="target")
+  button.screen-button.absolute.right-6.top-8.z-400(@click="toggle()" aria-label="Search")
     la-search.text-2xl
   button.absolute.right-16.top-9.z-400(v-if="open && input" @click="input = ''")
     la-times.text-lg
   transition(name="fade")
     .absolute.right-4.top-4.z-200(v-if="open")
-      input.p-4.rounded-lg.z-20.w-xs.bg-light-100.dark-bg-dark-100(v-model="input" ref="target")
+      input.p-4.rounded-lg.z-20.w-xs.bg-light-100.dark-bg-dark-100(v-model="input" )
       .flex.flex-col.max-h-80vh.overflow-y-scroll.shadow-lg.mt-2.rounded-lg
         a.px-3.py-3.bg-light-400.dark-bg-dark-400.hover-bg-light-100.dark-hover-bg-dark-600.border-1.border-light-100.border-opacity-20(
           :href="candidate.item.path"
-          @click="input = ''"
+          @click="input = ''; open = false"
           v-for="candidate in candidates" :key="candidate"
           :style="{ opacity: 1 - candidate.score / 2 }"
         ) 

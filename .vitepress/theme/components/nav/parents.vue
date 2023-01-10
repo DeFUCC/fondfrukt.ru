@@ -34,7 +34,7 @@ function getImage(page) {
     .flex-1
     la-angle-up
   transition-group(name="fade" mode="out-in")
-    a.link.p-4.active.relative.flex-auto.shadow-lg(
+    a.link.p-2.active.relative.flex-auto.shadow-lg(
       style="flex: 1 1 auto; filter: grayscale(60%) brightness(1.1);" 
       v-for="(page, p) in reverse ? [...parents].reverse() : parents" 
       :key="page.title" 
@@ -42,8 +42,8 @@ function getImage(page) {
       :style="{ backgroundImage: getImage(page) }"
       )
       .panel
-        h4.text-lg.w-full.-mt-1 {{ page.title }}
-        octicon-chevron-up.right-4.text-2xl
+        h4.text-md.w-full.-mt-1 {{ page.title }}
+        .i-la-angle-up.right-4.text-2xl
 </template>
 
 

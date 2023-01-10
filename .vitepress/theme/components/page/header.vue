@@ -27,7 +27,9 @@ header.bg-light-200.bg-opacity-90.dark-bg-dark-200.dark-bg-opacity-90.md-max-w-1
 				h1.w-full.text-xl.font-bold.mb-2 {{ page?.title }}
 				.flex-auto.text-md(v-if="page?.subtitle") {{ page?.subtitle }}
 				a.flex-auto.underline.text-xl(v-if="page?.url" :href="page?.url" target="_blank") {{ page?.url.replace(/^https?:\/\//, '') }}
-		ul.flex.flex-col.px-4.w-full.overflow-scroll
+		ul.flex.flex-col.ml-2.w-full.overflow-scroll(
+			v-if="pages?.[route.path]?.length>0"
+			)
 			li(
 				v-for="card in pages[route.path]"
 				:key="card.path"
@@ -35,7 +37,9 @@ header.bg-light-200.bg-opacity-90.dark-bg-dark-200.dark-bg-opacity-90.md-max-w-1
 				a.font-bold.flex.items-center.transition.relative.hover-bg-light-900.dark-hover-bg-dark-800.py-1.px-2.rounded(
 					:href="card.path"
 				) {{ card?.title }}
-			.min-h-4 
+		ul.flex.flex-col.ml-2.w-full.overflow-scroll.border-l-1.mt-2(
+			v-if="route?.data?.headers?.length>0"
+			)
 			li(
 				v-for="header in route.data.headers"
 				:key="header.id"
