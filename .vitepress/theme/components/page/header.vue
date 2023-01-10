@@ -21,25 +21,29 @@ header.bg-light-200.bg-opacity-90.dark-bg-dark-200.dark-bg-opacity-90.md-max-w-1
 			img.w-12rem(:src="theme.logo")
 		nav-parents(:key="route.path")
 		transition(name="fade" mode="out-in")
-			.p-4.flex.flex-wrap
-				h1.w-full.text-xl.font-bold.mb-2.p-4.bg-light-600.dark-bg-dark-500.shadow-lg {{ page?.title }}
+			.p-4.flex.flex-wrap.gap-2
 				.p-2.flex.justify-center(style="flex: 1 1 120px" v-if="page?.icon")
 					img.max-h-30vh.rounded-3xl(:src="page.icon")
-				.p-4.flex-auto.font-bold(v-if="page?.subtitle")
-					.text-md {{ page?.subtitle }}
-				a.p-2.flex-auto.underline.text-xl(v-if="page?.url" :href="page?.url" target="-blank") {{ page?.url.replace(/^https?:\/\//, '') }}
-		.flex.flex-col.px-8.gap-2.w-full.overflow-scroll
-			a.font-bold.flex.items-center.transition.relative.before-content-DEFAULT.before-absolute.before-bg-light-700.before-w-full.before-h-2px.before-z-1.before-top-6.hover-before-bg-dark-50.before-transition.dark-before-bg-dark-50.dark-hover-before-bg-light-900.before-rounded-xl(
+				h1.w-full.text-xl.font-bold.mb-2 {{ page?.title }}
+				.flex-auto.text-md(v-if="page?.subtitle") {{ page?.subtitle }}
+				a.flex-auto.underline.text-xl(v-if="page?.url" :href="page?.url" target="_blank") {{ page?.url.replace(/^https?:\/\//, '') }}
+		ul.flex.flex-col.px-4.w-full.overflow-scroll
+			li(
 				v-for="card in pages[route.path]"
 				:key="card.path"
-				:href="card.path"
-			) {{ card?.title }}
+			)
+				a.font-bold.flex.items-center.transition.relative.hover-bg-light-900.dark-hover-bg-dark-800.py-1.px-2.rounded(
+					:href="card.path"
+				) {{ card?.title }}
 			.min-h-4 
-			a.flex.items-center.transition.relative.before-content-DEFAULT.before-absolute.before-bg-light-700.before-w-full.before-h-2px.before-z-1.before-top-6.hover-before-bg-dark-50.before-transition.dark-before-bg-dark-50.dark-hover-before-bg-light-900.before-rounded-xl(
-				@click="open = false"
+			li(
 				v-for="header in route.data.headers"
-				:href="`${header.link}`"
-				) 
-				.ml-1.z-2 {{ header.title }}
+				:key="header.id"
+			)
+				a.flex.items-center.transition.relative.hover-bg-light-900.dark-hover-bg-dark-800.py-1.px-2.rounded(
+					:href="`${header.link}`"
+					@click="open = false"
+					) 
+					.ml-1.z-2 {{ header.title }}
 
 </template>
