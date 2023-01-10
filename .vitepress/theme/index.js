@@ -1,10 +1,11 @@
-import "virtual:windi.css";
+
+
+import '@unocss/reset/tailwind.css'
+import 'uno.css'
+
 import "./styles/index.css";
 import "./styles/main.css";
-
-// import '@unocss/reset/normalize.css'
-
-// import "uno.css";
+import "./styles/markdown.css";
 
 import Layout from "./layout.vue";
 import NotFound from "./not-found.vue";

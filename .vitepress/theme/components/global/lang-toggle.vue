@@ -25,11 +25,12 @@ const langNames = {
     ) {{ langNames[key] }}
 </template>
 
-<style scoped>
+<style scoped lang="postcss">
 button {
-  @apply outline-none opacity-50 text-sm m-1 py-1 px-2 shadow bg-light-900 rounded-xl dark_bg-dark-800;
-  &.active {
-    @apply opacity-100 bg-light-500 dark_bg-dark-900;
-  }
+  @apply outline-none opacity-50 text-sm m-1 py-1 px-2 shadow bg-light-900 rounded-xl dark-bg-dark-800;
+}
+
+button .active {
+  @apply opacity-100 bg-light-500 dark-bg-dark-900;
 }
 </style>

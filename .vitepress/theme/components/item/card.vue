@@ -37,18 +37,18 @@ a.card.flex.flex-col.justify-between.items-center.relative.bg-cover.bg-center.mi
     :src="page.icon"
     )
   .flex-auto
-  .info.w-full.flex.flex-col.p-4.bg-light-400.bg-opacity-80.dark_bg-opacity-80.dark_bg-dark-200.transition-all.duration-300.backdrop-filter.backdrop-blur-sm.z-100.bottom-0(
+  .info.w-full.flex.flex-col.p-4.bg-light-400.bg-opacity-80.dark-bg-opacity-80.dark-bg-dark-200.transition-all.duration-300.backdrop-filter.backdrop-blur-sm.z-100.bottom-0(
     :style="{ marginTop: page?.cover && !page?.icon ? '16em' : '' }"
   )
     .flex.w-full
       .flex.flex-col.w-full
         item-type(:type="page.data?.type")
         .flex.items-center.w-full
-          .text-xl.md_text-2xl.font-bold.flex-auto {{ page.title }} 
-          .font-bold.py-1.px-2.bg-light-800.rounded-xl.dark_bg-dark-200(v-if="children") {{ children }}
+          .text-xl.md-text-2xl.font-bold.flex-auto {{ page.title }} 
+          .font-bold.py-1.px-2.bg-light-800.rounded-xl.dark-bg-dark-200(v-if="children") {{ children }}
       .flex-1
     .text-md.mt-2.line-clamp-4(v-if="page.subtitle") {{ page.subtitle }}
-  .absolute.right-8px.bottom-4px.opacity-10.text-xs.flex.items-center.transition-all.duration-400.hover_opacity-90
+  .absolute.right-8px.bottom-4px.opacity-10.text-xs.flex.items-center.transition-all.duration-400.hover-opacity-90
     ic-round-update.mr-1
     .p-0 {{ getDate(page.lastModified) }}
 </template>
@@ -56,13 +56,15 @@ a.card.flex.flex-col.justify-between.items-center.relative.bg-cover.bg-center.mi
 
 <style lang="postcss" scoped>
 .card {
-  @apply overflow-hidden rounded-md shadow-md overflow-hidden bg-light-700 dark_(bg-dark-50) transition-all duration-200  no-underline hover_( shadow-lg );
-  &:hover .info {
-    @apply bg-light-100 dark_bg-dark-100;
-  }
-  &:hover .play {
-    @apply opacity-90 z-30;
-  }
+  @apply overflow-hidden rounded-md shadow-md overflow-hidden bg-light-700 dark-(bg-dark-50) transition-all duration-200 no-underline hover-(shadow-lg);
+}
+
+.card:hover .info {
+  @apply bg-light-100 dark-bg-dark-100;
+}
+
+.card:hover .play {
+  @apply opacity-90 z-30;
 }
 
 .card::before {
@@ -77,6 +79,7 @@ a.card.flex.flex-col.justify-between.items-center.relative.bg-cover.bg-center.mi
   left: 0px;
   background-color: hsla(0, 0%, 100%, 0.5);
 }
+
 .dark .card::before {
   background-color: hsla(0, 0%, 50%, 0.3);
 }

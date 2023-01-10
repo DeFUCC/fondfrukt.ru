@@ -1,97 +1,103 @@
 html {
-  scroll-behavior: smooth;
-  scroll-padding-top: 2rem;
-  hyphens: auto;
+	scroll-behavior: smooth;
+	scroll-padding-top: 2rem;
+	hyphens: auto;
 }
 
 body {
-  width: 100%;
-  min-width: 320px;
-  min-height: 100vh;
-  overflow-x: hidden;
-  line-height: 1.2;
-  
-  font-size: 17px;
-  font-weight: 400;
-  color: #333;
-  background-color: #dfdfdf;
-  direction: ltr;
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  @apply transition-colors break-words;
+	width: 100%;
+	min-width: 320px;
+	min-height: 100vh;
+	overflow-x: hidden;
+	line-height: 1.2;
+
+	font-size: 17px;
+	font-weight: 400;
+	color: #333;
+	background-color: #dfdfdf;
+	direction: ltr;
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	@apply transition-colors break-words;
 }
 
 #app {
-  font-family: 'Commissioner', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-  Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans',
-  'Helvetica Neue', sans-serif;
+	font-family: "Commissioner", -apple-system, BlinkMacSystemFont, "Segoe UI",
+		Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans",
+		"Helvetica Neue", sans-serif;
 }
 
 .dark body {
-  background-color: #222;
-  color: #ddd;
+	background-color: #222;
+	color: #ddd;
 }
 
 .content {
-  @apply hyphens-auto break-words p-4 md_p-6 xl_p-8;
-  & * {
-    @apply max-w-full;
-  }
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p {
-    @apply max-w-2xl mx-auto leading-relaxed my-4;
-  }
-  a {
-    @apply underline decoration-1 underline-offset-4
-    hover_(underline-offset-4 decoration-2) transition-all
-  }
-  em {
-    @apply not-italic text-dark-100/60 dark_text-light-100/60;
-  }
-  .header-anchor {
-    @apply text-lg absolute -mx-5  opacity-20;
-  }
-  h1 {
-    @apply font-bold text-3xl my-4 p-1;
-  }
-  h2 {
-    @apply font-bold text-2xl p-1 my-4;
-  }
-  & ul, & ol {
-    @apply pl-8;
-  }
-  li {
-    @apply py-2;
-  }
-  hr {
-    @apply my-16 bg-dark-100/50 h-1px dark_bg-light-100/50 max-w-xl;
-  }
-  img {
-    @apply max-w-full my-16 z-40 mx-auto;
-  }
-  img[alt='no-shadow'] {
-    @apply shadow-none;
-  }
-  table {
-    @apply border-collapse;
-    td {
-      @apply p-1;
-    }
-    tr:nth-child(2n) {
-      @apply bg-dark-100/10 dark_bg-light-100/10;
-    }
-  }
-  pre, code, {
-    @apply overflow-x-scroll max-w-full
-  }
-  blockquote {
-    @apply px-8 py-4 bg-light-900 dark_bg-dark-200 my-8;
-  }
+	@apply hyphens-auto break-words p-4 md-p-6 xl-p-8;
+}
+
+.content * {
+	@apply max-w-full;
+}
+
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6,
+.content p {
+	@apply max-w-2xl mx-auto leading-relaxed my-4;
+}
+.content a {
+	@apply underline decoration-1 underline-offset-4 hover-(underline-offset-4 decoration-2) transition-all;
+}
+.content em {
+	@apply not-italic text-dark-100/60 dark-text-light-100/60;
+}
+.content .header-anchor {
+	@apply text-lg absolute -mx-5  opacity-20;
+}
+.content h1 {
+	@apply font-bold text-3xl my-4 p-1;
+}
+.content h2 {
+	@apply font-bold text-2xl p-1 my-4;
+}
+.content ul,
+.content ol {
+	@apply pl-8;
+}
+.content li {
+	@apply py-2 list-disc;
+}
+.content ol li {
+	@apply list-decimal;
+}
+.content hr {
+	@apply my-16 bg-dark-100/50 h-1px dark-bg-light-100/50 max-w-xl;
+}
+.content img {
+	@apply max-w-full my-16 z-40 mx-auto;
+}
+.content img[alt="no-shadow"] {
+	@apply shadow-none;
+}
+.content table {
+	@apply border-collapse;
+}
+.content td {
+	@apply p-1;
+}
+.content tr:nth-child(2n) {
+	@apply bg-dark-100/10 dark-bg-light-100/10;
+}
+.content pre,
+.content code {
+	@apply overflow-x-scroll max-w-full;
+}
+.content blockquote {
+	@apply px-8 py-4 bg-light-900 dark-bg-dark-200 my-8;
 }

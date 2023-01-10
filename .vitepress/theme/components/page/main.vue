@@ -23,43 +23,16 @@ const backgroundImage = computed(() => {
 .min-h-100vh.flex.flex-col.leading-relaxed
   nav-toc(v-if="page?.toc")
   .flex.flex-wrap.flex-1.bg-cover.bg-fixed
-    header.bg-light-200.bg-opacity-90.dark_bg-dark-200.dark_bg-opacity-90.max-w-120(
-      style="flex: 1 1 300px"
-      )
-      .sticky.top-0.flex.flex-col.items-start.max-h-100vh.mb-4
-        a.no-underline.p-4(href="/")
-          img.w-12rem(:src="theme.logo")
-        nav-parents(:key="route.path")
-        transition(name="fade" mode="out-in")
-          .p-4.flex.flex-wrap
-            h1.w-full.text-xl.font-bold.mb-2.p-4.bg-light-600.dark_bg-dark-500.shadow-lg {{ page?.title }}
-            .p-2.flex.justify-center(style="flex: 1 1 120px" v-if="page?.icon")
-              img.max-h-30vh.rounded-3xl(:src="page.icon")
-            .p-4.flex-auto.font-bold(v-if="page?.subtitle")
-              .text-md {{ page?.subtitle }}
-            a.p-2.flex-auto.underline.text-xl(v-if="page?.url" :href="page?.url" target="_blank") {{ page?.url.replace(/^https?:\/\//, '') }}
-        .flex.flex-col.px-8.gap-2.w-full.overflow-scroll
-          a.font-bold.flex.items-center.transition.relative.before_content-DEFAULT.before_absolute.before_bg-light-700.before_w-full.before_h-2px.before-z-1.before_top-6.hover_before_bg-dark-50.before_transition.dark_before_bg-dark-50.dark_hover_before_bg-light-900.before_rounded-xl(
-            v-for="card in pages[route.path]"
-            :key="card.path"
-            :href="card.path"
-          ) {{ card?.title }}
-          .min-h-4 
-          a.flex.items-center.transition.relative.before_content-DEFAULT.before_absolute.before_bg-light-700.before_w-full.before_h-2px.before-z-1.before_top-6.hover_before_bg-dark-50.before_transition.dark_before_bg-dark-50.dark_hover_before_bg-light-900.before_rounded-xl(
-            @click="open = false"
-            v-for="header in route.data.headers"
-            :href="`#${header.slug}`"
-            ) 
-            .ml-1.z-2 {{ header.title }}
+    page-header
 
     transition(name="fade" mode="out-in")
-      .flex.flex-wrap.overflow-hidden.z-20.bg-light-500.bg-opacity-95.z-2.dark_bg-dark-500.dark_bg-opacity-95.max-w-3xl(style="flex: 1000 1 300px" :key="route.path")
+      .flex.flex-wrap.overflow-hidden.z-20.bg-light-500.bg-opacity-95.z-2.dark-bg-dark-500.dark-bg-opacity-95.max-w-3xl(style="flex: 1000 1 300px" :key="route.path")
 
         .flex.flex-col(
           style="flex: 100 1 300px"
         )
           img.w-full.max-w-100vw(v-if="page?.cover" :src="page.cover")
-          content.content
+          content.content.markdown-body
 
         .flex.flex-wrap.gap-8.p-8.w-full(style="flex: 1 1 100%" v-if="pages && Object.keys(pages).length > 0")
           transition-group(name="fade" mode="out-in")
@@ -72,7 +45,7 @@ const backgroundImage = computed(() => {
         nav-siblings.p-6(:key="route.path")
         nav-parents.p-6(:key="route.path" :reverse="true")
 
-  footer.flex.flex-wrap.p-4.justify-center.transition-all.duration-600.bg-light-900.items-center.dark_bg-dark-600
+  footer.flex.flex-wrap.p-4.justify-center.transition-all.duration-600.bg-light-900.items-center.dark-bg-dark-600
     a.no-underline.p-4(:href="withBase('/')")
       img.w-12rem(:src="theme.logo")
 
@@ -80,19 +53,19 @@ const backgroundImage = computed(() => {
 
 <style lang="postcss" >
 .link {
-  @apply bg-cover text-lg bg-center flex-auto relative flex items-center transition-all duration-500 no-underline bg-light-500/60 dark_(bg-dark-100/10) hover_(bg-light-100 dark_bg-dark-100);
+  @apply bg-cover text-lg bg-center flex-auto relative flex items-center transition-all duration-500 no-underline bg-light-500/60 dark-(bg-dark-100/10) hover-(bg-light-100 dark-bg-dark-100);
+}
 
-  &.active {
-    @apply bg-light-100 bg-opacity-70 z-2 dark_bg-dark-200 dark_bg-opacity-70;
+.link .active {
+  @apply bg-light-100 bg-opacity-70 z-2 dark-bg-dark-200 dark-bg-opacity-70;
+}
 
-    &:hover {
-      @apply bg-opacity-100 dark_bg-opacity-100;
-    }
-  }
+.link .active:hover {
+  @apply bg-opacity-100 dark-bg-opacity-100;
 }
 
 .link .panel {
-  @apply text-lg z-10 p-4 m-2 shadow-md bg-light-200 bg-opacity-90 dark_bg-dark-200 dark_bg-opacity-90 rounded flex items-center;
+  @apply text-lg z-10 p-4 m-2 shadow-md bg-light-200 bg-opacity-90 dark-bg-dark-200 dark-bg-opacity-90 rounded flex items-center;
 }
 
 .link::before {
