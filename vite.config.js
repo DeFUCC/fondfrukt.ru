@@ -12,6 +12,7 @@ import { transformerDirectives, presetIcons, presetUno, extractorSplit } from 'u
 import extractorPug from '@unocss/extractor-pug'
 
 import { fileURLToPath, URL } from "url";
+import path from "node:path";
 
 // import transformerDirective from '@unocss/transformer-directives'
 // import Unocss from 'unocss/vite'
@@ -42,7 +43,9 @@ export default defineConfig({
       ],
       exclude: ['**/node_modules/**/*.*', '**/!(index).md'],
       extensions: ['md'],
-      ...extendRoutes(),
+      ...extendRoutes({
+        root: path.dirname(fileURLToPath(import.meta.url)),
+      }),
       onRoutesGenerated: routes => (generateSitemap({ routes, hostname: 'https://fondfrukt.ru/' })),
     }),
     Components({
