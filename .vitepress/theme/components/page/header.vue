@@ -1,14 +1,14 @@
 <script setup>
 import { useData, useRoute, withBase } from 'vitepress'
-import routes from '~pages'
-import { getPage, getPages } from 'vitepress-pages/browser'
+import { data } from '../../../../pages.data.js'
+import { usePage, usePages, cleanLink } from 'vitepress-pages'
 
 const { site, frontmatter, theme } = useData();
 
 const route = useRoute();
 
-const page = computed(() => getPage(route.path, routes))
-const pages = getPages(routes)
+const { pages } = usePages(route, data)
+const page = usePage(route, data)
 
 </script>
 
@@ -22,21 +22,21 @@ header.bg-light-200.bg-opacity-90.dark-bg-dark-200.dark-bg-opacity-90.md-max-w-1
 		nav-parents(:key="route.path")
 		transition(name="fade" mode="out-in")
 			.p-4.flex.flex-wrap.gap-2
-				.p-2.flex.justify-center(style="flex: 1 1 120px" v-if="page?.icon")
-					img.max-h-30vh.rounded-3xl(:src="page.icon")
-				h1.w-full.text-xl.font-bold.mb-2 {{ page?.title }}
-				.flex-auto.text-md(v-if="page?.subtitle") {{ page?.subtitle }}
-				a.flex-auto.underline.text-xl(v-if="page?.url" :href="page?.url" target="_blank") {{ page?.url.replace(/^https?:\/\//, '') }}
+				.p-2.flex.justify-center(style="flex: 1 1 120px" v-if="page?.frontmatter?.icon")
+					img.max-h-30vh.rounded-3xl(:src="page?.frontmatter.icon")
+				h1.w-full.text-xl.font-bold.mb-2 {{ frontmatter?.title }}
+				.flex-auto.text-md(v-if="frontmatter?.description") {{ frontmatter?.description }}
+				a.flex-auto.underline.text-xl(v-if="frontmatter?.url" :href="frontmatter?.url" target="_blank") {{ page.frontmatter?.url.replace(/^https?:\/\//, '') }}
 		ul.flex.flex-col.ml-2.w-full.overflow-scroll(
-			v-if="pages?.[route.path]?.length>0"
+			v-if="pages?.[cleanLink(route.path)]?.length>0"
 			)
 			li(
-				v-for="card in pages[route.path]"
-				:key="card.path"
+				v-for="card in pages[cleanLink(route.path)]"
+				:key="card.url"
 			)
 				a.font-bold.flex.items-center.transition.relative.hover-bg-light-900.dark-hover-bg-dark-800.py-1.px-2.rounded(
-					:href="card.path"
-				) {{ card?.title }}
+					:href="card.url"
+				) {{ card.frontmatter?.title }}
 		ul.flex.flex-col.ml-2.w-full.overflow-scroll.border-l-1.mt-2(
 			v-if="route?.data?.headers?.length>0"
 			)

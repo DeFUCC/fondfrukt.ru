@@ -1,27 +1,29 @@
 <script setup>
 import { useData, useRoute, withBase } from 'vitepress'
-import routes from '~pages'
-import { getPage, getPages } from 'vitepress-pages/browser'
-
+import { data } from '../../../../pages.data.js'
+import { usePages, usePage, cleanLink } from 'vitepress-pages'
+import { computed } from 'vue'
 const { site, frontmatter, theme } = useData();
 
 const route = useRoute();
 
-const page = computed(() => getPage(route.path, routes))
-const pages = getPages(routes)
+
+
+const { pages } = usePages(route, data)
+const page = usePage(route, data)
 
 const backgroundImage = computed(() => {
   if (frontmatter.value.home) {
     return `url(${frontmatter.value.cover})`
   }
-  return page.value?.cover ? `url(${page.value.cover})` : 'none'
+  return page.value?.frontmatter?.cover ? `url(${page.value?.frontmatter?.cover})` : 'none'
 })
 
 </script>
 
 <template lang="pug">
 .min-h-100vh.flex.flex-col.leading-relaxed
-  nav-toc(v-if="page?.toc")
+  nav-toc(v-if="frontmatter?.toc")
   .flex.flex-wrap.flex-1.bg-cover.bg-fixed
     page-header
 
@@ -31,14 +33,14 @@ const backgroundImage = computed(() => {
         .flex.flex-col(
           style="flex: 100 1 300px"
         )
-          img.w-full.max-w-100vw(v-if="page?.cover" :src="page.cover")
+          img.w-full.max-w-100vw(v-if="page?.frontmatter?.cover" :src="page?.frontmatter.cover")
           content.content.markdown-body
 
         .flex.flex-wrap.gap-8.p-8.w-full(style="flex: 1 1 100%" v-if="pages && Object.keys(pages).length > 0")
-          transition-group(name="fade" mode="out-in")
+          transition-group(name="fade" )
             item-card(
-              v-for="card in pages[route.path]"
-              :key="card.path"
+              v-for="card in pages[cleanLink(route.path)]"
+              :key="card.url"
               :page="card"
             )
 

@@ -1,15 +1,14 @@
 <script setup>
 import { useData, useRoute, withBase } from 'vitepress'
-import routes from '~pages'
-import { getPage, getPages } from 'vitepress-pages/browser'
+import { data } from '../../../../pages.data.js'
+import { usePage, usePages } from 'vitepress-pages'
 
 const { site, frontmatter, theme } = useData();
 
 const route = useRoute();
 
-const page = computed(() => getPage(route.path, routes))
-
-const pages = getPages(routes)
+const { pages } = usePages(route, data)
+const page = usePage(route, data)
 
 </script>
 
@@ -21,9 +20,9 @@ const pages = getPages(routes)
     .flex.flex-wrap.rounded-xl.overflow-hidden.shadow-lg
       a.link.p-4.no-underline.transition-all.duration-300.text-xl.justify-center(
         v-for="card in pages[route.path]"
-        :key="card.path"
-        :href="card.path"
-        :class="{ active: route.path.includes(card.path) }"
+        :key="card.url"
+        :href="card.url"
+        :class="{ active: route.path.includes(card.url) }"
       ) {{ card.title }} 
   content.content
 

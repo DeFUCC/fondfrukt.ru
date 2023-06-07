@@ -1,11 +1,12 @@
 <script setup>
 import { useRoute } from 'vitepress'
-import routes from '~pages'
-import { getParents } from 'vitepress-pages/browser'
+import { useParents } from 'vitepress-pages'
+
+import { data } from '../../../../pages.data.js'
 
 const route = useRoute();
 
-const parents = computed(() => getParents(route.path, routes))
+const parents = useParents(route, data)
 
 const props = defineProps({
   reverse: Boolean,
@@ -33,20 +34,18 @@ function getImage(page) {
       slot Начало
     .flex-1
     la-angle-up
-  transition-group(name="fade" mode="out-in")
+  transition-group(name="fade" )
     a.link.p-2.active.relative.flex-auto.shadow-lg(
       style="flex: 1 1 auto; filter: grayscale(60%) brightness(1.1);" 
-      v-for="(page, p) in reverse ? [...parents].reverse() : parents" 
-      :key="page.title" 
-      :href="page.path"
-      :style="{ backgroundImage: getImage(page) }"
+      v-for="(page, p) in parents.slice(0,-1)" 
+      :key="page.url" 
+      :href="page.url"
+      :style="{ backgroundImage: getImage(page?.frontmatter) }"
       )
       .panel
-        h4.text-md.w-full.-mt-1 {{ page.title }}
+        h4.text-md.w-full.-mt-1 {{ page?.frontmatter.title }}
         .i-la-angle-up.right-4.text-2xl
 </template>
 
 
-<style lang="postcss" scoped>
-
-</style>
+<style lang="postcss" scoped></style>
