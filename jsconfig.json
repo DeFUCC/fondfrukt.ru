@@ -1,5 +1,3 @@
 {
-  "vueCompilerOptions": {
-    "experimentalDisableTemplateSupport": true
-  }
+  "vueCompilerOptions": {}
 }

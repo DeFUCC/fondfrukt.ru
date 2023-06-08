@@ -10,13 +10,6 @@ import extractorPug from '@unocss/extractor-pug'
 
 import { fileURLToPath, URL } from "url";
 
-// import transformerDirective from '@unocss/transformer-directives'
-// import Unocss from 'unocss/vite'
-// import { presetUno, presetWind, presetIcons } from 'unocss'
-// import extractorPug from '@unocss/extractor-pug'
-// import { extractorSplit } from '@unocss/core'
-// import transformerVariantGroup from '@unocss/transformer-variant-group'
-
 export default defineConfig({
   base: './',
   server: {
