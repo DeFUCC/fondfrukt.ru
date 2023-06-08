@@ -21,7 +21,7 @@
 		"fuse.js": "^6.6.2",
 		"github-markdown-css": "^5.2.0",
 		"ol": "^7.4.0",
-		"vitepress-pages": "2.0.0-beta.11",
+		"vitepress-pages": "2.0.0-beta.12",
 		"vue": "^3.3.4"
 	},
 	"devDependencies": {
