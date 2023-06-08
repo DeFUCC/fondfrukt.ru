@@ -30,8 +30,8 @@ dependencies:
     specifier: ^7.4.0
     version: 7.4.0
   vitepress-pages:
-    specifier: 2.0.0-beta.9
-    version: 2.0.0-beta.9(vitepress@1.0.0-beta.1)
+    specifier: 2.0.0-beta.11
+    version: 2.0.0-beta.11(vitepress@1.0.0-beta.1)
   vue:
     specifier: ^3.3.4
     version: 3.3.4
@@ -3814,8 +3814,8 @@ packages:
     optionalDependencies:
       fsevents: 2.3.2
 
-  /vitepress-pages@2.0.0-beta.9(vitepress@1.0.0-beta.1):
-    resolution: {integrity: sha512-XRQZS7jj9LIR9+fgFf0FxwceNZnK7O4aBQjISLQK/bCXGLBMj9+rUazCjOWVaxYUO4Zy5tiC47YuUDC5h3ofsg==}
+  /vitepress-pages@2.0.0-beta.11(vitepress@1.0.0-beta.1):
+    resolution: {integrity: sha512-wsarDKIbBYSgJuUVGQtrcYWGdPeEimZ5w9X3ALWIKjds4+ide/gxv4bYbzhYcg+2i/yvnQlJwiylZ0Qg/kCbmg==}
     peerDependencies:
       vitepress: ^1.0.0-beta.1
     dependencies:
