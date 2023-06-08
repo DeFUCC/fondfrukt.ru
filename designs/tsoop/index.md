@@ -1,6 +1,6 @@
 ---
 title: tsoop
-subtitle: "Пространство коллективного музыкального самовыражения"
+description: "Пространство коллективного музыкального самовыражения"
 url: https://tsoop.ru
 icon: tsoop-room.jpg
 status: process

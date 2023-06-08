@@ -1,6 +1,6 @@
 ---
 title: SKILLPAD
-subtitle: "Лаборатория грамотного блокнота"
+description: "Лаборатория грамотного блокнота"
 icon: skillpad.svg
 url: https://www.skillpad.ru
 date: 2015-03-26

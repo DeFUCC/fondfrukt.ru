@@ -1,6 +1,6 @@
 ---
 title: "Сайт с правилами"
-subtitle: "Веб-сайт с правилами игры и новостями проекта"
+description: "Веб-сайт с правилами игры и новостями проекта"
 date: 2018-12-30
 status: development
 cover: drawing.jpg

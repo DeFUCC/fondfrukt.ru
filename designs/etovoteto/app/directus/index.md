@@ -1,6 +1,6 @@
 ---
 title: "Vue 2 + Directus"
-subtitle: "Классическое JS AJAX приложение с использованием PHP headless CMS"
+description: "Классическое JS AJAX приложение с использованием PHP headless CMS"
 
 status: finished
 cover: april2019.png

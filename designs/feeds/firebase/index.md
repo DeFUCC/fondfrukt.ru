@@ -1,6 +1,6 @@
 ---
 title: "Feeds на Firebase"
-subtitle: "Реактивные ленты сообщений, привязанные к url страницы"
+description: "Реактивные ленты сообщений, привязанные к url страницы"
 status: finished
 cover: feeds.png
 

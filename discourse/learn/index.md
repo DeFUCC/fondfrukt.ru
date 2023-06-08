@@ -1,6 +1,6 @@
 ---
 title: Научение
-subtitle: "Способы передачи знаний и умений в сообществе"
+description: "Способы передачи знаний и умений в сообществе"
 list: discourse-learn
 icon: learn.svg
 ---

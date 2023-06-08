@@ -1,6 +1,6 @@
 ---
 title: DeFUCC
-subtitle: Development Foundation for Universalization, Cooperation and Creativity
+description: Development Foundation for Universalization, Cooperation and Creativity
 date: 2012-06-22
 list: defucc
 

@@ -1,6 +1,6 @@
 ---
 title: Wordpress multisite
-subtitle: Основной сайт фонда и его программ
+description: Основной сайт фонда и его программ
 date: 2014-02-03
 
 url: https://frkt.ru

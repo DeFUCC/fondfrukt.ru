@@ -1,5 +1,5 @@
 ---
 title: Штука
-subtitle: Материальный предмет
+description: Материальный предмет
 icon: thing.svg
 ---

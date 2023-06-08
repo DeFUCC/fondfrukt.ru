@@ -1,6 +1,6 @@
 ---
 title: Project-app
-subtitle: "Реактивные данные в JS компонентах как базис интерактивности веб-приложения"
+description: "Реактивные данные в JS компонентах как базис интерактивности веб-приложения"
 cover: project-app.png
 status: process
 url: https://project.frkt.ru

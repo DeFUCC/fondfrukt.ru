@@ -1,6 +1,6 @@
 ---
 title: OOWAY
-subtitle: "Видео-журнал о медитации как всеобщей практике самопознания"
+description: "Видео-журнал о медитации как всеобщей практике самопознания"
 icon: OOWAY.svg
 url: https://frkt.ru/ooway
 status: process

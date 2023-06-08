@@ -1,6 +1,6 @@
 ---
 title: Укулеле
-subtitle: "Сопрано от компании Flight"
+description: "Сопрано от компании Flight"
 cover: uke.jpg
 history:
   - date: "10-12-2017 14:44"

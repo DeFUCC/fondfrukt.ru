@@ -1,6 +1,6 @@
 ---
 title: Open source vitepress site
-subtitle: New interactive web-site with a music course, apps and shop
+description: New interactive web-site with a music course, apps and shop
 date: 2021-04-28
 url: https://github.com/chromatone/chromatone.center
 ---

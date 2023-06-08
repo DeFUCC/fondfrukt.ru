@@ -1,6 +1,6 @@
 ---
 title: "Проектный подход"
-subtitle: "Обобщенная система реализации любых творческих начинаний"
+description: "Обобщенная система реализации любых творческих начинаний"
 icon: "wheel.png"
 url: https://ooley.ru/projectapp
 opportunities:

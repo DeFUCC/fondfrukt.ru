@@ -1,6 +1,6 @@
 ---
 title: "eye • point"
-subtitle: "То, что цепляет глаз. Приятные мелочи жизни, сделанные своими руками."
+description: "То, что цепляет глаз. Приятные мелочи жизни, сделанные своими руками."
 icon: small-square.svg
 url: https://frkt.ru/eye-point/
 status: process

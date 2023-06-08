@@ -1,6 +1,6 @@
 ---
 title: Психологические защиты
-subtitle: По системе Ненси МакВильямс
+description: По системе Ненси МакВильямс
 date: 2022-09-01
 type: project
 url: https://psyfield.ru/cards/defense/game/

@@ -1,6 +1,6 @@
 ---
 title: "Vuetify + GUN"
-subtitle: "Классическое JS AJAX приложение с использованием PHP headless CMS"
+description: "Классическое JS AJAX приложение с использованием PHP headless CMS"
 cover: app.png
 
 status: finished

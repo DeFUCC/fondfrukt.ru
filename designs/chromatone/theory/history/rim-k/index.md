@@ -1,6 +1,6 @@
 ---
 title: ЦВЕТНОЙ СЛУХ В ТВОРЧЕСТВЕ Н.А.РИМСКОГО-КОРСАКОВА
-subtitle: Ванечкина И.А., Галеев Б.М.
+description: Ванечкина И.А., Галеев Б.М.
 url: http://synesthesia.prometheus.kai.ru/zwet-sl_r.htm
 toc: true
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Teenage Engineering OP-Z"
-subtitle: "Карманный секвенсор и синтезатор"
+description: "Карманный секвенсор и синтезатор"
 cover: op-z.jpg
 status: process
 people:

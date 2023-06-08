@@ -1,6 +1,6 @@
 ---
 title: Circle of Joy
-subtitle: "Круг радости — сингл с песней про проектный подход OOLEY"
+description: "Круг радости — сингл с песней про проектный подход OOLEY"
 date: 2020-11-02
 end_date: 2021-04-02
 status: product

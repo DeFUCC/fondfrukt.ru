@@ -1,6 +1,6 @@
 ---
 title: Доки
-subtitle: "Переработанный сайт ФРУКТ со встроенным проектным дискурсом"
+description: "Переработанный сайт ФРУКТ со встроенным проектным дискурсом"
 cover: grav.png
 status: process
 url: https://docs.frkt.ru

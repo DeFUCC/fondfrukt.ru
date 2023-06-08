@@ -1,6 +1,6 @@
 ---
 title: Онлайн словарь v3
-subtitle: "Vite + Gun + pug + stylus — быстрое и стабильное веб-приложение для игры"
+description: "Vite + Gun + pug + stylus — быстрое и стабильное веб-приложение для игры"
 date: 2021-02-01
 status: development
 

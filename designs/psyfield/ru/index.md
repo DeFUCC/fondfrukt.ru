@@ -1,6 +1,6 @@
 ---
 title: Сайт psyfield.ru
-subtitle: Vitepress статический сайт с открытым кодом, размещенный на GitHub
+description: Vitepress статический сайт с открытым кодом, размещенный на GitHub
 date: 2021-03-20
 url: https://github.com/davay42/psyfield.ru
 type: project

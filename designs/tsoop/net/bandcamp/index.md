@@ -1,6 +1,6 @@
 ---
 title: Профиль на Bandcamp
-subtitle: Самый удобный и прозрачный способ поделиться своей музыкой
+description: Самый удобный и прозрачный способ поделиться своей музыкой
 icon: Bandcamp.png
 status: process
 ---

@@ -1,6 +1,6 @@
 ---
 title: "MIDI монитор"
-subtitle: "Веб-приложение для визуализации и координации MIDI-сигналов"
+description: "Веб-приложение для визуализации и координации MIDI-сигналов"
 status: product
 opportunities:
   - verb: Мониторить

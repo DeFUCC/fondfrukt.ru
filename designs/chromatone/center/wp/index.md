@@ -1,6 +1,6 @@
 ---
 title: Wordpress сайт
-subtitle: Лэндинг и витрина приложений и стикеров
+description: Лэндинг и витрина приложений и стикеров
 url: https://frkt.ru/chromatone
 cover: canvas.png
 ---
