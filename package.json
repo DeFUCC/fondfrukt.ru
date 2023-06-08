@@ -1,15 +1,16 @@
 {
 	"name": "frkt.ru",
+	"private": true,
 	"version": "0.2.0",
 	"description": "",
 	"license": "ISC",
-	"author": "Davay42",
+	"author": "davay42",
 	"type": "module",
 	"scripts": {
-		"build": "vitepress build ",
-		"deploy": "sh deploy.sh",
 		"dev": "vitepress dev ",
-		"serve": "vitepress serve --port 5055"
+		"build": "vitepress build ",
+		"serve": "vitepress serve --port 5055",
+		"deploy": "sh deploy.sh"
 	},
 	"dependencies": {
 		"@gun-vue/composables": "^0.18.1",
@@ -20,7 +21,7 @@
 		"fuse.js": "^6.6.2",
 		"github-markdown-css": "^5.2.0",
 		"ol": "^7.4.0",
-		"vitepress-pages": "2.0.0-beta.8",
+		"vitepress-pages": "2.0.0-beta.9",
 		"vue": "^3.3.4"
 	},
 	"devDependencies": {
