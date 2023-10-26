@@ -13,32 +13,31 @@
 		"deploy": "sh deploy.sh"
 	},
 	"dependencies": {
-		"@gun-vue/composables": "^0.18.1",
-		"@unocss/reset": "^0.53.1",
+		"@unocss/reset": "^0.57.1",
 		"@vueuse/core": "10.1.2",
 		"@vueuse/gesture": "^2.0.0-beta.1",
-		"@vueuse/math": "^10.1.2",
-		"fuse.js": "^6.6.2",
-		"github-markdown-css": "^5.2.0",
-		"ol": "^7.4.0",
+		"@vueuse/math": "^10.5.0",
+		"fuse.js": "^7.0.0",
+		"github-markdown-css": "^5.3.0",
+		"ol": "^8.1.0",
 		"vitepress-pages": "2.0.0-beta.12",
-		"vue": "^3.3.4"
+		"vue": "^3.3.7"
 	},
 	"devDependencies": {
-		"@iconify/json": "^2.2.75",
-		"@unocss/extractor-pug": "^0.53.1",
+		"@iconify/json": "^2.2.133",
+		"@unocss/extractor-pug": "^0.57.1",
 		"markdown-it-classy": "^0.2.0",
 		"markdown-it-container": "^3.0.0",
 		"markdown-it-external-links": "^0.0.6",
-		"markdown-it-wikilinks": "^1.2.0",
+		"markdown-it-wikilinks": "^1.4.0",
 		"pug": "3.0.2",
-		"unocss": "^0.53.1",
-		"unplugin-auto-import": "^0.16.4",
-		"unplugin-icons": "^0.16.3",
-		"unplugin-vue-components": "^0.25.1",
-		"vite": "^4.2.3",
-		"vite-plugin-windicss": "^1.9.0",
-		"vitepress": "1.0.0-beta.1",
-		"sitemap": "7.1.1"
+		"sitemap": "7.1.1",
+		"unocss": "^0.57.1",
+		"unplugin-auto-import": "^0.16.7",
+		"unplugin-icons": "^0.17.1",
+		"unplugin-vue-components": "^0.25.2",
+		"vite": "^4.5.0",
+		"vite-plugin-windicss": "^1.9.1",
+		"vitepress": "1.0.0-rc.24"
 	}
 }
