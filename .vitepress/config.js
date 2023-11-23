@@ -22,8 +22,8 @@ export const metaData = {
   mediaFolder: 'media_files',
   author: "davay42",
   tags: "фонд, развитие, универсализация, кооперация, творчество, дарономика, социокультурные проекты",
-  umamiId: "5d35de7c-0ec7-48ea-b8cd-5934c4486a6d",
-  umamiScript: "https://stats.defucc.me/umami.js"
+  umamiId: "2565bd09-cf58-494f-a5bf-8ed4c9e57346",
+  umamiScript: "https://stat.defucc.me/script.js"
 };
 
 export default defineConfig({
