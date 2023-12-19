@@ -35,10 +35,12 @@ cover: diataxis.png
 
 Диатаксис предоставляет комплексную и практически универсально-применимую схему, которая была проверена на практике в широком диапазоне направлений и [применений](./adoption/). Они включают и большие и маленькие, и открытые и закрытые проекты документации.
 
-## Видео-презентация
+## Видео-презентации
 
 <youtube-embed link="https://www.youtube.com/watch?v=t4vKPhjcMZg" />
 
-https://www.writethedocs.org/topics/
+<youtube-embed link="https://www.youtube.com/watch?v=710uQqIqsWk" />
 
-https://github.com/DeFUCC/diataxis-documentation-framework
+<https://www.writethedocs.org/topics/>
+
+<https://github.com/DeFUCC/diataxis-documentation-framework>
