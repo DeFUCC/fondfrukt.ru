@@ -1,5 +1,5 @@
 {
-	"name": "frkt.ru",
+	"name": "fondfrukt.ru",
 	"private": true,
 	"version": "0.2.0",
 	"description": "",
@@ -13,31 +13,31 @@
 		"deploy": "sh deploy.sh"
 	},
 	"dependencies": {
-		"@unocss/reset": "^0.58.7",
+		"@unocss/reset": "^0.60.2",
 		"@vueuse/core": "^10.9.0",
 		"@vueuse/gesture": "^2.0.0",
 		"@vueuse/math": "^10.9.0",
 		"fuse.js": "^7.0.0",
 		"github-markdown-css": "^5.5.1",
-		"ol": "^9.1.0",
+		"ol": "^9.2.0",
 		"vitepress-pages": "^2.0.1",
-		"vue": "^3.4.21"
+		"vue": "^3.4.27"
 	},
 	"devDependencies": {
-		"@iconify/json": "^2.2.196",
-		"@unocss/extractor-pug": "^0.58.7",
+		"@iconify/json": "^2.2.210",
+		"@unocss/extractor-pug": "^0.60.2",
 		"markdown-it-classy": "^0.2.0",
 		"markdown-it-container": "^4.0.0",
 		"markdown-it-external-links": "^0.0.6",
 		"markdown-it-wikilinks": "^1.4.0",
 		"pug": "^3.0.2",
 		"sitemap": "^7.1.1",
-		"unocss": "^0.58.7",
-		"unplugin-auto-import": "^0.17.5",
-		"unplugin-icons": "^0.18.5",
-		"unplugin-vue-components": "^0.26.0",
-		"vite": "^5.0.13",
+		"unocss": "^0.60.2",
+		"unplugin-auto-import": "^0.17.6",
+		"unplugin-icons": "^0.19.0",
+		"unplugin-vue-components": "^0.27.0",
+		"vite": "^5.2.11",
 		"vite-plugin-windicss": "^1.9.3",
-		"vitepress": "^1.0.1"
+		"vitepress": "^1.1.4"
 	}
 }
